@@ -1,0 +1,419 @@
+<html>
+   <HEAD>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+      <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <META http-equiv="Expires" content="0">
+      <META name="TRELLIX_BUILDER_VER" content="1.0"><META name="TRELLIX_OPEN_SITE_COMMAND" content="http://www.sitedelux.com:80/servlet/SiteBuilderServlet?fUrl=/trellix/sitebuilder/f_error.html&sUrl=/trellix/sitebuilder/f_edit_page.html&Command=OpenSite&FileName=339421959363791806/site.xml"></META><META
+      name="categories" content="">
+      <!--base href="http://lacaaea.domainhost.com//"-->
+      <!--/base--><script language="Javascript"><!--
+		document.isTrellix = 1;
+//						--></script>
+
+<SCRIPT language="javascript">
+      var Speed_1 = 10; 
+      var Space_1 = 20; 
+      var PageWidth_1 = 562; 
+      var interval_1 = 5000; 
+      var fill_1 = 0; 
+      var MoveLock_1 = false;
+      var MoveTimeObj_1;
+      var MoveWay_1="right";
+      var Comp_1 = 0;
+      var AutoPlayObj_1=null;
+      function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+      function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+      function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+      function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+      GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+      function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+      function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+      GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+      function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+      var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+      if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+      function picrun_ini(){
+      GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+      GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+      GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+      GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+      AutoPlay_1();
+      }
+    </SCRIPT>
+
+      <style type="text/css">
+<!--
+div.Section1
+	{page:Section1;}
+	
+.qm {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: normal; color: #006699; text-decoration: underline; line-height: 16px}
+
+.lori {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 13px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.lori15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.jli {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 11px; font-weight: bold; color: #F5801F; text-decoration: none}
+
+.jli12LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14DB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #000080; text-decoration: none}
+
+.jli14BLUE {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #0000FF; text-decoration: none}
+	
+.jli14DBGreen {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #009900; text-decoration: none}
+
+.jli15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; color: #006699; text-decoration: none}
+
+	
+-->
+
+A  {text-decoration: none;
+       color: BLUE}
+   A:hover {TEXT-DECORATION: underline;
+	        }
+   A.showlink {text-decoration: underline}
+   input {border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   select {	border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   textarea { border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+	<!--
+	.row0 {background-color: white;} 
+	.row1 {background-color: E7EAF3;} 
+	--> 
+
+</style>
+<style>
+
+.myDIV {
+
+	FILTER: revealTrans(transition=18,duration=2);
+
+	WIDTH:600px;
+
+	POSITION: absolute;
+
+}
+
+
+
+      .jli14 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: normal; color: #000000; text-decoration: none}	
+</style>
+
+<title>Los Angeles County Asian American Employees Association</title>
+   </HEAD>
+   <body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="White" link="0000FF" vlink="black" alink="000099" >
+      <!--<body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="White" background="/imagelib/sitebuilder/layout/t_pho_back.gif" link="0000FF" vlink="black" alink="000099" > -->
+
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="977">
+         <tr>
+            <td width="977" align="left"><br>
+              <div align="center"><img alt="Logo(Color).JPG" border="" src="sitebuildercontent/sitebuilderpictures/Logo_35_29.jpg" vspace="0" hspace="0"><font face="Arial,Helvetica,sans-serif" size="5" color="0000cc"><b><i>&nbsp;&nbsp;Los Angeles County Asian American Employees Association</i></b></font>
+              </div>
+            </td>  
+         </tr>
+      </table>
+      
+      <table border="0" cellspacing="0" cellpadding="0" height="3" width="976">
+         <tr>
+             <td width="976" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="3" alt=""></td>
+         </tr>
+      </table>
+      
+      <!-- Begin Top horizonal blue bar or spacer, right below moving image table -->
+<!--<DIV id=space2 bgcolor="#CCCCFF" align="left"><STRONG>-->
+<table width="978">
+<tr align="center">
+<td>
+<A href="http://www.lacaaea.com" class="jli15">&nbsp;&nbsp;&nbsp;Home</A>
+<A href="http://www.lacaaea.com/id3.html" class="jli15">| About Us</A>
+<A href="http://www.lacaaea.com/id4.html" class="jli15">| Calendar of Events</A>
+<A href="http://www.lacaaea.com/id6.html" class="jli15">| Newsletter</A>
+<A href="http://www.lacaaea.com/id20.html" class="jli15">| Photo Album</A>
+<A href="http://www.lacaaea.com/id2.html" class="jli15">| Becoming a Member</A>
+<A href="http://www.lacaaea.com/id17.html" class="jli15">| Contact Us</A>
+<A href="http://www.lacaaea.com/id7.html" class="jli15">| Links</A>
+</td>
+</tr>
+</table>
+<!--</DIV>-->
+  
+     
+      <!-- End of Top horizonal blue bar or spacer, right below moving image table -->
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="981">
+         <tr>
+            
+            
+            <td width="981" valign="top">
+               <table border="0" cellpadding="0" cellspacing="0" width="650">                  
+                  <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="955" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>                 
+                  <!-- End of spacer --> 	   
+               </table>
+               
+               	               
+
+               <table borderColor="blue" border="1" cellpadding="0" cellspacing="0" >
+                  <tr>
+                     <td valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" >
+                           <tr>
+                              <td colspan=2>
+                                   <!--Begin: add another talbe to include heading-->			
+									<table borderColor="#ffffc4" bgColor=#a6caf0 border="1" cellspacing="1" cellpadding="1" width="975">
+									  <tr>
+                     					<td bgcolor="#ffffc4" height="10" >
+						
+						<div align="center">
+							<b><FONT color=#ff6633 size=5>Biography - Jeremy Li</FONT></b></FONT>
+						</div>
+						
+					 </td>
+                  </tr>
+									</table>
+                                 <!--End: add another talbe to include heading-->
+                                 
+                              </td>
+                           </tr>
+                          <!-- Begin of spacer.gif under title --> 
+                         	<tr>
+                              <td height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                           </tr>
+                          <!-- End of spacer.gif under title --> 
+                           <tr>
+                              <td>
+                              <!--Mutli Frame Photos Begin-->
+<!--								<TABLE height=599 cellSpacing=2 cellPadding=2 width=606 bgColor=#8080ff border=2>-->
+								<TABLE height=100% cellSpacing=0 cellPadding=0 width=683 bgColor=#ffffff Bordercolor=#66CCFF border=0>
+									<tr>
+									
+<td align=center class="jli16">    										  
+<!-- <P align=center><FONT color= #000000 size=3><STRONG>Click each photo below for a larger view with a caption!</STRONG></FONT></p> -->
+
+<TABLE height=390 cellSpacing=0 cellPadding=0 width=660 bgColor= #FFFFFF border=1>
+	<tr><td class="jli14">
+									
+<TABLE style="WIDTH: 145px; HEIGHT: 11px" height=11 cellSpacing=0 cellPadding=0 width=145 align=left border=0>
+
+<TR>
+<TD>
+<IMG style="WIDTH: 140px; HEIGHT: 180px" alt="Jeremy Li" hspace=0 src="..sitebuildercontent/sitebuilderpictures/Installation2007/JeremyLi_sm.jpg" border=0></TD></TR>
+<TR>
+<TD bgColor=#ffffc4>
+<P align=left><FONT face="Arial Narrow" color=#808080 size=3><STRONG>Jeremy Li<BR></font><A href="http://www.lacaaea.com/id20.html" target=_blank><FONT color= #0000FF>More photos &gt;&gt;</FONT></A></P>
+</TD>
+</TR>
+</TABLE>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jeremy Li, a native of Shanghai, China, was the winner of the 1987 Mary Cleary Scholarship for outstanding student achievement and graduated cum laude from 
+									CSU, Northridge with a Bachelor of Science degree in Electrical Engineering in 1987. He started to work as an Electrical Engineer at Schaeffer Magnetics, Inc. (SMI), an aerospace company, in Chatsworth, Calif.  He gained valuable experience under the guidance of his mentor, and company owner, 
+									<a href="http://lacaaea.domainhost.com/sitebuildercontent/sitebuilderpictures/Installation2007/ErnieSchaeffer.pdf" target=_blank>Ernie Schaeffer</a>.  He later served as IT manager for 7 years 
+									at SMI.   He was quite proud of his &#8220;small&#8221; contribution to the American space program!  He designed the printed circuit board for the reaction wheel used on the space flight in 1990's. 
+									
+									<p>After SMI was sold 
+									in 1998, Jeremy joined USC University, 
+									Hospital as a Network Lead Engineer to 
+									support the entire hospital's IT operations. 
+									In 1999, he joined Litton Industries 
+									Inc., a diversified defense and technology 
+									company, as a Senior Network Engineer to 
+									support the entire data center at Litton 
+									Corporate, Woodland Hills, California. After 
+									Northrop Grumman's 2001 acquisition of 
+									Litton Industries Inc., the Litton Corporate 
+									was closed in January, 2002. Jeremy was hired as 
+									a consultant at Northrop Grumman IT sector 
+									in February, 2002. In February, 2003, he was hired by the County of Los Angeles, 
+									Department of Auditor Controller as a network consultant 
+									through Staff Tech, Inc., an IT consulting company. In June 2004, Staff Tech, Inc. honored Jeremy as <a href="http://www.staff-tech.net/staff_news_frame.htm" target=_blank>the 
+									Employee of the Month</a> (<a href="/imagelib/sitebuilder/misc/show_image.html?linkedwidth=actual&amp;linkpath=http://lacaaea.domainhost.com/sitebuildercontent/sitebuilderpictures/Installation2007/JLiAward.jpg&amp;target=tlx_new" target="tlx_new">Award 
+									Certificate</a>). </p>
+									
+									<p>	
+									In March 2005, Jeremy became a fulltime employee of the Department of Auditor Controller. He often mentions how proud he is able to bring in his vast and successful IT experience from private to public sector.  Jeremy has enjoyed working for the Department of Auditor-Controller since day one!  He always says that he is lucky to be able to design, implement and maintain the entire Microsoft Active Directory network along with HP technologies from A to Z at an enterprise environment. </p>
+
+<p>He always contributes his IT successful stories and experiences through 
+continuing IT education and certifications. He was certified as a Microsoft Certified Systems Engineer  
+	NT 4.0 (MCSE) in July 1998 and re-certified as a <a href="http://www.microsoft.com/learning/en/us/certification/mcse.aspx" target=_blank>
+	&nbsp;Microsoft Certified Systems Engineer</a> Windows 2000 (MCSE) in Jan, 2002. 
+He was also certified as Compaq Master Accredited Systems Engineer in May 1999 and re-certified as <a href="http://h10017.www1.hp.com/certification/americas/levels/mase.html#active" target=_blank>
+	HP Master Accredited Systems Engineer </a> (<a href="http://h30431.www3.hp.com/index.jsp?rf=sitemap&fr_story=24a4f2a3f66f27c9bea0e357e9ea871d31935a88&jumpid=reg_R1002_USEN" target=_blank>Video</a> <FONT face=Arial size=2 ><img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/videoIcon.gif border=0> )</FONT> in 2002 and 2005. He was also certified as a<a href="http://www.cisco.com/web/learning/le3/le2/le0/le9/learning_certification_type_home.html" target=_blank>
+Cisco Certified Network Associate</a> (CCNA) in May, 2001. In 2008, he earned the <a href="http://www.isaca.org/Template.cfm?Section=CISA_Certification&Template=/TaggedPage/TaggedPageDisplay.cfm&TPLID=16&ContentID=4526" target=_blank>Certified Information Systems Auditor</a> (<a href="http://www.isaca.org/Template.cfm?Section=CISA_Certification&Template=/TaggedPage/TaggedPageDisplay.cfm&TPLID=16&ContentID=4526" target=_blank><FONT color= #CC0066 size=1><b>CISA</b></font></a>). 
+</p>
+	
+	<p>	He joined the Los Angeles County Asian American Employees Association in August, 2006 and immediately produced the web pages for the reception of <a href="http://www.lacaaea.com/id28.html" target=_blank>5/18/2006 Meet and Greet</a> for the association. During<a href="http://www.lacaaea.com/FishFry06_P1.html" target=_blank> the 23rd Annual Fish Fry event</a> on September 9, 2006, Jeremy was named Web Master for the association in front of all attendees.
+He is also an amateur photographer for the association.</p>
+								
+</div></td>
+  </tr>
+</table>
+
+	
+<!-- New Table -->
+
+		<table width="95%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>            
+            <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="855" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>
+            <!-- End of spacer -->
+            </tr>
+        </table>
+                
+  <!-- iframe Table begin -->      
+<table width="95%" border="0" cellspacing="0" cellpadding="0" align="center" class="lt14">
+    <tr>
+      <td  class="lt14">
+                   
+<P align=center>
+<TABLE style="WIDTH: 660px;" cellSpacing=0 cellPadding=0 align=center border=1 borderColor="#00CCFF" bgcolor="white">
+ 
+    <tr>
+      <td width="650" valign="top"><iframe src="gallery175x100_caca022010.html" frameborder="0" width="650" height="230" scrolling="No"></iframe>
+      </td>
+    </tr>
+ 
+</TABLE>
+</P>
+</td></tr>
+</table>
+
+<!-- End of iFrame Table  -->
+			
+	<div>
+		<table width="95%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              
+                  <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="855" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>
+              	  <!-- Begin of spacer -->
+              	  
+              <td> 	<!--paragraph heigth adjustment-->			    	                                       
+				
+				<P><FONT face=Arial color=#000000 size=2></FONT></P></table>
+				
+<TABLE cellSpacing=0 cellPadding=0 bgColor= #FFFFFF borderColor="#00CCFF" border=0 width="672" >
+	<tr><td class="jli14">
+				<!--Begin of frame-->
+									
+<TABLE style="WIDTH: 666px; HEIGHT: 50px" cellSpacing=0 cellPadding=0 align=left border=0 >
+
+<TR><TD>    
+      <!--End of next page button--> 
+  
+     <!-- Begin Acknowledgments 
+                                                                 			
+
+<FIELDSET 
+style="border:1px solid #cc0000; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 1px; PADDING-BOTTOM: 5px; WIDTH: 662px; COLOR: #cc0000; LINE-HEIGHT: 1.5; PADDING-TOP: 5px; ">
+
+<LEGEND style="WIDTH: 225px; HEIGHT: 15px">
+<FONT face=Arial size=4 color=#cc0000><STRONG>&nbsp;&nbsp;Acknowledgments &nbsp;&nbsp;</STRONG>
+</FONT>
+</LEGEND>
+<div>
+</div>
+<DIV align=left>
+
+<FONT face=Arial size=2 color= #006699 ><b>Board Officers </b></FONT><FONT face=Arial size=2 color=black>(Click <a href="http://www.lacaaea.com/id3.html" target=_blank>here </a> for Bios)</FONT>
+<br>
+<FONT face=Arial size=2 color= #006699 ><b>Newsletter Editor: </b><FONT face=Arial size=2 color=black><a href="http://www.lacaaea.com/Phil_OwBio.html" target=_blank>Phillip Ow</a></FONT></font><br>
+<FONT face=Arial size=2 color= #006699 ><b>Web Master, Photographer & Newsletter Contributor: </b><FONT face=Arial size=2 color=black><a href="http://www.lacaaea.com/JeremyLi.html" target=_blank>Jeremy Li</a></font></font><br>
+
+</DIV>
+</font>
+</FIELDSET> 
+
+</td>
+</table>  
+ End of Acknowledgments --> 
+                           <tr>
+                              <td width="672" height="30">
+                              <!--<a href="http://www.lacaaea.com/davidJanssen2.html" class="nextpage"><img src="sitebuildercontent/sitebuilderpictures/nextbutton.gif" vspace="0" hspace="5" width="80" height="22" alt="Next"  border="0"></a> -->
+                              <a href="#Top"><img src="sitebuildercontent/sitebuilderpictures/topofpg.gif" vspace="0" hspace="5" width="74" height="19" alt="top"  border="0"></a>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                    <!-- <td width="8" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="6" height="1" alt=""></td> -->
+                  </tr>
+               </table>
+               <table width="650" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                     <!-- <td width="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="2" height="1" alt=""></td> -->
+                     <td width="640" valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" height="30">
+                           <tr>
+                              <td height="30">
+								<table width="640" border="0" cellpadding="0" cellspacing="0" height="30" >
+		  		                   <tr>
+                              			<td height="10">
+                                           <div><font face="Arial, Helvetica" size="3" color="#000000"><DIV align=center>Please get in touch to offer 	<a href="http://www.lacaaea.com/id17.html" target=_blank>comments</a> and join our mailing list.
+                                  </DIV></font>
+                                 </div>
+                              </td>
+                             </tr>
+                         </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <table width=650 border="0" cellspacing="0" cellpadding="0" width="645">
+         <tr>
+            <td align=center width="668">                       
+               <font face="Arial, Helvetica" size="2" color="#000000"><b><i>Please join us for next </font></i></b>
+				<a target="_blank" href="http://www.lacaaea.com/id4.html"><FONT face="Arial, Helvetica" size="2" color=#3333ff><i>Board Meetings</FONT></a><font face="Arial, Helvetica" size="2" color="#000000">&nbsp;and meet&nbsp; <a href="http://www.lacaaea.com/id3.html" target="_blank">
+				<FONT face="Arial, Helvetica" size="2" color=#3333ff>President and our Board Members</FONT></a></i></b></font>      
+            </td>
+         </tr>
+      </table>
+      <hr>
+		      <table width=650 border="0" cellspacing="0" cellpadding="0" >
+		          <tr><td align="center">
+		               <font face="Verdana" size="1">Copyright ©2006 Los Angeles County Asia American Employees Association. All rights reserved. Website design by: Jeremy B. Li.
+					   </font>
+		          </td></tr>
+		      </table>
+           </td>
+           
+           <!-- Right Vertical Bar -->                      
+           <td valign = "top" width="300" bgcolor="#F8F5B0">                     
+ 			<!-- Add vertial marquee-->
+				<marquee scrollamount="1" scrolldelay="10" direction="up" width="300" style="font-family: Verdana; font-size: 10pt" height="250">
+						
+					<div align="center"><FONT face="Arial,Helvetica,sans-serif" size="4" color="Green">Past Meet & Greet Reception</FONT>
+					</div>
+					&nbsp;&nbsp;Click each image below to view a webpage		
+					&nbsp;<a href="http://www.lacaaea.com/mg03052009.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/mg030509/bill_gp_285_120.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/honoringmark2009.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/Mark2009/MRT_Bill_285_170.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/HonoringBill02072008.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/Lunar2008/BigGroup_285_145.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/meetgreet11082007.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/MG11082007/4-dept-head_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/MeetGreet06282007.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/MG06282007/team4_062007_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+
+					&nbsp;Click each image above to view a webpage
+				</marquee>                     
+             </td>
+
+          </tr>
+                            
+	                   
+</body>
+</html>

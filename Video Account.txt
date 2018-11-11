@@ -1,0 +1,76 @@
+1.	http://www.videodesk.net/
+
+2.	
+
+Welcome to Video Desk: your complete Video Streaming Service. This Wizard will guide you through Video Desk in 4 simple steps and explain how you can fully exploit its powerful capabilities. 
+ 
+You will learn how to: 
+
+ Upload your media files through VideoDesk or directly into your FTP Account 
+
+ Email Media Links to your friends and customers online 
+
+ Stream your videos from your own web pages 
+
+ View your Streaming Reports 
+Let us see how to upload your stream-format media files
+(.asf, .wmv, .wma).
+
+To upload your stream-format media files:  
+
+ Click the 'Media Manager' tab in the top menu bar. 
+
+ In the Media Manager page, click the 'Upload Video' button. 
+
+ In the 'Upload Media File' dialog box, click the 'Browse' button to locate and select the encoded media file you want to publish.  
+
+ Click the 'Upload' button to publish the encoded media file to your Video Desk account. 
+You can also avail of the "FTP upload" feature in Media Manager. 
+
+ Click on the "FTP upload" button and you will be automatically logged into your FTP Account. 
+
+ You can drag-drop files (as in Windows Explorer) or copy the files 
+from your local machine into your account. 
+
+ Refresh the Media Manager page to view uploaded file in the list. 
+You can also rename, delete, download the files as well as edit the file description in the Update Media File info option.
+Next you will see how you can email the media link of this file to your friends and customers so that they can view it online. 
+
+To send a clickable media link to your clients / friends:  
+ 
+
+ Click the 'Video Email' tab in the top menu bar. 
+
+ Click the 'Send' link of the media file that you want to email to your viewers. 
+
+ Enter the email ID's of all the people to whom you wish to email the media link. 
+
+ Multiple ID's should be separated by commas. 
+
+ You may even enter a short text message of up to 200 characters, for your viewers. 
+
+ Click the 'Send' button to send out the email. 
+
+ To see your media file, your clients / friends will need to just click the media link that is auto-embedded by Video Desk in the email. 
+Also you can view the link of your media file and copy paste them in your webpages, or into the URL of the browser to view your files 
+Next you will learn about media links and how to embed your media into the website from your own web pages. 
+ 
+
+To 'embed' a media file in your own web page: 
+
+ Click the 'Webmaster Tools' tab in the top menu bar. 
+
+ Click the given links in the page for the media file that you wish to stream from your site.
+  Video Buttons - to create a button for a video file.
+  Audio buttons - to create a button for an audio file.
+  Embed Code - to retrieve the html code for your media file.
+  Playlist buttons - for your playlist comprising of your media files.  
+
+ For each of the given options specify your requirements and then click on 'Create Button' or 'Generate Code' 
+
+ Copy the code generated and paste it into your own webpage.  
+By clicking the text link / button which you have defined as a trigger to request your media file, a viewer will be able to see your video.
+The html code provided by Video Desk is completely editable. You may change the look and feel of this page to match the rest of the pages of your website.
+Next you will see how to view your streaming reports and get critical information about your media.  
+
+ 

@@ -1,0 +1,56 @@
+@charset "utf-8";
+BODY {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 0px
+}
+
+.left {
+	TEXT-ALIGN: left
+}
+
+
+
+.blk_18 .pcont {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 562px
+}
+.blk_18 .ScrCont {
+	WIDTH: 32766px; ZOOM: 1
+}
+.blk_18 #List1_1 {
+	FLOAT: left
+}
+.blk_18 #List2_1 {
+	FLOAT: left
+}
+.blk_18 .LeftBotton {
+	BACKGROUND: url(http://www.xinhuanet.com/english2010/static/imgs/xinsrc_5820206161041703250085.jpg) no-repeat; FLOAT: left; MARGIN: 0px 1px; WIDTH: 20px; HEIGHT: 15px; TEXT-ALIGN: center
+}
+.blk_18 .RightBotton {
+	BACKGROUND: url(http://www.xinhuanet.com/english2010/static/imgs/xinsrc_5920206161041046318286.jpg) no-repeat; FLOAT: left; MARGIN: 0px 1px; WIDTH: 20px; HEIGHT: 15px
+}
+.blk_18 .LeftBotton {
+	BACKGROUND-POSITION: 0px 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.blk_18 .RightBotton {
+	BACKGROUND-POSITION: 0px 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.blk_18 .LeftBotton:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.blk_18 .RightBotton:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.blk_18 .pl IMG {
+	DISPLAY: block; MARGIN: 6px auto 1px; CURSOR: pointer; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.blk_18 .pl {
+	BORDER-RIGHT: #f3f3f3 1px solid; BORDER-TOP: #f3f3f3 1px solid; FLOAT: left; BORDER-LEFT: #f3f3f3 1px solid; WIDTH: 207px; LINE-HEIGHT: 15px; BORDER-BOTTOM: #f3f3f3 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.blk_18 A.pl:hover {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; BACKGROUND: #fff; BORDER-LEFT: #ff9900 1px solid; COLOR: #ff9900; BORDER-BOTTOM: #ff9900 1px solid
+}
+.commu_cont3 {
+	MARGIN: 9px 7px 7px; LINE-HEIGHT: 150%
+}
+.commu_cont3 UL {
+	WIDTH: 207px
+}

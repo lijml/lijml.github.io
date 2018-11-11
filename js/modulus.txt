@@ -1,0 +1,92 @@
+An excerpt from http://docs.rinet.ru/KofeynyyPrimer/ch7.htm
+
+
+The Modulo Operator (% - Modulus  )
+
+In the previous section, you learned that integer division gives you a result that's equal to the number of times one number fits into another, regardless of the remainder. For example, you now know that, in Java, the answer to "3 divided by 2" is 1, meaning that 2 fits into 3 only once. Integer division throws away the remainder, but what if it's the remainder you're looking for? Then, you can use the modulo operator (%) like this: 
+
+
+result = expr1 % expr2;
+
+
+This line results in the remainder of expr1 divided by expr2. For example, the calculation 
+
+
+int result = 11 % 3;
+
+
+makes result equal to 2, because 3 goes into 11 three times with a remainder of 2. You probably won't use the modulo operator much, but it can be handy for special types of calculations. 
+
+The Increment Operator
+Many times in a program, you want to increase a value by a specific amount. For example, if you were using the variable count to keep track of how many times a part of your program executed, you need to add 1 to count each time you reached that part of the program. Programmers used to do this kind of incrementing like this: 
+
+
+count = count + 1;
+
+
+Here, the computer takes the value stored in count, increases it by 1, and then assigns the new value to count. If you've ever programmed in C or C++, you know that those languages have a shortcut way of incrementing a value. Because Java is much like C++, its creators also included this shortcut operator. Using the increment operator (++), you can replace the previous line with this one: 
+
+
+++count;
+
+
+Another way to write the preceding line is like this: 
+
+
+count++;
+
+
+There is, however, a subtle difference in the way the increment operator works when it's placed before (pre-increment) or after (post-increment) the value it's incrementing. The difference crops up when you use the operator in expressions. For example, look at these lines of Java program code: 
+
+
+int num1 = 1;
+
+int num2 = ++num1;
+
+
+Here, Java first sets the variable num1 to 1. In the second line, Java increments num1 to 2 and then assigns 2 to num2. 
+
+Now, look at these lines: 
+
+
+int num1 = 1;
+
+int num2 = num1++;
+
+
+This time, num2 ends up as 1. Why? In the second line, Java doesn't increment num1 until after it assigns the current value of num1 (1) to num2. Watch out for this little detail when you get started writing your own applets. 
+
+What if you want to increment a value by more than 1? The old-fashioned way would be to use a line like this: 
+
+
+num = num + 5;
+
+
+Java has a special shortcut operator that handles the above situation, too. You use the shortcut operator like this: 
+
+
+num += 5;
+
+
+The above line just says, "Add 5 to num." 
+
+------------------------------------------------------------------------------------------------------------
+
+These mathematical rules are also observed in programming languages like Java. Table 7.1 lists Java's mathematical operators in order of precedence. 
+
+
+
+Table 7.1  Operator Order of Operations.
+
+Operator Description 
+- Negation  
+++ Increment  
+- - Decrement  
+* Multiplication  
+/ Division  
+% Modulus  
++ Addition  
+- Subtraction  
+= Assignment  
+
+

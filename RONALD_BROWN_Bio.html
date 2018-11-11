@@ -1,0 +1,365 @@
+<html>
+   <HEAD>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+      <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <META http-equiv="Expires" content="0">
+      <META name="TRELLIX_BUILDER_VER" content="1.0"><META name="TRELLIX_OPEN_SITE_COMMAND" content="http://www.sitedelux.com:80/servlet/SiteBuilderServlet?fUrl=/trellix/sitebuilder/f_error.html&sUrl=/trellix/sitebuilder/f_edit_page.html&Command=OpenSite&FileName=339421959363791806/site.xml"></META><META
+      name="categories" content="">
+      <!--base href="http://lacaaea.domainhost.com//"-->
+      <!--/base--><script language="Javascript"><!--
+		document.isTrellix = 1;
+//						--></script>
+
+<SCRIPT language="javascript">
+      var Speed_1 = 10; 
+      var Space_1 = 20; 
+      var PageWidth_1 = 562; 
+      var interval_1 = 5000; 
+      var fill_1 = 0; 
+      var MoveLock_1 = false;
+      var MoveTimeObj_1;
+      var MoveWay_1="right";
+      var Comp_1 = 0;
+      var AutoPlayObj_1=null;
+      function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+      function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+      function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+      function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+      GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+      function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+      function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+      GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+      function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+      var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+      if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+      function picrun_ini(){
+      GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+      GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+      GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+      GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+      AutoPlay_1();
+      }
+    </SCRIPT>
+
+      <style type="text/css">
+<!--
+div.Section1
+	{page:Section1;}
+	
+.qm {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: normal; color: #006699; text-decoration: underline; line-height: 16px}
+
+.lori {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 13px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.lori15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.jli {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 11px; font-weight: bold; color: #F5801F; text-decoration: none}
+
+.jli12LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14DB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #000080; text-decoration: none}
+
+.jli14BLUE {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #0000FF; text-decoration: none}
+	
+.jli14DBGreen {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #009900; text-decoration: none}
+
+.jli15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; color: #006699; text-decoration: none}
+
+	
+-->
+
+A  {text-decoration: none;
+       color: BLUE}
+   A:hover {TEXT-DECORATION: underline;
+	        }
+   A.showlink {text-decoration: underline}
+   input {border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   select {	border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   textarea { border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+	<!--
+	.row0 {background-color: white;} 
+	.row1 {background-color: E7EAF3;} 
+	--> 
+
+</style>
+<style>
+
+.myDIV {
+
+	FILTER: revealTrans(transition=18,duration=2);
+
+	WIDTH:600px;
+
+	POSITION: absolute;
+
+}
+
+
+
+      .jli14 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: normal; color: #000000; text-decoration: none}	
+</style>
+
+<title>Los Angeles County Asian American Employees Association</title>
+   </HEAD>
+   <body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="White" link="0000FF" vlink="black" alink="000099" >
+      <!--<body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="White" background="/imagelib/sitebuilder/layout/t_pho_back.gif" link="0000FF" vlink="black" alink="000099" > -->
+
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="977">
+         <tr>
+            <td width="977" align="left"><br>
+              <div align="center"><img alt="Logo(Color).JPG" border="" src="sitebuildercontent/sitebuilderpictures/Logo_35_29.jpg" vspace="0" hspace="0"><font face="Arial,Helvetica,sans-serif" size="5" color="0000cc"><b><i>&nbsp;&nbsp;Los Angeles County Asian American Employees Association</i></b></font>
+              </div>
+            </td>  
+         </tr>
+      </table>
+      
+      <table border="0" cellspacing="0" cellpadding="0" height="3" width="976">
+         <tr>
+             <td width="976" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="3" alt=""></td>
+         </tr>
+      </table>
+      
+      <!-- Begin Top horizonal blue bar or spacer, right below moving image table -->
+<!--<DIV id=space2 bgcolor="#CCCCFF" align="left"><STRONG>-->
+<table width="978">
+<tr align="center">
+<td>
+<A href="http://www.lacaaea.com" class="jli15">Home</A>
+<A href="http://www.lacaaea.com/id3.html" class="jli15">| About Us</A>
+<A href="http://www.lacaaea.com/id4.html" class="jli15">| Calendar of Events</A>
+<A href="http://www.lacaaea.com/id6.html" class="jli15">| Newsletter</A>
+<A href="http://www.lacaaea.com/id20.html" class="jli15">| Photo Album</A>
+<A href="http://www.lacaaea.com/id2.html" class="jli15">| Becoming a Member</A>
+<A href="http://www.lacaaea.com/id17.html" class="jli15">| Contact Us</A>
+<A href="http://www.lacaaea.com/id7.html" class="jli15">| Links</A>
+</td>
+</tr>
+</table>
+<!--</DIV>-->
+  
+     
+      <!-- End of Top horizonal blue bar or spacer, right below moving image table -->
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="981">
+         <tr>
+            
+            
+            <td width="981" valign="top">
+               <table border="0" cellpadding="0" cellspacing="0" width="650">                  
+                  <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="955" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>                 
+                  <!-- End of spacer --> 	   
+               </table>
+               
+               	               
+
+               <table borderColor="blue" border="1" cellpadding="0" cellspacing="0" >
+                  <tr>
+                     <td valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" >
+                           <tr>
+                              <td colspan=2>
+                                   <!--Begin: add another talbe to include heading-->			
+									<table borderColor="#ffffc4" bgColor=#a6caf0 border="1" cellspacing="1" cellpadding="1" width="975">
+									  <tr>
+                     					<td bgcolor="#ffffc4" height="10" >
+						
+						<div align="center">
+							<b><FONT color=#ff6633 size=4>Ronald L. Brown, Public Defender at Los Angeles County</b></FONT>
+						&nbsp;</div>
+						
+					 </td>
+                  </tr>
+									</table>
+                                 <!--End: add another talbe to include heading-->
+                                 
+                              </td>
+                           </tr>
+                          <!-- Begin of spacer.gif under title --> 
+                         	<tr>
+                              <td height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                           </tr>
+                          <!-- End of spacer.gif under title --> 
+                           <tr>
+                              <td>
+                              <!--Mutli Frame Photos Begin-->
+<!--								<TABLE height=599 cellSpacing=2 cellPadding=2 width=606 bgColor=#8080ff border=2>-->
+								<TABLE height=100% cellSpacing=0 cellPadding=0 width=683 bgColor=#ffffff Bordercolor=#66CCFF border=0>
+									<tr>
+									
+<td align=center class="jli16">    										  
+<!-- <P align=center><FONT color= #000000 size=3><STRONG>Click each photo below for a larger view with a caption!</STRONG></FONT></p> -->
+
+<TABLE  cellSpacing=0 cellPadding=0 width=660 bgColor= #FFFFFF border=1>
+	<tr><td class="jli14">
+									
+<TABLE style="WIDTH: 160px; HEIGHT: 11px" height=11 cellSpacing=0 cellPadding=0 width=145 align=left border=0>
+
+<TR>
+<TD>
+<A href="#" target=_blank><IMG style="WIDTH: 180px; HEIGHT: 225px" alt="Ron Brown" hspace=0 src="../sitebuildercontent/sitebuilderpictures/meetgreet04072011/Ron_Brown_HS.JPG" border=0></A></TD></TR>
+<TR>
+<TD bgColor=#ffffc4>
+<P align=left><FONT face="Arial Narrow" color=#808080 size=3><STRONG>Ronald L. Brown<BR></font><A href="http://www.lacaaea.com/id20.html" target=_blank><FONT color= #0000FF class="jli15">More photos &gt;&gt;</FONT></A></P>
+</TD>
+</TR>
+</TABLE>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ronald L. Brown was sworn in as the Public Defender of Los Angeles County on January 5, 2011.  Mr. Brown is the first African-American to head Los Angeles County&#8217;s Public Defender&#8217;s office and is only the 10th person to head the Los Angeles County Public Defender&#8217;s Office, which opened its doors in 1914 as the nation&#8217;s first publicly funded indigent criminal defense agency. He leads a staff of more than seven hundred licensed attorneys plus a support staff of paralegals, investigators, social workers, and secretaries, all dedicated to the representation of indigent clients. The Public Defender represents adults who have been accused of felony or misdemeanor crimes, juveniles facing delinquency proceedings, involuntarily detained mental health patients, and persons with appellate and limited civil contempt matters.</p>
+		<p>Ron was born in Ogden, Utah, but was raised in Watts, Willowbrook, and Compton, where he graduated from Centennial High School. He was one of ten children supported by food stamps and other public assistance.  Ron refused to be burdened by poverty but instead aimed high and obtained the first-class education he knew he would need to be a success in life. Ron received his undergraduate degree from USC in History in 1976 and his Juris Doctor from UCLA in 1979.</p>
+		<p>Mr. Brown&#8217;s most recent assignment before his promotion to Public Defender was Assistant Public Defender for Branch and Area Operations. Ron regularly attends management training programs, and his abilities have been recognized through his receipt of a variety of awards and commendations including a certificate of commendation from retired Supervisor Yvonne Brathwaite Burke.</p>
+		<p>Ron is a 25-year resident of Long Beach and currently resides in Bixby Knolls with his wife Kathleen Bursley.</p>
+</div></td>
+  </tr>
+</table>
+
+	
+<!-- New Table -->
+
+		<table width="95%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>            
+            <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="855" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>
+            <!-- End of spacer -->
+            </tr>
+        </table>
+                
+  <!-- iframe Table begin -->      
+<table width="95%" border="0" cellspacing="0" cellpadding="0" align="center" class="lt14">
+    <tr>
+      <td  class="lt14">
+                   
+<P align=center>
+<TABLE style="WIDTH: 660px;" cellSpacing=0 cellPadding=0 align=center border=1 borderColor="#00CCFF" bgcolor="white">
+ 
+    <tr>
+      <td width="650" valign="top"><iframe src="gallery175x200_MG04072011.html" frameborder="0" width="650" height="270" scrolling="No"></iframe>
+      </td>
+    </tr>
+ 
+</TABLE>
+</P>
+</td></tr>
+</table>
+
+<!-- End of iFrame Table  -->
+
+			
+	<div>
+		<table width="95%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              
+                  <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="855" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>
+              	  <!-- Begin of spacer -->
+              	  
+              <td> 	<!--paragraph heigth adjustment-->			    	                                       
+				
+				<P><FONT face=Arial color=#000000 size=2></FONT></P></table>
+				
+<TABLE cellSpacing=0 cellPadding=0 bgColor= #FFFFFF borderColor="#00CCFF" border=0 width="672" >
+	<tr><td class="jli14">
+				<!--Begin of frame-->
+									
+<TABLE style="WIDTH: 666px; HEIGHT: 50px" cellSpacing=0 cellPadding=0 align=left border=0 >
+
+<TR><TD>    
+       
+                           <tr>
+                              <td width="672" height="30">
+                              <!--<a href="http://www.lacaaea.com/davidJanssen2.html" class="nextpage"><img src="sitebuildercontent/sitebuilderpictures/nextbutton.gif" vspace="0" hspace="5" width="80" height="22" alt="Next"  border="0"></a> -->
+                              <a href="#Top"><img src="sitebuildercontent/sitebuilderpictures/topofpg.gif" vspace="0" hspace="5" width="74" height="19" alt="top"  border="0"></a>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                    <!-- <td width="8" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="6" height="1" alt=""></td> -->
+                  </tr>
+               </table>
+               <table width="650" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                     <!-- <td width="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="2" height="1" alt=""></td> -->
+                     <td width="640" valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" height="30">
+                           <tr>
+                              <td height="30">
+								<table width="640" border="0" cellpadding="0" cellspacing="0" height="30" >
+		  		                   <tr>
+                              			<td height="10">
+                                           <div><font face="Arial, Helvetica" size="3" color="#000000"><DIV align=center>Please get in touch to offer 	<a href="http://www.lacaaea.com/id17.html" class="jli15" target=_blank>comments</a> and join our mailing list.
+                                  </DIV></font>
+                                 </div>
+                              </td>
+                             </tr>
+                         </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <table width=650 border="0" cellspacing="0" cellpadding="0" width="645">
+         <tr>
+            <td align=center width="668">                       
+               <font face="Arial, Helvetica" size="2" color="#000000">Please join us for next </font>
+				<a target="_blank" href="http://www.lacaaea.com/id4.html"><FONT face="Arial, Helvetica" size="2" color=#3333ff class="jli15">Board Meetings</FONT></a><font face="Arial, Helvetica" size="2" color="#000000">&nbsp;and meet&nbsp; <a href="http://www.lacaaea.com/id3.html" target="_blank">
+				<FONT face="Arial, Helvetica" size="2" color=#3333ff class="jli15">President and our Board Members</FONT></a></font>      
+            </td>
+         </tr>
+      </table>
+      <hr>
+		      <table width=650 border="0" cellspacing="0" cellpadding="0" >
+		          <tr><td align="center">
+		               <font face="Verdana" size="1">Copyright ©2006 Los Angeles County Asia American Employees Association. All rights reserved.
+					   </font>
+		          </td></tr>
+		      </table>
+           </td>
+           
+           <!-- Right Vertical Bar -->                      
+           <td valign = "top" width="300" bgcolor="#F8F5B0">                     
+ 			<!-- Add vertial marquee-->
+				<marquee scrollamount="1" scrolldelay="10" direction="up" width="300" style="font-family: Verdana; font-size: 10pt" height="250">
+						
+					<div align="center"><FONT face="Arial,Helvetica,sans-serif" size="4" color="Green">Past Meet & Greet Reception</FONT>
+					</div>
+					&nbsp;&nbsp;Click each image below to view a webpage	
+					&nbsp;<a href="http://www.lacaaea.com/http://www.lacaaea.com/mg11182010.html" target="_blank">&nbsp;<img src="../sitebuildercontent/sitebuilderpictures/MG11182010/Group_Photos_11182010_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					
+					&nbsp;<a href="http://www.lacaaea.com/Heritage05202010.html" target="_blank">&nbsp;<img src="../sitebuildercontent/sitebuilderpictures/Heritage2010/Dragon_Dance1_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					
+					&nbsp;<a href="http://www.lacaaea.com/MG04012010.html" target="_blank">&nbsp;<img src="../sitebuildercontent/sitebuilderpictures/mg04012010/Mike_Eng_Group_285_120.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+	
+					&nbsp;<a href="http://www.lacaaea.com/mg03052009.html" target="_blank">&nbsp;<img src="../sitebuildercontent/sitebuilderpictures/mg030509/bill_gp_285_120.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					
+					&nbsp;<a href="http://www.lacaaea.com/HonoringBill02072008.html" target="_blank">&nbsp;<img src="../sitebuildercontent/sitebuilderpictures/Lunar2008/BigGroup_285_145.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/meetgreet11082007.html" target="_blank">&nbsp;<img src="../sitebuildercontent/sitebuilderpictures/MG11082007/4-dept-head_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/MeetGreet06282007.html" target="_blank">&nbsp;<img src="../sitebuildercontent/sitebuilderpictures/MG06282007/team4_062007_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+
+					&nbsp;Click each image above to view a webpage
+
+				</marquee>                     
+             </td>
+
+          </tr>
+                            
+	                   
+</body>
+</html>

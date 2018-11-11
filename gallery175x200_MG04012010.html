@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+  <HEAD>
+    <TITLE>LACAAEA</TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="publishid" content="112935.0.2">
+    <META content="111799.0.2" name="publishid" />
+    <META content="111799,0,3" name="publishid" />
+    <SCRIPT language="javascript">
+      var Speed_1 = 10; 
+      var Space_1 = 20; 
+      var PageWidth_1 = 562; 
+      var interval_1 = 5000; 
+      var fill_1 = 0; 
+      var MoveLock_1 = false;
+      var MoveTimeObj_1;
+      var MoveWay_1="right";
+      var Comp_1 = 0;
+      var AutoPlayObj_1=null;
+      function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+      function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+      function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+      function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+      GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+      function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+      function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+      GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+      function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+      var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+      if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+      function picrun_ini(){
+      GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+      GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+      GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+      GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+      AutoPlay_1();
+      }
+    </SCRIPT>
+    
+    
+    
+    
+    <LINK href="js/sitephoto.css" type="text/css" rel="stylesheet" />
+    <META content="MSHTML 6.00.6000.16890" name="GENERATOR" />
+    
+    <style type="text/css">
+
+<!--
+
+a:hover {  text-decoration: underline}
+
+
+
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+}
+
+.qm {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: normal; color: #006699; text-decoration: underline; line-height: 16px}
+
+.lori {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 13px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.jli {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 11px; font-weight: bold; color: #F5801F; text-decoration: none}
+
+.jli15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; color: #006699; text-decoration: none}
+
+-->
+
+-->
+
+A  {text-decoration: none;
+       color: BLUE}
+   A:hover {TEXT-DECORATION: underline;
+	        }
+   A.showlink {text-decoration: underline}
+   input {border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   select {	border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   textarea { border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+	<!--
+	.row0 {background-color: white;} 
+	.row1 {background-color: E7EAF3;} 
+	--> 
+
+
+      </style>
+    
+    
+  </HEAD>
+  <BODY>
+    <TABLE class="" cellSpacing="0" cellPadding="0" width="562" border="0">
+      <TBODY>
+        <TR>
+          <TD vAlign="top" align="left" width="562">
+            <DIV class="moveh_18">
+              <TABLE height="15" width="562">
+                <TBODY>
+                  <TR>
+                    <TD width="510"><SPAN class="jli15"><A href="http://www.lacaaea.com/id20.html" class="jli15" target="_blank">Photos Album</A>&nbsp;</SPAN><SPAN class="jli15"><A href="http://www.lacaaea.com/id20.html" target="_blank">&gt;&gt; </A> &nbsp;<FONT face="Arial" size=3 color= #009900>Click each image/caption below for a larger view!</FONT></SPAN></TD>
+                    <TD><A onmouseup="ISL_StopUp_1()" class="LeftBotton" onmousedown="ISL_GoUp_1()" onmouseout="ISL_StopUp_1()" href="javascript:void(0);" target="_self"></A></TD>
+                    <TD><A onmouseup="ISL_StopDown_1()" class="RightBotton" onmousedown="ISL_GoDown_1()" onmouseout="ISL_StopDown_1()" href="javascript:void(0);" target="_self"></A></FONT></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+              <DIV class="pcont" id="ISL_Cont_1">
+                <DIV class="ScrCont">
+                  <DIV id="List1_1">
+                    <!-- piclist begin -->
+                    <TABLE style="WIDTH: 1125px; " border="0">
+                      <TBODY>
+                        <TR>
+                          <TD vAlign="top" align="left">
+                            <TABLE class="" cellSpacing="0" cellPadding="0" width="98%" align="center" border="0">
+                              <TBODY>
+                                <TR>
+                                  <TD height="1"></TD>
+                                </TR>
+                              </TBODY>
+                            </TABLE>
+                            <TABLE cellSpacing="0" cellPadding="0" width="90%" align="center" border="0">
+                              <TBODY>
+                                <TR>
+                                  <TD height="8"></TD>
+                                </TR>
+                              </TBODY>
+                            </TABLE>
+                            <!--1-->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+	                             <td width="33%" valign="top">
+	                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                      <td height="8"></td>
+	                                    </tr>
+	                                  </table>
+                                  
+	                                 <div id="h1">
+	                                    <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/Andrea _560_04012010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG04012010/Andrea_Group_175_100.jpg" width="175" height="100" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/Andrea _560_04012010.html" class="jli15" target="_blank"> Many County Counsel employees come to honor Andrea Sheridan Ordin, County Counsel at the Meet and Greet reception,...</a></div>
+											    </td>
+											  </tr>
+										</table>
+	                                  </div>
+                                  </td>
+                                
+                                <td width="33%" valign="top">
+	                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                      <td height="8"></td>
+	                                    </tr>
+	                                  </table>
+                                  
+	                                  <div id="h2">
+	                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/CIO_560_04012010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG04012010/CIO_Group_175_100.jpg" width="175" height="100" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/CIO_560_04012010.html" class="jli15" target="_blank">Many CIO employees come to honor Richard Sanchez, Chief Information Officer at the Meet and Greet reception,...</a></div>
+											    </td>
+											  </tr>
+										  </table>
+	                                  </div>
+                                </td>
+                                
+                                <td width="33%" valign="top">
+	                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                      <td height="8"></td>
+	                                    </tr>
+	                                  </table>
+	                                  <div id="h3">
+	                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/Richard_560_04012010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG04012010/Richard_Group_175_100.jpg" width="175" height="100" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/Richard_560_04012010.html" class="jli15" target="_blank">Many employees from the Department of Regional Planning come to honor Richard J. Bruckner at the Meet and Greet reception...</div>
+											    </td>
+											  </tr>
+											</table>
+	                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--1-->                 
+                          </TD>
+                          
+                    <!-- 2nd col. photos  --> 
+                         
+                          <TD vAlign="top" align="left">                          
+	                            <TABLE  cellSpacing="0" cellPadding="0" width="98%" align="center" border="0">
+	                              <TBODY>
+	                                <TR>
+	                                  <TD height="1"></TD>
+	                                </TR>
+	                              </TBODY>
+	                            </TABLE>
+                            <!--2-->
+	                            <TABLE cellSpacing="0" cellPadding="0" width="90%" align="center" border="0">
+	                              <TBODY>
+	                                <TR>
+	                                  <TD height="8"></TD>
+	                                </TR>
+	                              </TBODY>
+	                            </TABLE>
+	                            
+                            <DIV id="home37">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="33%" valign="top">
+                                    <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="8"></td>
+                                      </tr>
+                                    </table>
+                                    
+                                    <div id="h4">
+                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/CEO_560_04012010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG04012010/CEO_Group_175_100.jpg" width="175" height="100" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/CEO_560_04012010.html" class="jli15" target="_blank">Many LA County department heads pose a photo with William T Fujioka (R3, first row), CEO of LA County at the Meet and Greet reception,...</a></div>
+											    </td>
+											  </tr>
+									  </table>
+                                    </div>
+                                  </td>
+                                  
+                                  <td width="33%" valign="top">
+	                                    <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                      <tr>
+	                                        <td height="8"></td>
+	                                      </tr>
+	                                    </table>
+                                    
+                                    <div id="h5">
+                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/MENG_560_04012010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG04012010/Mike_Eng_Group_175_100.jpg" width="175" height="100" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/MENG_560_04012010.html" class="jli15" target="_blank">Mike Eng (C), California's 49th State Assembly Member, awards each scroll to three newly appointed dept. heads and LACAAEA President Irene Hamada at the ...</div>
+											    </td>
+											  </tr>
+									  </table>
+                                    </div>
+                                  </td>
+                                  
+                                  <td width="33%" valign="top">
+                                    <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="8"></td>
+                                      </tr>
+                                    </table>
+                                    
+                                    <div id="h6">
+                                         <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/Eight_560_04012010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG04012010/Big_Group_175_100.jpg" width="175" height="100" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/Eight_560_04012010.html" class="jli15" target="_blank"> Kimberly Jo, from left to right, MARIA CHONG-CASTILLO, Steve Mar, Richard J. Bruckner, Richard Sanchez, Andrea Sheridan Ordin, Patrick Wu and Irene Hamada...</a></div>
+											    </td>
+											  </tr>
+									     </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </table>
+                            </DIV>
+                          </TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE>
+                  </DIV>
+                  <DIV id="List2_1"></DIV>
+                </DIV>
+              </DIV>
+              <SCRIPT type="text/javascript">
+                picrun_ini()
+              </SCRIPT>
+            </DIV>
+        </TR>
+      </TBODY>
+    </TABLE>
+  </BODY>
+</HTML>

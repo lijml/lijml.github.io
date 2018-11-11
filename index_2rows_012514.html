@@ -1,0 +1,459 @@
+<html>
+   <HEAD>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+      <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <META http-equiv="Expires" content="0">
+      <META name="TRELLIX_BUILDER_VER" content="1.0"><META name="TRELLIX_OPEN_SITE_COMMAND" content="http://www.sitedelux.com:80/servlet/SiteBuilderServlet?fUrl=/trellix/sitebuilder/f_error.html&sUrl=/trellix/sitebuilder/f_edit_page.html&Command=OpenSite&FileName=339421959363791806/site.xml"></META><META
+      name="categories" content="">
+      <!--base href="http://lacaaea.domainhost.com//"-->
+      <!--/base--><script language="Javascript"><!--
+		document.isTrellix = 1;
+//						--></script>
+
+<SCRIPT language="javascript">
+      var Speed_1 = 10; 
+      var Space_1 = 20; 
+      var PageWidth_1 = 562; 
+      var interval_1 = 5000; 
+      var fill_1 = 0; 
+      var MoveLock_1 = false;
+      var MoveTimeObj_1;
+      var MoveWay_1="right";
+      var Comp_1 = 0;
+      var AutoPlayObj_1=null;
+      function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+      function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+      function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+      function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+      GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+      function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+      function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+      GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+      function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+      var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+      if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+      function picrun_ini(){
+      GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+      GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+      GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+      GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+      AutoPlay_1();
+      }
+    </SCRIPT>
+
+      <style type="text/css">
+<!--
+div.Section1
+	{page:Section1;}
+	
+.qm {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: normal; color: #006699; text-decoration: underline; line-height: 16px}
+
+.lori {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 13px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.lori15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.jli {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 11px; font-weight: bold; color: #F5801F; text-decoration: none}
+
+.jli12LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14DB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #000080; text-decoration: none}
+
+.jli14BLUE {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #0000FF; text-decoration: none}
+	
+.jli14DBGreen {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #009900; text-decoration: none}
+
+.jli13 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 13px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; color: #006699; text-decoration: none}
+
+	
+-->
+
+A  {text-decoration: none;
+       color: BLUE}
+   A:hover {TEXT-DECORATION: underline;
+	        }
+   A.showlink {text-decoration: underline}
+   input {border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   select {	border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   textarea { border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+	<!--
+	.row0 {background-color: white;} 
+	.row1 {background-color: E7EAF3;} 
+	--> 
+
+</style>
+<style>
+
+.myDIV {
+
+	FILTER: revealTrans(transition=18,duration=2);
+
+	WIDTH:600px;
+
+	POSITION: absolute;
+
+}
+
+
+
+      .jli14 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: normal; color: #000000; text-decoration: none}	
+</style>
+
+<title>Jeremy B. Li</title>
+   </HEAD>
+   <body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#F8F5B0" link="0000FF" vlink="black" alink="000099" >
+      <!--<body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="White" background="/imagelib/sitebuilder/layout/t_pho_back.gif" link="0000FF" vlink="black" alink="000099" > -->
+
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="1118">
+         <tr>
+            <td width="1118" align="left"><br>
+              <div align="center"><font face="Arial,Helvetica,sans-serif" size="5" color="0000cc"><b><i>&nbsp;&nbsp;Jeremy Li - Biography, Technical Notes and Blogs</i></b></font>&nbsp;
+              </div>
+            </td>  
+         </tr>
+      </table>
+      
+      <!-- Blue H-Bar -->
+      <table border="0" cellspacing="0" cellpadding="0" height="3" width="1115">
+         <tr>
+             <td width="1114" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="3" alt=""></td>
+         </tr>
+      </table>
+      
+<!-- Begin Top horizonal blue bar or spacer, right below moving image table -->
+<!--<DIV id=space2 bgcolor="#CCCCFF" align="left"><STRONG>
+<table width="978">
+<tr align="center">
+<td>
+<A href="http://www.lacaaea.com" class="jli15">Home</A>
+<A href="http://www.lacaaea.com/id3.html" class="jli15">| About Us</A>
+<A href="http://www.lacaaea.com/id4.html" class="jli15">| Calendar of Events</A>
+<A href="http://www.lacaaea.com/id6.html" class="jli15">| Newsletter</A>
+<A href="http://www.lacaaea.com/id20.html" class="jli15">| Photo Album</A>
+<A href="http://www.lacaaea.com/id2.html" class="jli15">| Becoming a Member</A>
+<A href="http://www.lacaaea.com/id17.html" class="jli15">| Contact Us</A>
+<A href="http://www.lacaaea.com/id7.html" class="jli15">| Links</A>
+</td>
+</tr>
+</table>-->
+<!--</DIV>-->
+  
+     
+      <!-- End of Top horizonal blue bar or spacer, right below moving image table -->
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="981">
+         <tr>
+			<td width="1000" valign="top">
+               <table border="0" cellpadding="0" cellspacing="0" width="650">                  
+                  <!-- Begin of spacer -->	
+                                 
+                  <!-- End of spacer --> 	   
+               </table>
+               
+               <table borderColor="blue" border="1" cellpadding="0" cellspacing="0" width="1060" >
+                  <tr>
+                     	<td valign="top">
+                        	<table border="0" cellpadding="0" cellspacing="0" >
+		                           <tr>
+		                              <td colspan=2>
+		                                   <!--Begin: add another talbe to include heading-->			
+											<table borderColor="#ffffc4" bgColor=#a6caf0 border="1" cellspacing="1" cellpadding="1" width="1115">
+											  <tr>
+		                     					<td bgcolor="#ffffc4" height="5" >
+								
+						<!-- <div align="center">
+							<b><FONT color=#ff6633 size=5>Biography - Jeremy Li</FONT></b></FONT>
+						</div> -->
+								
+					 	</td>
+                  </tr>
+									</table>
+                                 <!--End: add another talbe to include heading-->
+                                 
+                              </td>
+                           </tr>
+                          <!-- Begin of spacer.gif under title --> 
+                         	<tr>
+                              <td height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                           </tr>
+                          <!-- End of spacer.gif under title --> 
+                           <tr>
+                              <td>
+                              <!--Mutli Frame Photos Begin-->
+<!--								<TABLE height=599 cellSpacing=2 cellPadding=2 width=606 bgColor=#8080ff border=2>-->
+								<TABLE height=100% cellSpacing=0 cellPadding=0 width=683 bgColor=#F8F5B0 Bordercolor=#66CCFF border=0>
+									<tr>
+									
+<td align=center class="jli16">    										  
+<!-- <P align=center><FONT color= #000000 size=3><STRONG>Click each photo below for a larger view with a caption!</STRONG></FONT></p> -->
+
+<TABLE height=390 cellSpacing=0 cellPadding=0 width=800 bgcolor="#F8F5B0" border=1>
+	<tr><td class="jli14">
+									
+<TABLE style="WIDTH: 145px; HEIGHT: 11px" height=11 cellSpacing=0 cellPadding=0 width=145 align=left border=0>
+
+<TR>
+<TD>
+<IMG style="WIDTH: 140px; HEIGHT: 180px" alt="Jeremy Li" hspace=0 src="sitebuildercontent/sitebuilderpictures/installation2007/jeremyli_sm.jpg" border=0></TD></TR>
+<TR>
+<TD bgColor=#ffffc4>
+<P align=left><FONT face="Arial Narrow" color=#808080 size=3><STRONG>Jeremy Li<BR></font><A href="http://www.lacaaea.com/id20.html" target=_blank><FONT color= #0000FF>More photos &gt;&gt;</FONT></A></P>
+</TD>
+</TR>
+</TABLE>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jeremy Li, a native of Shanghai, China, was the winner of the 1987 Mary Cleary Scholarship for outstanding student achievement and graduated cum laude from 
+	CSU, Northridge with a Bachelor of Science degree in Electrical Engineering in 1987. He started to work as an Electrical Engineer at Schaeffer Magnetics, Inc. (SMI), an aerospace company, in Chatsworth, Calif.  He gained valuable experience under the guidance of his mentor, and company owner, 
+	<a href="http://lacaaea.domainhost.com/sitebuildercontent/sitebuilderpictures/Installation2007/ErnieSchaeffer.pdf" class="JLI13" target=_blank>Ernie Schaeffer</a>.  He later served as IT manager for 7 years 
+	at SMI. He was quite proud of his &#8220;small&#8221; contribution to the American space program!  He designed the printed circuit board for the reaction wheel used on the space flight in 1990's. 
+									
+	<p>After SMI was sold in 1998, Jeremy joined USC University, Hospital as a Network Lead Engineer to support the entire hospital's IT operations. 
+	In 1999, he joined Litton Industries Inc., a diversified defense and technology company, as a Senior Network Engineer to support the entire data center at Litton 
+	Corporate, Woodland Hills, California. After Northrop Grumman's 2001 acquisition of Litton Industries Inc., Jeremy was hired as a consultant at Northrop Grumman IT sector. In February, 2003, he was hired by the County of Los Angeles, Department of Auditor Controller as a network consultant 
+	through Staff Tech, Inc., an IT consulting company. In June 2004, Staff Tech, Inc. honored Jeremy as <a href="http://www.staff-tech.net/staff_news_frame.htm" class="JLI13" target=_blank>the 	Employee of the Month</a> (<a href="http://lacaaea.domainhost.com/sitebuildercontent/sitebuilderpictures/Installation2007/JLiAward.jpg" class="JLI13" target="tlx_new">Award 
+	Certificate</a>). </p>
+									
+	<p>In March 2005, Jeremy became a fulltime employee at the Department of Auditor Controller. He often mentions how proud he is able to bring in his vast and successful IT experience from private to public sector. He always says that he is lucky to be able to design, implement and maintain the entire Microsoft Active Directory network along with HP technologies from A to Z at an enterprise environment. </p>
+
+	<p>He always contributes his IT successful stories and experiences through continuing IT education and certifications. He was certified as a Microsoft Certified Systems Engineer 	NT 4.0 (MCSE) in July 1998 and re-certified as a <a href="http://www.microsoft.com/learning/en/us/certification/mcse.aspx" class="JLI13" target=_blank>
+	&nbsp;Microsoft Certified Systems Engineer</a> Windows 2000 (MCSE) in Jan. 2002. He was also certified as Compaq Master Accredited Systems Engineer in May 1999 and re-certified as <a href="http://h10120.www1.hp.com/certification/data_card/HP_MASE_Converged_Infrastructure_Architect_2011.html" class="JLI13" target=_blank>
+	HP Master Accredited Systems Engineer </a> </FONT> in 2002 and 2005. He was also certified as a<a href="http://www.cisco.com/web/learning/le3/le2/le0/le9/learning_certification_type_home.html" class="JLI13" target=_blank>
+	Cisco Certified Network Associate</a> (CCNA) in May, 2001. In 2008, he earned the <a href="http://www.isaca.org/Certification/CISA-Certified-Information-Systems-Auditor/Pages/default.aspx" class="JLI13" target=_blank>Certified Information Systems Auditor</a> (<a href="http://www.isaca.org/Certification/CISA-Certified-Information-Systems-Auditor/Pages/default.aspx" class="JLI13" target=_blank><FONT color= #CC0066 size=1><b>CISA</b></font></a>). 
+	</p>
+	
+	<!-- <p>	He joined the Los Angeles County Asian American Employees Association in August, 2006 and immediately produced the web pages for the reception of <a href="http://www.lacaaea.com/id28.html" target=_blank>5/18/2006 Meet and Greet</a> for the association. During<a href="http://www.lacaaea.com/FishFry06_P1.html" target=_blank> the 23rd Annual Fish Fry event</a> on September 9, 2006, Jeremy was named Web Master for the association in front of all attendees.
+				He is also an amateur photographer for the association.</p> -->
+								
+</div></td>
+  </tr>
+</table>
+
+	
+<!-- 1) New Table for four pictures 2) Height is controlling height -->
+
+<div>
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#F8F5B0">
+  <tr width="800" colspan="2" height="5"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="5" alt="">
+       <td width="572" valign="top">
+        <table border="0" cellpadding="0" cellspacing="0" height="200" width="798">
+           <tr>
+              <td height="220">
+<!--Begin of motion photo-->                           
+                              
+<table width="797" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" bgcolor="719AD9">
+	<table width="97%"  border="0" align="center" cellpadding="0" cellspacing="0" class="lori">
+        <tr>
+          <td width="100"><a href="http://www.lacaaea.com" class="jli15" target="_blank"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/news_arrow.gif border=0>LACAAEA</font></a></td>
+          <td width="175"><a href="http://www.lijml.net/jeremyli-notes.html" class="jli15" target="_blank"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/news_arrow.gif border=0>Jeremy's Tech Notes</font></a></td>
+          <td width="175" ><a href="http://www.metrolinktrains.com/schedules/" class="jli15" target="_blank"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/news_arrow.gif border=0>Metrolink Schedules</font></a></td>
+          <td width="195" ><a href="http://www.laobserved.com/assets_c/2013/06/metrorail-map-2013-20624.php" class="jli15" target="_blank"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/news_arrow.gif border=0>LA Light Rail Maps</font></a></td>
+		</tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<!-- 1) New Table for four pictures 2) Height is controlling height -->
+
+<table width="626" border="0" cellpadding="0" cellspacing="0" height="120" bgcolor="#F8F5B0">
+  <tr>
+    <td valign="top" height="175"><div style="height:175">
+        <DIV id=sc1 class=JLiDIV onmouseover=isScroll(1) style='visibility: visible; width: 600px' onmouseout=isScroll(0)>
+          <table width="600" border="0" cellspacing="1" cellpadding="0" bgcolor="#719AD9">
+            <tr>
+              <td bgcolor="#F8F5B0" align="center" valign="top"><table width="600" border="0" cellspacing="0" cellpadding="0">
+                  <tr align="center" valign="top">
+                    <td width="195"><table width="140" border="0" cellspacing="0" cellpadding="0" class="qm"><tr><td>
+                    <a href="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/staplescenter.jpg" target="tlx_new">
+                    <img src=sitebuildercontent/sitebuilderpictures/StaplesCenter_sm.jpg border=0 width="198" height="117" vspace="6" alt="Los Angeles Staples Center"></a></td></tr>
+                    <tr> <td align="center"><a href="http://www.staplescenter.com/index.php" class="jli15" target=_blank><u>LA Staples Center</u></a> 
+						</td>
+					</tr></table>
+                    </td>
+                    
+                    <td width="195"><table width="140" border="0" cellspacing="0" cellpadding="0" class="qm">                          <tr> <td>
+                    <a href="https://www.google.com/search?q=Grand+Park&tbm=isch&tbo=u&source=univ&sa=X&ei=s7YNUoriJ7HeyQHM_IBI&ved=0CFMQsAQ&biw=1280&bih=681" target="tlx_new">
+                    <img src=sitebuildercontent/sitebuilderpictures/grandpark.jpg border=0 width="198" height="117" vspace="6" alt="Grand Park - World-Class Facility, World-Class Service"></a></td></tr>
+                    <tr><td align="center"><a href="https://www.google.com/search?q=Grand+Park&tbm=isch&tbo=u&source=univ&sa=X&ei=s7YNUoriJ7HeyQHM_IBI&ved=0CFMQsAQ&biw=1280&bih=681" class="jli15" target=_blank><u>Los Angeles Grand Park<FONT face=Arial,Helvetica,sans-serif color=white size=1> &nbsp; </FONT>  </u></a> 
+						</td>                
+                    </tr></table>                      
+                    </td>
+                    
+                    <td width="195"><table width="140" border="0" cellspacing="0" cellpadding="0" class="qm">      <tr>  <td>
+                    <a href="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/waltdisney1.jpg" target="tlx_new">
+                    <img src=sitebuildercontent/sitebuilderpictures/waltdisney2.jpg border=0 width="198" height="117" vspace="6" alt="Los Angeles Walt Disney Concert Hall, where you can take the approximately 45- minute self-guided audio tour"></a></td></tr>
+                    <tr><td align="center"><a href="http://www.laphil.com/" class="jli15" target=_blank><u>Walt Disney Concert Hall</u></a> 
+						</td>                
+                    </tr></table>                      
+                    </td>
+                    
+                                     
+                    <td width="195"><table width="140" border="0" cellspacing="0" cellpadding="0" class="qm">      <tr>  <td>
+                    <a href="http://www.lalive.com/" target="tlx_new">
+                    <img src=sitebuildercontent/sitebuilderpictures/lalive_140.jpg border=0 width="198" height="117" vspace="6" alt="LA Live"></a></td></tr>
+                    <tr><td align="center"><a href="http://www.lalive.com/" class="jli15" target=_blank><u>L.A. LIVE</u></a> 
+						</td>                           
+                    </tr></table>                      
+                    </td>                  
+                    
+                    </tr>
+              </table></td>
+            </tr>
+          </table>
+        </div>
+        <DIV id=sc2 class=JLiDIV onmouseover=isScroll(1) style='VISIBILITY: hidden; width: 600px' onmouseout=isScroll(0)>
+          <table width="600" border="0" cellspacing="1" cellpadding="0" bgcolor="#719AD9">
+            <tr>
+              <td bgcolor="#ffffff" align="center" valign="top"><table width="600" border="0" cellspacing="5" cellpadding="0">
+                  <tr align="center" valign="top">
+                    <td width="150"><table width="140" border="0" cellspacing="0" cellpadding="0" class="qm">      <tr>  <td>
+                    <a href="http://lacaaea.domainhost.com/sitebuildercontent/sitebuilderpictures/fountain_HOA.jpg" target="tlx_new">
+                    <img src=sitebuildercontent/sitebuilderpictures/fountain_hoa_sm.jpg border=0 width="196" height="117" vspace="6" 
+                    alt="     	AUTHUR J. WILL MEMORIAL FOUNTAIN
+
+THIS FOUNTAIN WAS CONSTRUCTED IN MEMORY OF 
+
+		ARTHUR J. WILL
+	CHIEF ADMINISTRATIVE OFFICER
+   	  COUNTY OF LOS ANGELES
+		1951-1957"></a></td></tr><tr><td align="center"><a href="http://portal.lacounty.gov/wps/portal/lac/government/" class="qm" target=_blank>Memorial Fountain at Hall of Administration, Los Angeles County</a>
+                        </td></tr></table>                      
+                    </td>
+
+                    <td width="150"><table width="140" border="0" cellspacing="0" cellpadding="0" class="qm">      <tr>  <td>
+                    <a href="http://lacaaea.domainhost.com/sitebuildercontent/sitebuilderpictures/UnionStation.jpg" target="tlx_new">
+                    <img src=sitebuildercontent/sitebuilderpictures/UnionStation_sm.jpg border=0 width="196" height="117" vspace="6" alt="Los Angeles Union Station, built in 1939, is the Gateway Center, a bus terminal and park & ride facility which provides better connections between buses and trains"></a></td></tr>
+                    <tr><td align="center"><a href="http://gocalifornia.about.com/od/toppicturegallery/ig/Downtown-Los-Angeles-Tour/Union-Station.htm" class="qm" target=_blank>Union Station at Los Angeles</a>
+                         </td></tr></table>                      
+                    </td>
+                                        
+                    <td width="150"><table width="140" border="0" cellspacing="0" cellpadding="0" class="qm">      <tr>  <td>
+                    <a href="http://lacaaea.domainhost.com/sitebuildercontent/sitebuilderpictures/downtownLA.jpg" target="tlx_new">
+                    <img src=sitebuildercontent/sitebuilderpictures/downtownLA_sm.jpg border=0 width="196" height="117" vspace="6" alt="Downtown, Los Angeles"></a></td></tr>
+                        <tr><td align="center"><a href="http://www.lalive.com/eventsales/" class="qm" target=_blank>Night at downtown Los Angeles</a>
+                        </td></tr></table>                      
+                    </td>
+                    
+                    <td width="150"><table width="140" border="0" cellspacing="0" cellpadding="0" class="qm">      <tr>  <td>
+                    <a href="http://lacaaea.domainhost.com/sitebuildercontent/sitebuilderpictures/MusicCenter.jpg" target="tlx_new">
+                    <img src=sitebuildercontent/sitebuilderpictures/MusicCenter_sm.jpg border=0 width="196" height="117" vspace="6" alt="Los Angeles Music Center"></a></td></tr>
+                    <tr><td align="center"><a href="http://www.musiccenter.org/" class="qm" target=_blank>Los Angeles Music Center</a></td></tr>
+                    </table>                      
+                    </td>                    
+                  </tr>
+              </table></td>
+            </tr>
+          </table>
+        </div>
+    </div></td>
+  </tr>
+</table>
+<SCRIPT LANGUAGE="JavaScript" SRC="../js/jli.js">
+</SCRIPT>
+<!-- End of motion photo-->
+
+<table width="797" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" bgcolor="719AD9">
+	<table width="97%"  border="0" align="center" cellpadding="0" cellspacing="0" class="lori">
+        <tr>
+          <td width="170" ><a href="http://socaltransport.org/tm_pub_start.php" class="jli15" target="_blank"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/news_arrow.gif border=0>Metro Trip Planner</font></a></td>
+          <td width="230" ><a href="http://www.lacountyannualreport.com" class="jli15" target="_blank"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/news_arrow.gif border=0>LA County at A Glance</font></a><font face="Arial, Helvetica" size="2" color="black">
+						 	<img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/newblink.gif border=0></font></td>
+          <td width="195" ><a href="http://www.cahsrblog.com/2013/04/governor-brown-rides-beijing-shanghai-hsr/" class="jli15" target="_blank"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/news_arrow.gif border=0>Bullet Trains in CA</font></a></td>
+          <td width="195" ><a href="http://www.lijml.net/blogs/shanghaimetro.pdf" class="jli15" target="_blank"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/news_arrow.gif border=0>Shanghai Metro</font></a></td>
+		</tr>
+    </table></td>
+  </tr>
+</table>
+      <!-- Calif. HSA -->
+      	<div align="left">
+			<b><FONT color="0000cc" size=5>More News about the Nation's First Bullet Train:</FONT></b></FONT>
+		</div>
+
+		<table width=810 border="0" cellspacing="0" cellpadding="0" bgcolor="#F8F5B0">
+		          <tr>
+					   <td align="left"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/bullet_red.jpg border=0>
+		               <a href="http://www.hsr.ca.gov/" class="jli15" target="_blank"><font face="Verdana" size="3">California High-Speed Rail Authority</font></a></td>
+		          	   <td align="left"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/bullet_red.jpg border=0>
+		               <a href="http://www.foxnews.com/politics/2014/01/17/california-guv-scrambles-to-save-bullet-train-floats-cap-and-trade-scheme/#" class="jli15" target="_blank"><font face="Verdana" size="3">Latest News on Calif. First Bullet Train</font></a></td>
+		          
+		          </tr>
+		</table>               
+                           
+                          	<tr bgcolor="#F8F5B0">
+                              <td height="1"> <br>
+                                 <!--area Type="area_c" face="Arial, Helvetica" size="2" color="#000000" style="0"-->
+                                 <!--/area Type="area_c"-->
+                            </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td width="6" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="6" height="1" alt=""></td>
+                     <td width="800" colspan="2" height="5"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="5" alt=""></td>
+                  </tr>
+               </table>
+                                   
+      
+		      <table width=810 border="0" cellspacing="0" cellpadding="0" bgcolor="#F8F5B0">
+		          <tr><td align="center">
+		               <font face="Verdana" size="3">Copyright ©2006. All rights reserved. Website design by: Jeremy B Li.
+					   </font>
+		          </td></tr>
+		      </table>
+           </td>
+           
+           
+           <!-- Right Vertical Bar -->                      
+           <td valign = "top" width="300" bgcolor="#F8F5B0">                     
+ 			<!-- Add vertial marquee-->
+				<marquee scrollamount="1" scrolldelay="10" direction="up" width="305" style="font-family: Verdana; font-size: 10pt" height="374">
+						
+					<div align="center"><FONT face="Arial,Helvetica,sans-serif" size="4" color=#ff6633>Past Meet & Greet Reception</FONT>
+					</div>
+					&nbsp;&nbsp;Click each image below to view a webpage
+					
+
+					&nbsp;<a href="http://www.lacaaea.com/mg03152012.html" target="_blank">&nbsp;<img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet03152012/certificate_03152012A_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+	
+					&nbsp;<a href="http://www.lacaaea.com/mg04072011.html" target="_blank">&nbsp;<img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/group_p1_04072011_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+
+					&nbsp;<a href="http://www.lacaaea.com/mg11182010.html" target="_blank">&nbsp;<img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/mg11182010/group_photos_11182010_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+
+
+	
+					&nbsp;<a href="http://www.lacaaea.com/Heritage05202010.html" target="_blank">&nbsp;<img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/heritage2010/dragondance1_400.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					
+					&nbsp;<a href="http://www.lacaaea.com/MG04012010.html" target="_blank">&nbsp;<img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/mg04012010/mike_eng_group_175_100.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+	
+					&nbsp;<a href="http://www.lacaaea.com/mg03052009.html" target="_blank">&nbsp;<img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/mg030509/bill_gp_285_120.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					
+					&nbsp;<a href="http://www.lacaaea.com/HonoringBill02072008.html" target="_blank">&nbsp;<img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/lunar2008/BigGroup_285_145.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/meetgreet11082007.html" target="_blank">&nbsp;<img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/mg11082007/4-dept-head_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/MeetGreet06282007.html" target="_blank">&nbsp;<img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/mg06282007/team4_062007_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;Click each image above to view a webpage
+				</marquee>                     
+             </td>
+
+          </tr>
+                            
+	                   
+</body>
+</html>

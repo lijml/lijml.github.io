@@ -1,0 +1,35 @@
+Photoshop Instruction:
+
+1. Open Photoshop
+2. Open your file
+3. Click on the Eyedropper Tool (Reference 1)
+4. Now find out the color of the button by clicking on the picture
+5. Look on the Colors palette. (Reference 2)
+6. Notice how it tells you the color of the button
+7. Now find the Rectangular Marquee Tool, it's on the top left corner (See Reference 1)
+8. Now Marquee over the words NEXT
+9. Press Delete
+10. Now you will see that it's gone
+11. Find the Paint Bucket Tool, the right side, 6th one. (See Reference 1)
+12. Now go to the empty area and paint it
+13. Now you should see this (See Reference 3)
+14. Go to Image -> Mode -> RGB Color 
+15. Find the T sign, or the Horizontal Type Tool (See Reference 1)
+16. Go to where you want the text and type Back
+17. It may not be where you want it to be, so find the Move Tool (Reference 1)
+18. Use it to move, or use the arrow keys
+19. Now you are done
+
+Paint Brush Instruction:
+
+1. Open Paint
+2. Open the file
+3. Use the Select tool and select out the words NEXT
+4. Delete
+5. Choose the Pick Color Tool, it looks like an eyedropper
+6. Now go to the paint bucket and paint bucket over the white area
+7. Select the Text Tool, it looks like an A
+8. Now if you look down a bit, there are two options, pick the latter, so that it keeps the background while putting in the text
+9. Change the text color to white
+10. Type in text
+11. You are now finished

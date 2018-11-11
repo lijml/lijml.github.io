@@ -1,0 +1,730 @@
+<html>
+   <HEAD>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+      <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <META http-equiv="Expires" content="0">
+      <META name="TRELLIX_BUILDER_VER" content="1.0"><META name="TRELLIX_OPEN_SITE_COMMAND" content="http://www.sitedelux.com:80/servlet/SiteBuilderServlet?fUrl=/trellix/sitebuilder/f_error.html&sUrl=/trellix/sitebuilder/f_edit_page.html&Command=OpenSite&FileName=339421959363791806/site.xml"></META><META
+      name="categories" content="">
+      <!--base href="http://lacaaea.domainhost.com//"-->
+      <!--/base--><script language="Javascript"><!--
+		document.isTrellix = 1;
+//						--></script>
+
+<SCRIPT language="javascript">
+      var Speed_1 = 10; 
+      var Space_1 = 20; 
+      var PageWidth_1 = 562; 
+      var interval_1 = 5000; 
+      var fill_1 = 0; 
+      var MoveLock_1 = false;
+      var MoveTimeObj_1;
+      var MoveWay_1="right";
+      var Comp_1 = 0;
+      var AutoPlayObj_1=null;
+      function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+      function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+      function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+      function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+      GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+      function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+      function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+      GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+      function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+      var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+      if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+      function picrun_ini(){
+      GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+      GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+      GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+      GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+      AutoPlay_1();
+      }
+    </SCRIPT>
+
+      <style type="text/css">
+
+<style type="text/css">
+<!--
+div.Section1
+	{page:Section1;}
+	
+.qm {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: normal; color: #006699; text-decoration: underline; line-height: 16px}
+
+.qmnu {  font-family: "Verdana", font-size: 12px; font-weight: normal; color="#0000FF"; face="Verdana"; text-decoration: none; line-height: 16px}
+
+
+.lori {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 13px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.jli {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 11px; font-weight: bold; color: #F5801F; text-decoration: none}
+
+.jli12LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14DB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #000080; text-decoration: none}
+
+.jli14BLUE {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #0000FF; text-decoration: none}
+	
+.jli14DBGreen {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #009900; text-decoration: none}
+
+.jli14DBWhite {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #FFFFFF; text-decoration: none}
+
+.jli14LTG {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #808080; text-decoration: none}
+
+.jli12 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; color: #006699; text-decoration: none}
+
+
+-->
+
+A  {text-decoration: none;
+       color: BLUE}
+   A:hover {TEXT-DECORATION: underline;
+	        }
+   A.showlink {text-decoration: underline}
+   input {border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   select {	border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   textarea { border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+	<!--
+	.row0 {background-color: white;} 
+	.row1 {background-color: E7EAF3;} 
+	--> 
+
+</style>
+<style>
+
+.myDIV {
+
+	FILTER: revealTrans(transition=18,duration=2);
+
+	WIDTH:600px;
+
+	POSITION: absolute;
+
+}
+
+
+
+      </style>
+<style>
+
+.JLiDIV {
+
+	FILTER: revealTrans(transition=18,duration=2);
+
+	WIDTH:600px;
+
+	POSITION: absolute;
+
+}
+
+      </style>
+      
+<script language="JavaScript1.2">
+function changeCaption(str)
+{
+	document.captionForm.BigName.value=str;
+}
+</script> 
+
+
+<title>Los Angeles County Asian American Employees Association</title>
+   </HEAD>
+   <body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="White" link="0000FF" vlink="black" alink="000099" >
+      <!--<body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="White" background="/imagelib/sitebuilder/layout/t_pho_back.gif" link="0000FF" vlink="black" alink="000099" > -->
+
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="1047">
+         <tr>
+            <td width="1047" align="left"><br>
+              <div align="center"><img alt="Logo(Color).JPG" border="" src="sitebuildercontent/sitebuilderpictures/Logo_35_29.jpg" vspace="0" hspace="0"><font face="Arial,Helvetica,sans-serif" size="5" color="0000cc"><b><i>&nbsp;&nbsp;Los Angeles County Asian American Employees Association</i></b></font>
+              </div>
+            </td>  
+         </tr>
+      </table>
+      
+      <table border="0" cellspacing="0" cellpadding="0" height="3" width="1046">
+         <tr>
+             <td width="1046" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="3" alt=""></td>
+         </tr>
+      </table>
+      
+      <!-- Begin Top horizonal blue bar or spacer, right below moving image table -->
+<!--<DIV id=space2 bgcolor="#CCCCFF" align="left"><STRONG>-->
+<table  width="1048">
+<tr >
+<td align="center">
+<A href="http://www.lacaaea.com" class="jli15">Home</A>
+<A href="http://www.lacaaea.com/id3.html" class="jli15">| About Us</A>
+<A href="http://www.lacaaea.com/id4.html" class="jli15">| Calendar of Events</A>
+<A href="http://www.lacaaea.com/id6.html" class="jli15">| Newsletter</A>
+<A href="http://www.lacaaea.com/id20.html" class="jli15">| Photo Album</A>
+<A href="http://www.lacaaea.com/id2.html" class="jli15">| Becoming a Member</A>
+<A href="http://www.lacaaea.com/id17.html" class="jli15">| Contact Us</A>
+<A href="http://www.lacaaea.com/id7.html" class="jli15">| Links</A>
+</td>
+</tr>
+</table>
+<!--</DIV>-->
+  
+     
+      <!-- End of Top horizonal blue bar or spacer, right below moving image table -->
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="1100">
+         <tr>
+            
+            
+            <td width="1100" valign="top">
+               <table border="0" cellpadding="0" cellspacing="0" width="930">
+                  <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="955" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>
+                  
+                  <!-- End of spacer -->	
+                  
+              <tr> <!--Mutli Frame Photos Begin-->
+				<TABLE cellSpacing=0 cellPadding=0 width=900 bgColor=white border=1>
+					<tr> 
+		                <td><marquee width="99%" onMouseOver=this.scrollDelay=99000 onMouseOut=this.scrollDelay=80 scrollamount=2 scrolldelay=80> 
+		                  <a href=http://www.lacaaea.com/id4.html target="_blank" class="jli15"><img src="../sitebuildercontent/sitebuilderpictures/dotyellow.gif" width="4" height="3" vspace="6" border="0" align="absmiddle" hspace="3"><font color="#000000" class="jli15"><u>The LACAAEA board meeting is on third Tuesday of each month. </u></font></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://www.lacaaea.com/id20.html target="_blank" class="jli15"><img src="../sitebuildercontent/sitebuilderpictures/dotyellow.gif" width="4" height="3" vspace="6" border="0" align="absmiddle" hspace="3"><font class="jli15"><u>View a webpage of the past events</u></font></a>&nbsp;&nbsp;&nbsp;&nbsp;   <a href="http://www.lacaaea.com/aaeapdf/AAEAMembershipApp.pdf" target="_blank" class="jli15"><img src="../sitebuildercontent/sitebuilderpictures/dotyellow.gif" width="4" height="3" vspace="6" border="0" align="absmiddle" hspace="3"><font class="jli15"><u>Click here to download the <FONT face=Arial color="#3333ff">Association application</font></a> (<font face="Arial, Helvetica" size="2" color="#FF0000">pdf</font><font face="Arial, Helvetica" size="2" color="#000000">)</u></font></a>
+		                  </marquee></td>
+              		</tr>
+			
+					<tr><td align="center"><FONT face="Arial" color= #009900><b> Click each moving thumbnail below to view each event's webpage!</b></font>
+						</td></tr>
+				
+					<tr><!-- Start Sliding Put inside <TR>-->
+                    <td align="center" borderColor="red" bgcolor="white">
+                    <div id=row style="overflow:hidden;height:108px;width:1040px;color:blue;border:0 none; ">
+                        <table align=left cellpadding=0 cellspacing=0 border=0 width="940">
+                          <tr>
+                            <td id=row1>
+	                            <table width="880" border="0" cellspacing="2" cellpadding="0"> 
+	                            <tr>
+	                            <td align="center" bgcolor="white" valign="top" width="148">
+	                            <a href=http://www.lacaaea.com/Reception09202007.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/FishFry07/Bill_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+	                            <td align="center" bgcolor="white" valign="top" width="148">
+	                            <a href=http://www.lacaaea.com/Kids2007.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/FishFry07/Kids_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+	                            <td align="center" bgcolor="white" valign="top" width="148">
+	                            <a href=http://www.lacaaea.com/MeetGreet06282007.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/FishFry07/MG062007_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+	                            
+	                            <td align="center" bgcolor="white" valign="top" width="148">
+	                            <a href=http://www.lacaaea.com/appa.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/FishFry07/APPA_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+	                            
+	                            <td align="center" bgcolor="white" valign="top" width="148">
+	                            <a href=http://www.lacaaea.com/Bryce.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/FishFry07/Bryce_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+	                            
+	                            <td align="center" bgcolor="white" valign="top" width="148">
+	                            <a href=http://www.lacaaea.com/heritage05202009.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/Heritage2009/Lion_Dept_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+	                            
+	                            <td align="center" bgcolor="white" valign="top" width="148">
+	                            <a href=http://www.lacaaea.com/DavidJanssen.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/FishFry07/David_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+	                           
+	                           	<td align="center" bgcolor="white" valign="top" width="130">
+	                            <a href=http://www.lacaaea.com/Installation2008.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/Installation2008/Bill2_boards_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+	                            
+	                            <td align="center" bgcolor="white" valign="top" width="130">
+	                            <a href=http://www.lacaaea.com/mg03052009.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/mg030509/Bill_gp_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+	                            
+	                            <td align="center" bgcolor="white" valign="top" width="130">
+	                            <a href=http://www.lacaaea.com/honoringmark2009.html target="_blank">
+	                            <img src="../sitebuildercontent/sitebuilderpictures/Mark2009/MRT1_130.jpg" width="130" height="87" vspace="6" border=0></a>
+	                            </td>
+
+	                           <!-- End Sliding Put inside #D9D9D9</TR>-->
+	                            </tr> 
+	                            </table>
+                            </td>
+                            <td id=row2 width="1">
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+					  					  
+<SCRIPT LANGUAGE="JavaScript" SRC="../js/sliding.js">
+</SCRIPT>
+
+					  
+					  
+                    </td>
+                    <!-- End Sliding Put inside </TR>-->
+                  
+                  </tr>
+				
+		<!-- Begin spacer 	
+				<tr>
+                     <td width="1000" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                </tr>                       
+     	 End of  spacer -->	
+     
+               </table>
+               
+               	               
+
+               <table borderColor="blue" border="1" cellpadding="0" cellspacing="0" >
+                  <tr>
+                     <td valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" width="819" >
+                           <tr>
+                              <td colspan=2>
+                                   <!--Begin: add another talbe to include heading-->			
+									<table borderColor="red" bgColor=#a6caf0 border="1" cellspacing="1" cellpadding="1" width="1043">
+									  <tr>
+                     					<td bgcolor="#FF0000" height="10" >
+						
+						<div align="center">
+							<FONT face="Arial,Helvetica,sans-serif" size="5" color=#ffffff><b>LACAAEA Celebrates Asian Pacific American Heritage Month May 20, 2010</b> </FONT>
+						</div>
+						
+					 </td>
+                  </tr>
+									</table>
+                                 <!--End: add another talbe to include heading-->
+                                 
+                              </td>
+                           </tr>
+                          <!-- Begin of spacer.gif under title --> 
+                         	<tr>
+                              <td height="2" width="751"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                           </tr>
+                          <!-- End of spacer.gif under title --> 
+                           <tr>
+                              <td width="751">
+                              <!--Mutli Frame Photos Begin-->
+
+								<TABLE height=100% cellSpacing=0 cellPadding=0 width=732 bgColor=#ffffff Bordercolor=#66CCFF border=0>
+									<tr>
+									
+<td align=center class="jli16">
+                                                                 			
+<FIELDSET 
+style="border:1px solid #cc0000; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 1px; PADDING-BOTTOM: 5px; WIDTH: 690px; COLOR: #cc0000; LINE-HEIGHT: 1.5; PADDING-TOP: 5px; ">
+
+<LEGEND style="WIDTH: 425px; HEIGHT: 15px">
+<FONT face=Arial size=4 color=#cc0000><STRONG>&nbsp;&nbsp;2010 Asian Pacific American Heritage Day &nbsp;&nbsp;</STRONG>
+</FONT>
+</LEGEND>
+<div>
+</div>
+<DIV align=left>
+ <font face="Arial, Helvetica" size="1" color="black">
+         
+        <!--<li>&nbsp;&nbsp;&nbsp;, <a href="http://regrec.co.la.ca.us/" target=_blank>Registrar-Recorder/County Clerk</a>,
+        Click <a href="http://www.lacaaea.com/DeanLoganBio.html" target=_blank> here </a> for his Bio and <a href="http://www.lacaaea.com/DeanLogan480b.html" target=_blank> here </a> for photos.
+        </li> -->
+
+<table width="663" border="0" cellspacing="0" cellpadding="0">
+	 <tr>
+         <td height="10" align="left" ><font face="Verdana" size="2"><p>Los Angeles County Supervisor, CEO and many dignitaries attended the event to honor and celebrate Asian Pacific American Heritage Day at the courtyard of Kenneth Hahn Hall of Administration! The first May as &#8220;Asian Pacific American Heritage Month&#8221; was designated by President George H. W. Bush in 1990.			  
+      		</FONT></p>
+         </td>
+     </tr>
+
+    <TD>
+      <TABLE style="WIDTH: 650px; HEIGHT: 180px" height=180 cellSpacing=0 cellPadding=2 width=650 align=left bgColor=#00CCFF border=1>
+        <TBODY>
+        <TR>
+          <TD vAlign=center borderColor=#66CCFF bgColor=#F8F5B0><A href="http://antonovich.lacounty.gov/Pages/Multimedia/052010%20API%20Heritage%20Month.html" target=_blank><IMG src="sitebuildercontent/sitebuilderpictures/Heritage2010/Michael_Antonovich_05202010_155.jpg" width=155 border=0></A></TD>
+          <TD vAlign=center borderColor=#66CCFF bgColor=#F8F5B0><A href="http://ceo.lacounty.gov/" target=_blank><IMG src="sitebuildercontent/sitebuilderpictures/Heritage2010/Bill_05202010_155.jpg" width=155 border=0></A></TD>
+          <TD vAlign=center borderColor=#66CCFF bgColor=#F8F5B0><A href="http://www.lacaaea.com/Dragon_dance_05202010.html" target=_blank><IMG src="sitebuildercontent/sitebuilderpictures/Heritage2010/Dragon_Dance1_155.jpg" width=155 border=0></A></TD>
+          <!-- <TD vAlign=center borderColor=#66CCFF bgColor=#F8F5B0><A href="http://www.lacaaea.com/Helen_Jo_05202010.html" target=_blank><IMG src="sitebuildercontent/sitebuilderpictures/Heritage2010/Irene_Helen_Jo_155.jpg" width=155 border=0></A></TD> -->
+          <TD vAlign=center borderColor=#66CCFF bgColor=#F8F5B0><A href="http://www.lacaaea.com/Irene_from_Michael_052010.html" target=_blank><IMG src="sitebuildercontent/sitebuilderpictures/Heritage2010/Irene_Michael_155_05202010.jpg" width=155 border=0></A></TD>
+        </TR>
+        
+        <TR>
+          
+          <TD vAlign=top borderColor="#66CCFF" align=left bgColor=#FFFFFF><P align=center><a href="http://antonovich.lacounty.gov/Pages/Multimedia/052010%20API%20Heritage%20Month.html" class="jli12" target=_blank>Supervisor Michael D. Antonovich, 5th District</a></P></TD>
+          <TD vAlign=top borderColor="#66CCFF" align=left bgColor=#FFFFFF><P align=center><a href="http://ceo.lacounty.gov" class="jli12" target=_blank>William T Fujioka, Chief Executive Officer</a></P></TD>
+          <TD vAlign=top borderColor="#66CCFF" align=left bgColor=#FFFFFF><P align=center><a href="http://www.lacaaea.com/Dragon_dance_05202010.html" class="jli12" target=_blank>World-famous dragon dance is performed at the "Heritage Day" celebra...</a></P></TD>
+          <!-- <TD vAlign=top borderColor="#66CCFF" align=left bgColor=#FFFFFF><P align=center><a href="http://www.lacaaea.com/Helen_Jo_05202010.html" class="jli12" target=_blank>Helen Jo (R) accepts a plaque from Irene Hamada at the "Heritage Day"... </a></P></TD>   -->     
+          <TD vAlign=top borderColor="#66CCFF" align=left bgColor=#FFFFFF><P align=center><a href="http://www.lacaaea.com/Irene_from_Michael_052010.html" class="jli12" target=_blank>Superviro Michael D. Antonovich presents a scroll to Irene Hamada at...</a></P></TD>
+   		</TR>
+        </TBODY>
+       </TABLE>
+     </TD>
+</TR>
+</table>
+<!-- Guest Speaker -->
+<br>
+<table align="center">
+<tr>
+<td><FONT face=Arial size=3 color= #FF0000 ><b><a href="http://www.lacaaea.com/AAEAPDF/Heritage_Agenda_05202010.pdf" target=_blank>Program Agenda</b></a></FONT></td></tr></table>
+
+<table align="center">
+<tr>
+<td><FONT face=Arial size=2 color= #FF0000 ><b><a href="http://www.lacaaea.com/AAEAPDF/Heritage_Brochure_05202010.pdf" target=_blank>(View and download the Program Brochure - <FONT face=Arial size=2 color= red >pdf</FONT> with 4.8MB)</b></a></FONT></td></tr></table>
+
+<FONT face=Arial size=2 color= #FF0000 ><b>Guest Speaker</b></FONT><br>
+<font face="Verdana" size="2" color="black">Helen E. Jo, Deputy Chief, Los Angeles County Fire Department delivered a very memorable speech about her personal experiences as an Asian American. Click <a href="http://www.lacaaea.com/AAEAPDF/HelenJo_Speech_2010_HeritageDay.pdf" class="jli12" target=_blank> here </a>to read her entire speech and <A href="http://www.lacaaea.com/Helen_Jo_05202010.html" class="jli12"  target=_blank>here</A> for a photo.
+</FONT><br>
+
+<FONT face=Arial size=2 color= #FF0000 ><b>Keynote Speaker</b></FONT><br>
+<font face="Verdana" size="2" color="black">Dr. David K. Yoo, director at UCLA Asian American Studies Center delivered a <a href="http://www.lacaaea.com/AAEAPDF/Yoo_Speech_HeritageDay2010.pdf" class="jli12" target=_blank>keynote speech</a> and click <a href="http://www.lacaaea.com/Yoo_05202010.html" class="jli12" target=_blank> here </a>for award photos.
+</FONT>
+ <!--              
+<FONT face=Arial size=2 color= #FF0000 ><b>Acknowledgments </b></FONT><br>
+<font face="Verdana" size="2" color="black">
+		<img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/1.jpg border=0>California State Governor Arnold Schwazenegger sent a Proclamation to congratulate the Los Angles County Asian American Employees Association. Click <a href="http://www.lacaaea.com/AAEAPDF/Governor0509.pdf" target="_blank">here</a> for the Proclamation.<br>
+		<img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/2.jpg border=0>Karen Chang, Special Assistant to <A href="http://www.sco.ca.gov/" target=_blank>John Chiang</a> California State Controller, presented a scroll to LACAAEA President Irene Hamada for LACAAEA as one of the premier Asian Pacific Islander American employee associations. Click <a href="http://www.lacaaea.com/AAEAPDF/JohnChiang0509.pdf" target=_blank> here </a> to read his letter.<br>
+		<img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/3.jpg border=0>Melissa S. Ramoso, Field Representative for State Assemblymember <A href="http://democrats.assembly.ca.gov/members/a53/" target=_blank>Ted W. Lieu</a>, 53rd District also presented a scroll to LACAAEA President Irene Hamada for LACAAEA's outstanding achievment.
+</FONT>        
+		              
+ -->
+<br>
+<FONT face=Arial size=2 color= #FF0000 ><b>Outstanding Community Service Award Recipients</b></FONT><br>
+<font face="Verdana" size="2" color="black">
+<img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/1.jpg border=0>UCLA Asian American Studies Center - Dr. David K Yoo, Director, accepts the award on behalf of the Center. Click <a href="http://www.lacaaea.com/Yoo_05202010.html" class="jli12" target=_blank> here </a>for photos.
+<br>
+
+<img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/2.jpg border=0>Leyna Nguyen, KCBS 2/KCAL 9 Anchor. Click <a href="http://www.lacaaea.com/NBC4_05202010.html" class="jli12" target=_blank> here </a>for photos.
+</font><br>
+
+<FONT face=Arial size=2 color= #FF0000 ><b>Mistress and Master of Ceremonies </b></FONT><br>
+<FONT face=Arial size=2 color=black>Ginger Chan (KTLA) & Ted Chen (NBC) served 
+	as co-emcees of the event. Click <a href="http://www.lacaaea.com/Ginger_Ted_450_05202010.html" class="jli12" target=_blank> here </a>to view photos.
+</FONT>
+</DIV>
+
+
+</font>
+
+
+</FIELDSET>                     
+
+<!-- End of Fieldseet -->								
+<!-- <P align=center><FONT color= #000000 size=3><STRONG>Click each photo below for a larger view with a caption!</STRONG></FONT></p> -->
+
+<!--Begin of frame and insert a paragraph-->
+									
+<P>
+<table bgColor=#a6caf0 width="710" border="0" cellspacing="0" cellpadding="0">
+	<tr bgColor= #FFFFFF>
+	 	<td colspan=2 height=100 valign=top> <!--paragraph heigth adjustment-->			  
+				<p><FONT face=Arial color=#000000 size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; On May 20, 2010, the <a href="http://www.lacaaea.com" class="jli12" target=_blank>Los Angeles County Asian American Employees Association</a> (LACAAEA) put on its Asian Pacific American Heritage Day Celebration at the courtyard of the Kenneth Hahn Hall of Administration for the second year in a row. This event celebrated and recognized the countless contributions and accomplishments of Asian and Pacific Islanders in Los Angeles County.  May was designated as &#8220;Asian Pacific American Heritage Month&#8221; by President George H. W. Bush in 1990.   Among those in attendance were a Los Angeles County Supervisor, the County&#8217;s CEO and many other dignitaries.    </FONT>
+				</p>
+				
+				<p>Committee members of the LACAAEA's Asian Pacific American Heritage Day Celebration pose together in front of some <a href="Flags_052010.html" class="jli12" target="_blank">flags</a> of Asian nations. The flags are served as 
+				the background for the 2010 Heritage Day celebration. In 1990, President George W. Bush designated the entire month of May as Asian Pacific American Heritage Month.</p>
+				
+				<p><FONT face=Arial color=#000000 size=2>Los Angeles County Supervisor Michael D. Antonovich, Fifth District, spoke about the importance of the Asian Pacific American Heritage Month and presented a scroll to Irene Hamada, President of the LACAAEA.</p>
+				
+				<p>William T. Fujioka, the Chief Executive Officer of Los Angeles County, spoke about ...(Add more...) </p>
+				<p>Helen E. Jo, Deputy Chief of Los Angeles County Fire Department, and Dr. David K. Yoo, Director at UCLA's Asian American Studies Center, served as a <a href="http://www.lacaaea.com/AAEAPDF/HelenJo_Speech_2010_HeritageDay.pdf" class="jli12" target=_blank>Guest Speaker</a> and a <a href="http://www.lacaaea.com/AAEAPDF/Yoo_Speech_HeritageDay2010.pdf" class="jli12" target=_blank>Keynote Speaker</a>, respectively.</p>
+		</td>
+	</tr>
+</table></P>
+
+        
+  <!-- iframe Table begin -->      
+<table width="92%" border="0" cellspacing="0" cellpadding="0" align="center" class="lt14">
+    <tr>
+      <td  class="lt14">
+                   
+<P align=center>
+<TABLE style="WIDTH: 610px;" cellSpacing=0 cellPadding=0 align=center border=1 borderColor="#00CCFF" bgcolor="white">
+ 
+    <tr>
+      <td width="600" valign="top"><iframe src="http://www.lacaaea.com/gallery175x205_Hday2010.html" frameborder="0" width="600" height="320" scrolling="No"></iframe>
+      </td>
+    </tr>
+ 
+</TABLE>
+</P>
+</td></tr>
+</table>
+
+<!-- End of iFrame Table  -->
+			
+	<div>
+		<table width="93%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              
+                  <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="638" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>
+              	  <!-- Begin of spacer -->
+              	  
+              <td> 	<!--paragraph heigth adjustment--> 
+				<P><FONT face=Arial color=#000000 size=2></FONT></P>
+	   </table><br>
+
+	   <table width="93%"  border="0" cellspacing="0" cellpadding="0">
+            <tr><td>
+				<p><FONT face=Arial color=#000000 size=2>Leyna Nguyen, KCBS 2/KCAL 9 anchor, and UCLA Asian American Studies Center, received the Outstanding Community Service Awards. The awards were presented by Dr. Richard Sun, <a href="http://www.ci.san-marino.ca.us/city_council.htm" class="jli12" target=_blank>San Marino Councilmember</a> to Leyna Nguyen and Dr. David K. Yoo on behalf of UCLA Asian American Studies Center.</p>
+						
+				<p>The Los Angeles County Asian American Employees Association would like to thank everyone who supported this wonderful event. The Association would also like to take this opportunity to thank the Board of Supervisors for their continued support of Asian Pacific American Heritage Month.  Your commitment and support is always truly appreciated. Thank you Supervisors!
+				</P>			
+				
+			</tr></td>
+		</table>
+		
+	
+				
+  <TR>
+    <TD vAlign=top borderColor=#3399FF align=left bgColor=#ffffff >
+
+  <!-- Big table -->      
+<table width="95%" border="0" cellspacing="0" cellpadding="0" align="center" class="lt14">
+    <tr>
+      <td  class="lt14">
+		<div>
+			
+			  
+<TABLE style="WIDTH: 560px; " cellSpacing=3 cellPadding=3 align=center bgColor=#F8F5B0 border=1 borderColor=#ff8080>
+  <TBODY>  
+  <tr>  
+  <td width="95%" align=center class="lori"><font color= #9900FF><b>Simply mouse over a thumbnail below for a larger view with a photo caption!</b></font></td>
+  </tr>
+  
+  <TR>
+    <TD style="FONT-SIZE: 12px" vAlign=center borderColor=#ff8080 align=center bgColor= #F8F5B0>
+    <a href="#"><IMG name="LargeDish" src="sitebuildercontent/sitebuilderpictures/Heritage2010/Japanese_480_052010.jpg" width=480 border=0></a>
+<!--    <a href="/imagelib/sitebuilder/misc/show_image.html?linkedwidth=actual&amp;linkpath=http://lacaaea.domainhost.com/sitebuildercontent/sitebuilderpictures/cao/ColdCuts800.jpg&amp;target=tlx_new" target="tlx_new">
+    <IMG name="LargeDish" src="sitebuildercontent/sitebuilderpictures/cao/Colddish.jpg" border=0></a>-->
+    </TD>
+  </TR>
+  <TR>
+    <TD align=center class="lori">
+    	<form name="captionForm">
+			<input type="text" name="BigName" value = "Many people visit the booths at the 'Heritage Day' celebration, May 20, 2010 at the courtyard of Kenneth Hahn Hall of Administration!." size="132" maxlength="280" style="color:black; background-color:white;"> </font></a>
+		</form>
+	</TD>
+   </TR>
+ </TBODY>
+</TABLE>
+<!--End of Multi Frame-->   
+<center>
+	  <table cellspacing="0" cellpadding="3" border="0" align="center">
+	  <tr>
+	  <!--<td><a href="http://www.lacaaea.com/CAO_P0.html" class="prevpage"><img src="sitebuildercontent/sitebuilderpictures/Prebutton.gif" vspace="0" hspace="5" width="80" height="22" alt="Previous"  border="0"></a></td>-->   
+      <td>
+	  
+	<table cellspacing="0" cellpadding="3" border="0" align="center">
+	  <tr>
+		  <td vAlign=center borderColor=#66CCFF align=left bgColor= #F8F5B0 width="170" height="115"><a href="#" onmouseover="return changeCaption(' Members of the Vietnamese employees Association of LA County, along with Sheryl Spiller, perform at their AO Dai Fashion Show.');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/Heritage2010/Fashion_Show_480.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/Heritage2010/Fashion_Show_170_115.jpg"  width="170" height="115"></a></td>
+	      <td vAlign=center borderColor=#719AD9 align=left bgColor= #F8F5B0 width="170" height="115"><a href="#" onmouseover="return changeCaption('A Hawaiian dance is performed by Donna (Kapu uwaialoha) Ogawa and Johnny Kiki Pal on May 20, 2010.');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/Heritage2010/Hula_dance_480_0520201.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/Heritage2010/Hula_dance_170_115.jpg"  width="170" height="115"></a></td>
+	      <td vAlign=center borderColor=#719AD9 align=left bgColor= #F8F5B0 width="170" height="115"><a href="#" onmouseover="return changeCaption('L Bokator Khmer Ancient Martial Arts are performed by a group of practitioners on May 20, 2010.');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/Heritage2010/Cambodian_Musi_and_Martial_Arts_480.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/Heritage2010/Cambodian_Musi_and_Martial_Arts_170_115.jpg"  width="170" height="115"></a></td>
+	      <td vAlign=center borderColor=#719AD9 align=left bgColor= #F8F5B0 width="170" height="115"><a href="#" onmouseover="return changeCaption('Drum Instruments are used at the Heritage Day Celebration on May 20, 2010.');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/Heritage2010/Drum_480.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/Heritage2010/Drum_170_115.jpg"  width="170" height="115"></a></td>
+<!--      <td  width="170" height="115"><a href="#" onmouseover="return changeCaption('Group Picture Five');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/Heritage2009/Lion_Dept_640_335.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/mg06282007/MaryHenryGeorge_110.jpg"  width="170" height="115"></a></td>
+     	  <td  width="170" height="115"><a href="#" onmouseover="return changeCaption('Tea Smoked Duck and Scallop In Fire Roast Garlic');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/CAO/SmokedDuck.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/CAO/TeaSmokedDuck110.jpg"  width="110" height="73"></a></td>-->
+	  </tr>
+
+<!--	  <tr>
+		  <td vAlign=center borderColor=#ff8080 align=left bgColor= #F8F5B0 width="170" height="115"><a href="#" onmouseover="return changeCaption('Tago Le Pasefike is performed by dancers at the Heritage Day, May 20, 2009.');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/Heritage2009/Butterfly_620.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/Heritage2009/Butterfly_170.jpg"  width="170" height="115"></a></td>
+	      <td vAlign=center borderColor=#ff8080 align=left bgColor= #F8F5B0 width="170" height="115"><a href="#" onmouseover="return changeCaption('Vietnamese Fashion Show is performed by DPSS staff at the Heritage Day, May 20, 2009.');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/Heritage2009/Vietnamese_Fashion_640.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/Heritage2009/Vietnamese_Fashion_170.jpg"  width="170" height="115"></a></td> 
+	      <td vAlign=center borderColor=#ff8080 align=left bgColor= #F8F5B0 width="170" height="115"><a href="#" onmouseover="return changeCaption('Butterfly Dance is performed by Cassidy Kysoth and Brianna Lytle at the Heritage Day, May 20, 2009.');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/Heritage2009/Butterfly1_640.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/Heritage2009/Butterfly1_170.jpg"  width="170" height="115"></a></td>
+	      <td vAlign=center borderColor=#ff8080 align=left bgColor= #F8F5B0 width="170" height="115"><a href="#" onmouseover="return changeCaption('Connie Yee (R5), Division Chief at Auditor Controller, poses with her staff, who help serving great tasting food at the event.');"><img OnMouseOver="document.LargeDish.src='sitebuildercontent/sitebuilderpictures/Heritage2009/Connie_group_640.jpg';" alt="" border="0" src="sitebuildercontent/sitebuilderpictures/Heritage2009/Connie_group_170.jpg"  width="170" height="115"></a></td>
+	      
+	  </tr> -->
+	</table>
+
+			<p>
+			<table bgColor=#a6caf0 width="710" border="0" cellspacing="0" cellpadding="0">
+				<tr bgColor= #FFFFFF><td><font face="Verdana" size="2" color="black">Congresswoman <A href="http://chu.house.gov/" class="jli12" target=_blank>Judy Chu</a>, California State Governor <A href="http://gov.ca.gov/" class="jli12" target=_blank>Arnold Schwazenegger</a>, California State Controller <A href="http://www.sco.ca.gov/" class="jli12" target=_blank>John Chiang</a> and California State 
+				Assemblymember <a href="http://democrats.assembly.ca.gov/members/a53/" class="jli12" target=_blank>Ted W. Lieu</a> and <a href="http://democrats.assembly.ca.gov/members/a48/" class="jli12" target=_blank>Mike Davis</a>, sent their representatives to present either a proclamation or a scroll to LACAAEA President Irene Hamada to congratulate and recognize the Los Angles County Asian American Employees Association's contribution to Asian Pacific Islander (API) communities. 
+				Click <a href="http://www.lacaaea.com/AAEAPDF/Heritage_Brochure_05202010.pdf" class="JLI12" target=_blank> here</a> to download and view the Program Brochure - <FONT face=Arial size=2 color= red >pdf</FONT> with 4.8MB, which contains the Proclamation and scrolls. 
+				</FONT></td></tr>
+			</table>
+			
+			</TABLE></p>
+			</div>
+	  </td>
+	</tr>
+</table>
+
+<!-- End of Big Table  -->
+
+	<div>        
+		<TABLE style="WIDTH: 710px;" cellSpacing=3 cellPadding=3 width=710 align=center border=1 borderColor="#ff8080" bgcolor="white">
+		 <TBODY>
+		  
+		  <!-- Begin of Photo Caption -->
+		 <div>
+		  	<TR><TD style="FONT-SIZE: 14px" borderColor=#ff8080 class="jli12" colspan="2">				
+					<font face="Verdana" size="2" color="black"><b>Quiz:</b><br><br>
+					<img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/1.jpg border=0> Which LA County Department has the highest Asian/Pacific Islander Workforce? <a href="http://www.lacaaea.com/aaeapdf/Asian_Workforce_122009.pdf" class="jli12" target=_blank>View results</a><br>
+					<img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/2.jpg border=0> Which LA County Department has the highest Filipino Workforce? <a href="http://www.lacaaea.com/aaeapdf/Filipino_Workforce_122009.pdf" class="jli12" target=_blank>View results</a><br>
+					More Info: <br>
+					<img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/3.jpg border=0><a href="http://www.lacaaea.com/AAEAPDF/Los_Angeles_County_Workforce_by_Dept.pdf" class="jli12" target=_blank>View Los Angeles County Asian / Asian Pacific Islander Workforce by County Department.</a><br>       
+					<font face="Verdana" size="2" color="black">
+					<img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/4.jpg border=0></font><a href="http://www.lacaaea.com/AAEAPDF/Food_Vendors_05202010.pdf" class="jli12" target=_blank>View participating Exhibitors, vendors and Corporate Sponsors at the "Heritage Day" celebration, May 20, 2010.</a>
+				</TD>
+		  	</TR>
+  		</div>
+ 
+ </TBODY>
+</TABLE>
+</P>
+</div>
+		
+		
+
+<table border="1" width="720">						
+	<tr>                  	 
+       <td bgColor=#F8F5B0 width="710" height="20" colspan="3">
+       <table width="95%"  border="0" align="center" cellpadding="0" cellspacing="0" class="lori">
+         <tr>
+          <td width="120" class="jli"><a href="http://www.lacaaea.com/id20.html" class="jli" target="_blank">
+			<font color="#FF0000"><img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/camera.jpg border=0>Photo Gallery</td>
+          <td width="315"></td>
+          <td width="200" align=right class="jli"><a href="http://www.lacaaea.com/Installation2008.html" class="jli" target="_blank">
+			<font color="#FF0000"><img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/camera.jpg border=0>LACAAEA Installation Dinner</font></a>
+		  </td>
+         </tr>
+       </table>       
+       </td>
+     </tr>
+</table>	   
+				
+				
+				
+<TABLE cellSpacing=0 cellPadding=0 bgColor= #FFFFFF borderColor="#00CCFF" border=0 width="625" >
+	<tr><td class="jli14">
+				<!--Begin of frame-->
+									
+<TABLE style="WIDTH: 726px; HEIGHT: 50px" cellSpacing=0 cellPadding=0 align=left border=0 >
+
+<TR><TD>    
+      <!--End of next page button--> 
+  
+     <!-- Begin Acknowledgments -->
+                                                                 			
+
+<FIELDSET 
+style="border:1px solid #cc0000; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 1px; PADDING-BOTTOM: 5px; WIDTH: 720px; COLOR: #cc0000; LINE-HEIGHT: 1.5; PADDING-TOP: 5px; ">
+
+<LEGEND style="WIDTH: 200px; HEIGHT: 15px">
+<FONT face=Arial size=4 color=#cc0000><STRONG>&nbsp;&nbsp;Acknowledgments &nbsp;&nbsp;</STRONG>
+</FONT>
+</LEGEND>
+<div align=left>
+<FONT face=Arial size=2 color= #000000> Click <a href="http://www.lacaaea.com/AAEAPDF/Food_Vendors_05202010.pdf" class="jli12" target=_blank>here</a> for a big <img src=http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/ThankYou.gif border=0> of Event Committee members and all contributors for this event.</FONT>
+<br>
+<FONT face=Arial size=2 color= #FF0000 ><b>Board Officers </b></FONT><FONT face=Arial size=2 color=black>(Click <a href="http://www.lacaaea.com/id3.html" class="jli12" target=_blank><b>here</b> </a> for Bios)</FONT>
+</div>
+<DIV align=left>
+<FONT face=Arial size=2 color= #FF0000 ><b>Newsletter Editor</b></FONT>
+<FONT face=Arial size=2 color=black><li><a href="http://www.lacaaea.com/MasonFong.html" class="jli12" target=_blank>Mason Fong</a>     </li></font><br>
+<FONT face=Arial size=2 color= #FF0000 ><b>Web Master, Photographer & Newsletter Contributor</b></FONT>
+<FONT face=Arial size=2 color=black><li><a href="http://www.lacaaea.com/JeremyLi.html" class="jli12" target=_blank>Jeremy Li</a></li></font><br>
+</DIV>
+</font>
+</FIELDSET> 
+
+
+</td>
+</table>  
+<!-- End of Acknowledgments --> 
+                           <tr>
+                              <td width="625" height="30">
+                              <!--<a href="http://www.lacaaea.com/davidJanssen2.html" class="nextpage"><img src="sitebuildercontent/sitebuilderpictures/nextbutton.gif" vspace="0" hspace="5" width="80" height="22" alt="Next"  border="0"></a> -->
+                              <a href="#Top"><img src="sitebuildercontent/sitebuilderpictures/topofpg.gif" vspace="0" hspace="5" width="74" height="19" alt="top"  border="0"></a>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                    <!-- <td width="8" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="6" height="1" alt=""></td> -->
+                  </tr>
+               </table>
+               <table width="623" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                     <!-- <td width="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="2" height="1" alt=""></td> -->
+                     <td width="623" valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" height="30">
+                           <tr>
+                              <td height="30">
+								<table width="621" border="0" cellpadding="0" cellspacing="0" height="30" >
+		  		                   <tr>
+                              			<td height="10">
+                                           <div><font face="Arial, Helvetica" size="3" color="#000000"><DIV align=center>Please get in touch to offer 
+									<a href="http://www.lacaaea.com/id17.html" class="JLi15" target=_blank>comments</a> and join our mailing list.
+                                  </DIV></font>
+                                 </div>
+                              </td>
+                             </tr>
+                         </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <table width=610 border="0" cellspacing="0" cellpadding="0" width="645">
+         <tr>
+            <td align=center width="670">                       
+               <font face="Arial, Helvetica" size="2" color="#000000">Please join us for next </font>
+				<a target="_blank" href="http://www.lacaaea.com/id4.html"><FONT face="Arial, Helvetica" size="2" class="JLi15" color=#3333ff>Board Meetings</FONT></a><font face="Arial, Helvetica" size="2" color="#000000">&nbsp;and meet&nbsp; <a href="http://www.lacaaea.com/id3.html" target="_blank">
+				<FONT face="Arial, Helvetica" size="2" class="JLi15" color=#3333ff>President and our Board Members</FONT></a></i></b></font>      
+            </td>
+         </tr>
+      </table>
+      <hr>
+		      <table width=610 border="0" cellspacing="0" cellpadding="0" >
+		          <tr><td align="center">
+		               <font face="Verdana" size="1">Copyright ©2006 Los Angeles County Asia American Employees Association. All rights reserved. 
+					   </font></td>
+		          </tr>
+		          
+		          <tr><td align="center">
+		               <font face="Verdana" size="1">Website design by: Jeremy B. Li.
+					   </font></td>
+		          </tr>
+
+		      </table>
+           </font>
+           </td>
+           <!-- Right Vertical Bar -->                      
+           <td valign = "top" width="311" bgcolor="#F8F5B0">
+                     
+ 			<!-- Add vertial marquee-->
+				<marquee scrollamount="1" scrolldelay="10" direction="up" width="305" style="font-family: Verdana; font-size: 10pt" height="302">
+						
+					<div align="center"><FONT face="Arial,Helvetica,sans-serif" size="4" color="Green">Past Meet & Greet Reception</FONT>
+					</div>
+					&nbsp;&nbsp;Click each image below to view a webpage		
+					&nbsp;<a href="http://www.lacaaea.com/mg03052009.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/mg030509/bill_gp_285_120.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					
+					&nbsp;<a href="http://www.lacaaea.com/HonoringBill02072008.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/Lunar2008/BigGroup_285_145.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/meetgreet11082007.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/MG11082007/4-dept-head_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;<a href="http://www.lacaaea.com/MeetGreet06282007.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/MG06282007/team4_062007_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+
+					&nbsp;Click each image above to view a webpage
+				</marquee> 
+                     
+             </td>
+          </tr>
+                            
+	                   
+</body>
+</html>

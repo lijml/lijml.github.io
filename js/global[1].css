@@ -1,0 +1,256 @@
+/* Copyright 2008 Time.com */
+
+/* Body & Wrap */
+body {background:url('http://img.timeinc.net/time/i/bg.gif') repeat; text-align:center; margin:0; padding:0;}
+.wrap {margin-left:auto; margin-right:auto; width:1000px; text-align:left; border:1px solid #FFF; border-width:0 4px;}
+
+/* Header */
+#header {float:left; background:url('http://img.timeinc.net/time/i/bg_header3.gif'); padding:9px 0px 0 0px; position:relative; z-index:9998;}
+#frmSearch {float:left; position:relative; top:42px; left:55px; background-image:url('http://img.timeinc.net/time/i/search_box.gif'); background-repeat:no-repeat; _background-attachment:fixed; border:1px solid #FFF; padding:0;}
+#frmSearch label {color:#FFF; display:none;}
+#query {float:left; background:transparent; font:normal 16px arial,sans-serif,verdana; color:#999999; border-style:none; padding:4px 5px 1px 5px; height:18px; margin:-2px 0 -1px 0; width:138px;}
+#btnSearch {float:left; height:21px;}
+.ad {float:left; width:88px; padding:35px 0px 0px 60px;}
+.subscribeModule {float:right; text-align:right; padding:10px 2px 0px 0px; width:268px;}
+#date {float:left; text-transform:uppercase; text-align:right; width:204px; background:url('http://img.timeinc.net/time/i/subscribe_line.gif') no-repeat bottom right;	font:bold 10px verdana, arial,sans-serif; color:#FFF; padding:20px 2px 6px 0px; position:relative; right:-3px;}
+.subscribeModule .caret {font:normal 12px arial,sans-serif,verdana; text-align:right; padding:2px 6px 0 0;}
+.subscribeModule .caret a, .subscribe-module .caret a:visited {color:#FFF; text-decoration:none;}
+.subscribeModule .caret a:hover {text-decoration:underline;}
+.subscribeModule .caret a span {font-weight:bold;}
+#breakingNewsWrap {border:1px solid #B10002; border-width:0px 9px;}
+#breakingNews {clear:both; background:url('http://img.timeinc.net/time/i/bg3.gif') repeat-x; font:bold italic 18px arial,sans-serif; color:#FFF; padding:10px 10px 7px 38px; _padding:10px 10px 7px 58px;}
+#breakingNews span, #breakingNews span a {font:italic 18px arial,sans-serif; color:#FFF; text-decoration:underline;}
+
+/* Nav */
+#nav {position: relative; float:left; width:1000px; height:29px; margin-top:7px; color:#FFF; background:url('http://img.timeinc.net/time/i/bg_nav.gif') repeat-x;}
+#nav ul {float:left; margin:0; padding:4px 0 0 8px;}
+#nav ul li {display:block; float:left; margin:0 1px !important;}
+#nav a {display:block;}
+#nav li a {padding:3px 13px; font:bold 11px arial,sans-serif,verdana; text-transform:uppercase; line-height:20px; _line-height:19px; color:#1A1A1A; text-decoration:none;}
+#nav ul li a:hover {float:left; font-weight:bold; color:#003366; background:url('http://img.timeinc.net/time/i/bg34.gif') repeat-x; border:1px solid #D1D1D1; border-width:1px 1px 0 1px; line-height:20px; _line-height:19px; padding:2px 12px; _padding:2px 12px 3px 12px;}
+#nav li.primactive a {float:left; font-weight:bold; color:#003366; background:url('http://img.timeinc.net/time/i/bg34.gif') repeat-x; border:1px solid #D9DCDF; border-width:1px 1px 0 1px; line-height:20px; _line-height:19px; padding:2px 12px; _padding:2px 12px 3px 12px;}
+#nav ul ul {position:absolute; left:-999em; top:28px !important; border:1px solid #D1D1D1; background-color:#FFF; border-top:none; padding:0 !important; z-index:9999;}
+#nav ul ul li {float:none; height:auto; margin:0 !important;}
+#nav ul ul li a {float:none !important; width:150px; height:auto; padding:10px 0 5px 5px !important; color:#003366 !important; text-decoration:underline; border:1px solid #D1D1D1 !important; border-width:1px 0 0 0 !important; font:normal 12px arial,sans-serif,verdana !important; text-transform:none !important; background:url('http://img.timeinc.net/time/i/bg34.gif') repeat-x !important;}
+#nav ul ul li a:hover {float:none; background-image:none !important; background-color:#5E728D !important; cursor:pointer; color:#FFF !important; padding:10px 0 5px 5px !important;}
+#nav ul li#nav11 ul {margin-left:-91px;}
+#home li#nav1 a, #home li#nav1 a:hover,
+#us li#nav2 a, #us li#nav2 a:hover,
+#world li#nav3 a, #world li#nav3 a:hover,
+#blogs li#nav4 a, #blogs li#nav4 a:hover,
+#business li#nav5 a, #business li#nav5 a:hover,
+#globalbiz li#nav5 a, #globalbiz li#nav5 a:hover,
+#health li#nav6 a, #health li#nav6 a:hover,
+#entertainment li#nav7 a, #entertainment li#nav7 a:hover,
+#photos li#nav8 a, #photos li#nav8 a:hover,
+#magazine li#nav9 a, #magazine li#nav9 a:hover,
+#specials li#nav10 a, #specials li#nav10 a:hover,
+#topics li#nav11 a, #topics li#nav11 a:hover {float:left; font:bold 11px arial,sans-serif,verdana; color:#003366; background-color:#FFF; background-image:none; border:1px solid #D9DCDF; border-width:1px 1px 0 1px; padding:2px 13px; _padding:2px 13px 3px 13px; line-height:20px; _line-height:19px;} 
+
+
+/* Main story */
+.list {list-style-type:none; margin:0px; padding:0 0 0 6px;}
+.list li {background:url('http://img.timeinc.net/time/i/dot.gif') no-repeat left center; margin:0 0 0 11px; _margin:-2px 0 0 11px; padding:0 0 0 9px; font:normal 12px arial,sans-serif; color:#000;}
+.list li a:link, .list li a:visited {font:bold 12px arial,sans-serif; color:#000; text-decoration:none;}
+.list li a:hover {text-decoration:underline;}
+.listInline {list-style-type:none; margin:0; padding:0;}
+.listInline li {display:inline;}
+li.subHdg {font:bold 11px arial,sans-serif; color:#000; background:transparent; text-transform:uppercase;}
+.numStories {float:left;}
+.btn {float:right; padding:4px 10px 0px 3px; _padding:6px 10px 0px 3px;}
+.btn a {display:block; cursor:hand; width:27px; height:16px;}
+.listInline a {background:#5C5C5C; font:bold 11px arial,sans-serif; color:#E1E1E1; text-decoration:none; cursor:pointer; padding:1px 9px 0px 9px; _padding:0 9px; margin-left:3px; border-right:2px solid #303030; border-top:1px solid #888888; border-left:1px solid #888888; border-bottom:1px solid #303030; line-height:25px;} 
+.listInline a.on {background:#900; color:#FFF; border-right:2px solid #640101; border-top:1px solid #D42828; border-left:1px solid #D42828; border-bottom:1px solid #640101;}
+.listInline a:hover.on {background:#900; text-decoration:none; color:#FFF; border-right:2px solid #640101; border-top:1px solid #D42828; border-left:1px solid #D42828; border-bottom:1px solid #640101;} 
+.listInline a:hover.off {background-color:#999; color:#FFF; text-decoration:none;} 
+
+/* Content */
+.contentMain {float:left; width:998px; display:block; background-color:white; border:1px solid #E5E5E5; border-width:0 1px 1px 1px;}
+.contentWrap {clear:both; padding:10px;}
+
+/* CM */
+#cmMidRt {float:left; clear:both; border-top:1px solid #E5E5E5; padding:15px 4px 15px 5px; margin:10px auto 0 auto; width:300px;}
+#cmTop {float:left; margin:11px 0 11px 8px; padding:0;}
+#cmTopRt {float:left; text-align:center; width:342px;}
+#cmTopRt .ad1 {margin-left:auto; margin-right:auto; padding:10px 0;}
+#cmTopRt .caret {clear:left; text-align:center; padding:30px 0 0 0;}
+#cmTopRt .caret a, #cmTopRt .caret a:visited {font:italic 12px arial,sans-serif; color:#000; text-decoration:none;}
+#cmTopRt .caret a:hover {text-decoration:underline;}
+#cmTopRt .caret a span {font-weight:bold; font-style:normal; color:#003366;}
+#cmBotRt {float:left; margin-left:auto; margin-right:auto; width:100%;}
+#cmBotRt .caret {text-align:center; padding:10px 0;}
+#cmBotRt .caret a {font:italic 12px arial,sans-serif; color:#000; text-decoration:none;}
+#cmBotRt .caret a:hover {text-decoration:underline;}
+#cmBotRt .caret a span {font-weight:bold; font-style:normal; color:#003366;}
+#houseAd {width:336px; padding:0; margin:0; margin-left:auto; margin-right:auto;}
+#cmBot {float:left; border-top:1px solid #E5E5E5; padding-top:15px;}
+#cmBot a:visited {color:#3C3158;}
+.cmLogos {float:left; /*padding:10px 5px 0px 0px;*/}
+#cmBot #cmAdLt, #cmBot .cmAdLt {float:left; padding-right:3px; width:88px;}
+#cmBot #cmAdRt, #cmBot .cmAdRt {float:left; padding-left:3px; width:88px;}
+#cmBot .logo {width:86px; height:40px;}
+#cmBot .link a {font:normal 10px arial,sans-serif;}
+.cmLink {float:left; border-top:1px solid #E2E2E2; padding:5px 0px; width:183px;}
+.cmLink a {font:normal 11px arial,sans-serif;}
+.cmLink a span {font-weight:bold;}
+.cmRt a:visited {color:#3C3158;} 
+#cmBot {width:100%; margin-top:15px;}
+#cmBot .cmLogos {padding:10px 0 5px 0;}
+#cmBot .cmAd {float:left; padding:0 3px; width:88px;}
+
+/* Most Popular */
+#mostPopular {float:left; margin-bottom:10px; text-align:left; width:336px; border:1px solid #E5E5E5; padding-top:10px;}
+#mostPopular #tab1, #mostPopular #tab2 {float:left; background-color:#FFF; border:1px solid #E5E5E5;}
+#mostPopular #tab1 a, #mostPopular #tab2 a {float:left; font:normal 12px arial,sans-serif; color:#003366; text-transform:uppercase; background-color:#FFF; display:block; z-index:2; padding:6px 10px 3px 10px; text-decoration:underline;}
+#mostPopular #tab1 {border-width:1px 0 0 1px; margin-left:8px;}
+#mostPopular #tab2 {border-width:1px 1px 0 1px;}
+#mostPopular #tab1 a:hover, #mostPopular #tab2 a:hover {text-decoration:none; cursor:pointer;}
+#mostPopular #tab1.on a, #mostPopular #tab2.on a {font-weight:bold; background:url('http://img.timeinc.net/time/i/bg36.gif') repeat-x; color:#FFF; text-decoration:none;}
+#mostPopular #tabContent1, #mostPopular #tabContent2 {clear:left; width:334px; font:normal 12px arial,sans-serif; z-index:1; padding:1px;  border-top:1px solid #E5E5E5;}
+#mostPopular #tabContent1 ol, #mostPopular #tabContent2 ol {padding:10px 5px 0 34px; _padding:10px 5px 0 45px; margin:0; background:url('http://img.timeinc.net/time/i/bg35.gif') repeat-x;}
+#mostPopular ol li {font:normal 12px arial,sans-serif; color:#003366; padding:6px 0 0 0; margin:0;}
+#mostPopular #tabContent1 a, #mostPopular #tabContent2 a {font:normal 12px arial,sans-serif; color:#003366;}
+#mostPopular .link {float:left; font:normal 12px arial,sans-serif; margin:10px 5px 0 35px; _margin:10px 5px 0 23px; background:url('http://img.timeinc.net/time/i/arrow_6_rt.gif') no-repeat right 3px;}
+#mostPopular .link a, #mostPopular .link a:visited {padding:10px 16px 0 0; font:normal 12px arial,sans-serif; color:#003366;}
+#mostPopular .sponsors {float:left; width:334px; border-top:1px solid #E5E5E5; padding:0px 0px 5px 0px; margin-top:10px;}
+#mostPopular .sponsors .email {float:left; width:153px; _width:147px; height:37px; background:url('http://img.timeinc.net/time/i/icon_email4.gif') no-repeat; font:normal 12px arial,sans-serif; border-right:1px solid #E5E5E5; padding:3px 8px 0 45px; margin:10px 0 0 25px; _margin:10px 0 0 15px;}
+#mostPopular .sponsors .email a {font:normal 12px arial,sans-serif !important; color:#003366; text-decoration:underline;}
+#mostPopular .sponsors .sponsored {float:left; padding:3px 0 0 10px;}
+#mostPopular .sponsors .ad {float:left; display:block; padding:0px 0px 0px 8px !important; background:transparent !important;}
+#mostPopular .sponsors .ad img {width:88px; height:31px;}
+#mostPopular .off {display:none;}
+
+/* Headings */		
+h3, h3 a {font:bold 14px arial,sans-serif; color:#003366; padding:0; margin:0; text-decoration:none;}
+h4, h4 a {font:normal 10px arial,sans-serif; color:#003366; padding:0; margin:0; text-transform:uppercase;}
+h6 {font:normal 11px arial,sans-serif; color:#000; padding:0; margin:0;}				
+	
+/* Common */
+#logo {float:left; padding-left:9px;}
+#logo #time {float:left; padding:2px 0px 2px 2px; width:200px; height:65px; display:block; margin:0; overflow:hidden; background:url('http://img.timeinc.net/time/i/logo_time.gif') no-repeat; text-indent:-2000px;}
+#logo #cnn {float:left; padding:2px 0px 2px 2px; width:111px; height:65px; display:block; margin:0; overflow:hidden; background:url('http://img.timeinc.net/time/i/logo_cnn.gif') no-repeat; text-indent:-2000px;}
+#logo #time a {width:200px; height:65px; display:block; padding-top:60px; overflow:hidden;}
+#logo #cnn a {width:111px; height:65px; display:block; padding-top:60px; overflow:hidden;}
+p {font:normal 12px georgia,arial,sans-serif; color:#000; padding:0; margin:0;}
+ul {margin:0; padding:0; list-style-type:none;}
+a {color:#003366; text-decoration:none;}
+a:hover {text-decoration:underline;}
+a img {border-style:none;}
+.timeStamp {margin:0; padding:0; font:normal 10px arial,sans-serif; color:#CC0000;}
+.timeStamp span {text-transform:uppercase;}
+.byline, .date, .sponsored {font:normal 10px arial,sans-serif; /*padding:2px 0 3px 0;*/ color:#666666;}
+.byquote {display:block; float:right; width:170px; font:normal 10px arial,sans-serif; padding:3px 0 2px 5px; color:#333333;}
+.by {background:url('http://img.timeinc.net/time/i/icon_hyphen.gif') no-repeat 0px 4px; text-indent:0px; padding-left:10px;}
+.context {padding-left:10px;}
+.byline span, .sponsored {text-transform:uppercase;}
+.thumbnail {float:left; margin:0 7px 0 0;}
+.thumbnail img, .thumbnail a img {border:1px solid #E2E2E2;}
+.tout1 {padding:10px 10px 1px 0;}
+.seeAll {margin:10px 10px 0px 0; background:url('http://img.timeinc.net/time/i/arrow_2.gif') no-repeat 43px 4px;}
+.seeAll .more {font:normal 12px arial,sans-serif; padding:0 40px 5px 0;}
+.seeAll .more:hover {text-decoration:underline;}
+#openQuote, #closeQuote {white-space:nowrap;}
+#closeQuote {vertical-align:top;}
+
+/* Global Tout */
+#globalrecirc {float:left; padding:15px 5px 0 7px; margin-top:10px; width:570px;}
+#globalrecirc {border-top:3px solid #E5E5E5; margin-bottom:10px;}
+#globalrecirc h6, #globalrecirc h6 a {font:bold 12px arial,sans-serif; color:#000; text-transform:uppercase; margin:0;}
+#globalrecirc ul {margin-top:3px;}
+#globalrecirc ul li {font:normal 12px arial,sans-serif; padding:5px 0 2px 0px; line-height:15px;}
+#globalrecirc ul li a {font-weight:bold; padding:4px 4px 4px 9px; background:url('http://img.timeinc.net/time/i/dot2.gif') no-repeat left 10px; _background:url('http://img.timeinc.net/time/i/dot2.gif') no-repeat left 12px;}
+#globalrecirc .subrss {font:normal 10px arial,sans-serif; margin:8px 0 0 8px;}
+#globalrecirc .subrss a {font:bold 11px arial,sans-serif; color:#000;}
+#globalrecirc h6 {height:21px; background:#fff url(http://img.timeinc.net/instyle/i/globalrecirc/logos_default.gif) no-repeat; overflow:hidden;}
+#globalrecirc h6 a {display:block; padding-top:21px;}
+#globalrecirc h6.aolfood {width:111px; background-position:0 0;}
+#globalrecirc h6.aolhome {width:124px; background-position:0 -50px;}
+#globalrecirc h6.cl {width:94px; background-position:0 -100px;}
+#globalrecirc h6.ew {width:86px; background-position:0 -150px;}
+#globalrecirc h6.instyle {width:81px; background-position:0 -200px;}
+#globalrecirc h6.parenting {width:100px; background-position:0 -250px;}
+#globalrecirc h6.people {width:73px; background-position:0 -300px;}
+#globalrecirc h6.rs {width:122px; background-position:0 -350px;}
+#globalrecirc h6.sl {width:101px; background-position:0 -400px;}
+#globalrecirc h6.tp {width:72px; background-position:0 -450px;}
+#globalrecirc h6.time {width:74px; background-position:0 -500px;}
+
+/* Quigo */
+#quigoHome {float:left; padding-top:10px; border-top:1px solid #E5E5E5;}
+#quigoSection {float:left; margin:20px 0 0 0px;}
+#quigoSpecials {float:left; margin:10px 0 10px 5px;}
+#quigoPhotos {float:left; margin:5px 0 0 14px;}
+#quigoPhotoEssay {float:left; margin:0 0 10px 1px;}
+#quigoArticle {/*float:left;*/ clear:left; margin:10px 0;}
+#quigoPackage {/*float:left;*/ clear:left; margin:0px 0 10px 2px;}
+#quigoTenQuestions {float:left; margin:0px 0 10px 5px;}
+#quigoMagazine {float:left;}
+#quigoPromo {float:left; margin:10px 0 10px 8px; _margin:10px 0 10px 3px;}
+#quigoSideBar {float:left; margin-top:15px;}
+#specials #quigoSideBar {float:left; margin-top:5px;}
+#quigomh {clear:left; margin:15px 0px 15px 5px;}
+#quigoMostPopular {float:left; margin:30px 0 20px 0;}
+
+/* Belt */
+#belt {position:relative; overflow:hidden; clear:both; _clear:none; margin-left:auto; margin-right:auto; width:960px; border-top:6px solid #E2E2E2; border-bottom:3px solid #E2E2E2;}
+#beltspacer {width:960px; height:186px;}
+#moverBelt {background:transparent;}
+#mover {position:absolute; z-index:10; top:40px; margin-left:-4px; text-align:left; background-color:#FFFFFF; font:normal 11px Georgia, arial,sans-serif; width:3100px;}
+#features {width:960px; background-color:#FFFFFF; border-bottom:1px solid #E2E2E2; padding:4px;}
+.ftr {width:172px; height:160px; border-right:1px solid #E5E5E5; float:left; margin:5px 0 0 0; padding:5px 12px 5px 8px; _padding:5px 10px;}		
+#mover a {float:left; font:bold 14px arial,sans-serif; color:#004272; text-decoration:none;}
+#mover a:hover, #mover h3 a:hover {text-decoration:underline;} 
+#mover p a {font:normal 12px georgia,arial,sans-serif; color:#000; text-decoration:none; line-height:18px;}
+#mover .thumbnail {margin:0; padding:0; border:1px solid #E2E2E2;}
+#mover h2, #mover h2 a {font:bold 18px arial,sans-serif; color:#004272; padding:0;margin:0;}
+#mover h3, #mover h3 a {font:bold 14px arial,sans-serif; color:#004272; padding:0;margin:0;}		
+#mover h6, #mover h6 a {font:normal 11px arial,sans-serif; color:#000; padding:0;margin:0;}		
+.linkHeading {font:12px georgia,'Times New Roman',Times,serif; color:#000;}
+#features .subHdg {font:bold 12px arial,sans-serif; color:#000; text-transform:uppercase;float:left; padding-top:6px;}
+.instTxt {font:normal 10px arial,sans-serif; color:#656565; float:left; padding:7px 0px 0px 5px;}
+#dots {float:left; margin:5px 360px 0px 215px; background:url('http://img.timeinc.net/time/i/dots.gif') no-repeat 0px 0px;}
+#moreFeatures {padding-right:5px;}
+.blank {MozOpacity: .1; opacity: .1; filter: alpha(opacity=10);}
+#leftArrow, #rightArrow {float:left; padding:0 3px;} 
+#leftArrow {background:url("http://img.timeinc.net/time/i/arrow_lt_s.gif") 0px 0px no-repeat;}
+#leftArrow:hover {background-position:0px -27px;}
+#rightArrow {background:url("http://img.timeinc.net/time/i/arrow_rt_s.gif") 0px 0px no-repeat}
+#rightArrow:hover {background-position:0px -27px;}
+
+/* Footer */
+#footer {float:left; width:970px; padding:5px 15px; background-color:#B10002;}	
+#logoFooter {float:right; width:65px; height:23px; padding:0; margin:0; display:block; overflow:hidden; background:url('http://img.timeinc.net/time/i/logo_time_mini.gif') no-repeat;}	
+#logoFooter a {width:65px; height:23px; display:block; padding-top:30px; overflow:hidden;}	
+.copyright {float:right; padding:12px 5px 0 0; font:normal 10px arial,sans-serif; color:#FFF; text-align:right;}	
+#linksFooter {clear:both; background-color:#FFF; margin-left:auto; margin-right:auto; width:960px; margin-top:15px;}
+#quickLinks1, #services, #editions {text-align:center; margin:0;}
+#quickLinks2 {text-align:center; margin:0px; padding:5px 10px 10px 10px;}
+#quickLinks1 {border-top:1px solid #E5E5E5; padding:10px 10px 0 10px;}
+#quickLinks1 a:hover, #services a:hover, #editions a:hover{text-decoration: underline;}
+/*#quickLinks1 a:visited, #services a:visited, #editions a:visited {color:#3C3158;}*/
+#services {border-top:1px solid #E5E5E5; padding:10px 10px 0 10px;}
+#editions {padding:8px 10px 10px 10px;}
+#quickLinks1 dt, #services dt, #editions dt {display:inline; font:bold 11px arial,sans-serif; color:#003366; text-transform:uppercase;}
+#quickLinks1 dd, #quickLinks2 dd, #services dd, #editions dd {display:inline; font:normal 11px arial,sans-serif; color:#000; margin:0;}
+#quickLinks1 a, #quickLinks2 a, #services a, #editions a {font:normal 11px arial,sans-serif; padding:0px 8px; color:#003366; text-decoration:none;}
+#quickLinks1 a:hover, #quickLinks2 a:hover, #services a:hover, #editions a:hover {text-decoration:underline;}
+#linksFooter .rss {background:url('http://img.timeinc.net/time/i/icon_rss3.gif') no-repeat center right; margin-right:8px; padding:3px 0px 4px 0px;}
+#linksFooter .rss a {padding:3px 22px 3px 8px;}
+#linksFooter .mobile {background:url('http://img.timeinc.net/time/i/icon_mobile2.gif') no-repeat center right; margin-right:8px; padding:3px 0px 4px 0px;}
+#linksFooter .mobile a {padding:4px 17px 4px 8px;}
+#linksFooter .podcast {background:url('http://img.timeinc.net/time/i/icon_podcast2.gif') no-repeat center right; margin-right:8px; padding:2px 0px 3px 0px;}
+#linksFooter .podcast a {padding:4px 19px 4px 8px;}
+#linksFooter .video {background:url('http://img.timeinc.net/time/i/icon_video3.gif') no-repeat center right; margin-right:8px; padding:2px 0px 3px 0px;}
+#linksFooter .video a {padding:3px 28px 3px 8px;}
+#linksFooter .newsletter {background:url('http://img.timeinc.net/time/i/icon_newsletter2.gif') no-repeat center right; margin-right:8px;}
+#linksFooter .newsletter a {padding:3px 27px 3px 8px;}
+
+/* Hacks for clearing and fixing floats */
+.wrap:after,  #db1:after, #db2:after, #dashboard:after, #features:after, #issueArchive:after, #articleMain:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+/* Hides from IE-mac \*/
+*html .wrap, * html #db1, * html #db2, * html #dashboard, * html #features, * html #issueArchive, * html #articleMain {height:1% !important;}
+.wrap, #db1, #db2, #dashboard, #features, #issueArchive, #articleMain {display:block;}
+
+/* 10 Questions */
+#questbox {margin-left:7px; font:normal 10px arial,sans-serif !important;}
+.questlink {font:normal 10px arial,sans-serif !important;}

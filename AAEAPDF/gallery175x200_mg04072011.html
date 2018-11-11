@@ -1,0 +1,575 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+     <style type="text/css">
+      <!--
+        *,html,body{margin:0; padding:0;border:0;} 
+        body{font-family: "Arial"; color:#707070; background:#ffffff; font-size:12px;} 
+        .center{
+        	width:256px;
+        	height:100px;
+        	background:#F5F5F5;
+        	border-right-width: 1px;
+        	border-left-width: 1px;
+        	border-right-style: solid;
+        	border-left-style: solid;
+        	border-right-color: #FFFFFF;
+        	border-left-color: #FFFFFF;
+        	border-bottom-width: 1px;
+        	border-bottom-style: solid;
+        	border-bottom-color: #FFFFFF;
+        	margin-top: 0;
+        	margin-right: 0;
+        	margin-bottom: 0;
+        	margin-left: 0px;
+        } 
+        .center ul{ list-style-type:none;} 
+        .center ul li{ float:left; padding:2px;} 
+        .menu{
+        	width:172px;
+        	height:27px;
+        	margin:0px;
+        	
+        } 
+        .menu ul{ list-style-type:none;} 
+        .menu ul li{
+        	float:left;
+        	height:27px;
+        	width:43px;
+        	text-align:center;
+        	padding-top:0px;
+        	margin:0px;
+        	line-height: 27px;
+        } 
+        .menu_title{
+        	background-color: #FFFFFF;
+        } 
+        .menu_title_on{
+        	color: #FFFFFF;
+        	font-weight: bold;
+        	background-attachment: fixed;
+        	background-color: #FFFFFF;
+        	background-repeat: no-repeat;
+        } 
+        .menu_title_on a{
+        	color: #FFFFFF;
+        	font-size: 12px;
+        	text-decoration: none;
+        	font-weight: bold;
+        	background-attachment: fixed;
+        	background-repeat: no-repeat;
+        } 
+        a{
+        	text-decoration:none;
+        	color: #707070;
+        	font-family: "Arial";
+        	font-size: 12px;
+        } 
+        a:active{text-decoration: none;color: #99CC00;} 
+        
+        .jli16 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 16px; font-weight: bold; color: #006699; text-decoration: none}
+
+        .jli14 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #006699; text-decoration: none}
+
+        .jli12 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: bold; color: #006699; text-decoration: none}
+        
+        .jli10 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10px; font-weight: bold; color: #006699; text-decoration: none}
+        
+        -->
+    </style>
+    <SCRIPT language="JavaScript">  
+      var tID=0; 
+      var currentTabs=0;
+      var maxTabs=4;
+      var bF=true;
+      
+      
+      function ShowTabs(ID){ 
+      if(ID!=tID){ 
+        TabTitle[tID].className="menu_title"; 
+        TabTitle[ID].className="menu_title_on"; 
+        Tabs[tID].style.display="none"; 
+        Tabs[ID].style.display=""; 
+        tID=ID; 
+      } 
+      } 
+      
+      
+      
+      function ShowTabs2(ID){ 
+       skip(false);
+      if(ID!=tID){ 
+        currentTabs=ID;
+        TabTitle[tID].className="menu_title"; 
+        TabTitle[ID].className="menu_title_on"; 
+        Tabs[tID].style.display="none"; 
+        Tabs[ID].style.display=""; 
+        tID=ID; 
+      } 
+      } 
+      
+       
+      function  skip(b) { bF=b;}
+      function autoShowTabs() {
+               if(!bF) return;
+               if(currentTabs >=maxTabs)      currentTabs=0;
+               ShowTabs(currentTabs++);
+      }
+      setInterval('autoShowTabs()',3000);
+    </SCRIPT> 
+    <title>LACAAEA</title>
+  </head>
+  <body>
+    <table width="620" border="1" cellpadding="0" cellspacing="1" bgcolor="D1D0D0" class="">
+      <tr>
+        <td bgcolor="#FFFFFF">
+         <table width="620" height="5" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+	              <td width="5"></td>
+	              <td width="548" height="5" class="jli16"><FONT face="Arial" size=2 color= green>Click each photo below for a larger view<br></FONT>
+		              <img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/bullet_red.jpg border=0><FONT face="Arial" size=2 color= #ff6633> To stop motion, move mouse cursor over a photo<br>
+		              <img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/bullet_red.jpg border=0> To resume motion, move mouse cursor outside of a photo
+		              </FONT>
+	              </td>
+	              <td width="3">
+	                <div class="menu" style="width: 3px; height: 15px">
+	                  <ul>
+	                    <li id="TabTitle" onmouseover="ShowTabs2(0)" onmouseout=" skip(true)"></li>
+	                    <li id="TabTitle" onmouseover="ShowTabs2(1)" onmouseout=" skip(true)"></li>
+	                    <li id="TabTitle" onmouseover="ShowTabs2(2)" onmouseout=" skip(true)"></li>
+	                    <li id="TabTitle" onmouseover="ShowTabs2(3)" onmouseout=" skip(true)"></li>
+	                  </ul>
+	                </div>
+	              </td>
+            </tr>
+
+          </table>
+          <div id="Tabs" style="display:block" onmouseover=" skip(false)" onmouseout=" skip(true)">
+            <table width="580" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td height="10"></td>
+              </tr>
+            </table>
+            
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <td width="33%" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="8" height="24"></td>
+                    <td align="left"><span class="jli14"><a href="http://pd.co.la.ca.us/" class="jli12" target="_blank">LAC Public Defender</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://www.lijml.net/DONALD_bio.html" target="_blank">&gt;&gt;</a></span></td>
+                  </tr>
+                </table>
+                <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"></td>
+                  </tr>
+                </table>
+                <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+					<tr>
+					<td align="center"><a href="http://www.lijml.net/Depthead1_group_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Depthead1_200.jpg" width="200" height="115" border="0" /></a></td>
+					</tr>
+					<tr>
+					<td height="6"></td>
+					</tr>
+					<tr>
+					<td class="jli12">
+					<div align="left"><a href="http://www.lijml.net/Depthead1_group_04072011.html" class="jli12" target="_blank">Ronald L. Brown (R2), Public Defender, poses a photo with Donald H. Blevins (R1), Chief...</a> </div>
+					</td>
+					</tr>
+			  </table>
+              </td>
+              <td width="33%" align="left" valign="top">
+                <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" class="">
+                  <tr>
+                    <td height="50" valign="top">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="8" height="24"></td>
+                          <td align="left"><span class="jli14"><a href="http://fire.lacounty.gov/" class="jli12" target="_blank">LAC Fire Department</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://www.xinhuanet.com/english2010/world/" target="_blank">&gt;&gt;</a></span></td>
+                        </tr>
+                      </table>
+                      <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td height="8"></td>
+                        </tr>
+                      </table>
+                <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+					<tr>
+					<td align="center"><a href="http://www.lijml.net/Fire_group_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Fire_Dept_Group_200_115.jpg" width="200" height="115" border="0" /></a></td>
+					</tr>
+					<tr>
+					<td height="6"></td>
+					</tr>
+					<tr>
+					<td class="jli12">
+					<div align="left"><a href="http://www.lijml.net/Fire_group_04072011.html" class="jli12" target="_blank">Daryl L. Osby (L4), Chief, Los Angeles County Fire Department (R2), and Helen Jo (L5), Deputy...</a> </div>
+					</td>
+					</tr>
+				</table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="34%" valign="top">
+                <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" >
+                  <tr>
+                    <td height="50" valign="top">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="8" height="24"></td>
+                          <td align="left"><span class="jli14"><a href="http://www.ladhs.org/wps/portal/" class="jli12" target="_blank">LAC Health Services</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://www.xinhuanet.com/english2010/business/" target="_blank">&gt;&gt;</a></span></td>
+                        </tr>
+                      </table>
+                      <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td height="8"></td>
+                        </tr>
+                      </table>
+                <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+					<tr>
+					<td align="center"><a href="http://www.lijml.net/HealthServices_group_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Depthead_group2_200_115.jpg" width="200" height="115" border="0" /></a></td>
+					</tr>
+					<tr>
+					<td height="6"></td>
+					</tr>
+					<tr>
+					<td class="jli12">
+					<div align="left"><a href="http://www.lijml.net/HealthServices_group_04072011.html" class="jli12" target="_blank">Dr. Mitchell H. Katz (L2), Director of Department of Health Services, poses a photo with his friends...</a> </div>
+					</td>
+					</tr>
+				</table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              </tr>
+            </table>
+            <table width="550" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td height="9"></td>
+              </tr>
+            </table>
+          </div>
+          <div id="Tabs" style="display: none;" onmouseover=" skip(false)" onmouseout=" skip(true)">
+            <table width="550" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td height="10"></td>
+              </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <td width="33%" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="8" height="24"></td>
+                    <td align="left"><span class="jli14"><a href="http://ceo.lacounty.gov" class="jli12" target="_blank">LAC Chief Executive Office</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://www.xinhuanet.com/english2010/culture/" target="_blank">&gt;&gt;</a></span></td>
+                  </tr>
+                </table>
+                <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"></td>
+                  </tr>
+                </table>
+                <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+					<tr>
+					<td align="center"><a href="http://www.lijml.net/Bill_group_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/CEO_bill_Group_200_115.jpg" width="200" height="115" border="0" /></img></a></td>
+					</tr>
+					<tr>
+					<td height="6"></td>
+					</tr>
+					<tr>
+					<td class="jli12">
+					<div align="left"><a href="http://www.lijml.net/Bill_group_04072011.html" class="jli12" target="_blank">William T Fujioka (Center), Chief Executive Officer for Los Angeles County, poses a photo with...</a> </div>
+					</td>
+					</tr>
+					</table>
+              </td>
+              <td width="33%" align="left" valign="top">
+                <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" >
+                  <tr>
+                    <td height="50" valign="top">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="8" height="24"></td>
+                          <td align="left"><span class="jli14"><a href="http://bos.lacounty.gov" class="jli12" target="_blank">LAC Board of Supervisors</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://bos.lacounty.gov" target="_blank">&gt;&gt;</a></span></td>
+                        </tr>
+                      </table>
+                      <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td height="8"></td>
+                        </tr>
+                      </table>
+                      <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+							<tr>
+							<td align="center"><a href="http://www.lijml.net/Deputy_group_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Deputy_Group_200_115.jpg" width="200" height="115" border="0" /></img></a></td>
+							</tr>
+							<tr>
+							<td height="6"></td>
+							</tr>
+							<tr>
+							<td class="jli12">
+							<div align="left"><a href="http://www.lijml.net/Deputy_group_04072011.html" class="jli12" target="_blank">The Meet & Greet Reception / 2011 - 2012 Installation Dinner, April 7, 2011...</a> </div>
+							</td>
+							</tr>
+							</table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="34%" valign="top">
+                <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" >
+                  <tr>
+                    <td height="50" valign="top">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="8" height="24"></td>
+                          <td align="left"><span class="jli14"><a href="http://www.lijml.net/id3_2010.html" class="jli12" target="_blank">LACAAEA Outgoing Officers</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://www.xinhuanet.com/english2010/entertainment/" target="_blank">&gt;&gt;</a></span></td>
+                        </tr>
+                      </table>
+                      <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td height="8"></td>
+                        </tr>
+                      </table>
+                      <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+							<tr>
+							<td align="center"><a href="http://www.lijml.net/Outgoing_Officers_With_Phillip_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Outgoing_Officers_115.jpg" width="200" height="115" border="0" /></img></a></td>
+							</tr>
+							<tr>
+							<td height="6"></td>
+							</tr>
+							<tr>
+							<td class="jli12">
+							<div align="left"><a href="http://www.lijml.net/Outgoing_Officers_With_Phillip_04072011.html" class="jli12" target="_blank">The LACAAEA Outgoing Officers receive a scroll signed by five LA County Board of Supervisors...</a> </div>
+							</td>
+							</tr>
+							</table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              </tr>
+            </table>
+            <table width="550" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td height="9"></td>
+              </tr>
+            </table>
+          </div>
+          <div id="Tabs" style="display: none;" onmouseover=" skip(false)" onmouseout=" skip(true)">
+            <table width="550" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td height="10"></td>
+              </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <td width="33%" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="8" height="24"></td>
+                    <td align="left"><span class="jli14"><a href="http://www.lijml.net/id3_2010.html" class="jli12" target="_blank">LACAAEA Outgoing Officers</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://www.xinhuanet.com/english2010/sci/" target="_blank">&gt;&gt;</a></span></td>
+                  </tr>
+                </table>
+                <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"></td>
+                  </tr>
+                </table>
+                <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+					<tr>
+					<td align="center"><a href="http://www.lijml.net/Outgoing_Officers_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Outgoing_officers2_200_115.jpg" width="200" height="115" border="0" /></img></a></td>
+					</tr>
+					<tr>
+					<td height="6"></td>
+					</tr>
+					<tr>
+					<td class="jli12">
+					<div align="left"><a href="http://www.lijml.net/Outgoing_Officers_04072011.html" class="jli12" target="_blank">The LACAAEA Outgoing Officers receives a scroll from Thomas Wong, a field representative for ...</a> </div>
+					</td>
+					</tr>
+					</table>
+              </td>
+              <td width="33%" align="left" valign="top">
+                <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" >
+                  <tr>
+                    <td height="50" valign="top">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="8" height="24"></td>
+                          <td align="left"><span class="jli14"><a href="http://www.kantei.go.jp/foreign/incident/" class="jli12" target="_blank">Fundraiser for Japan</a>&nbsp;&nbsp;</span><span class="jli10"><a href="#" target="_blank">&gt;&gt;</a></span></td>
+                        </tr>
+                      </table>
+                      <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>  
+                          <td height="8"></td>
+                        </tr>
+                      </table>
+                      <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+							<tr>
+							<td align="center"><a href="http://www.lijml.net/Japan_support_04072011.html" class="jli12" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Japan_fundraiser_200.jpg" width="200" height="115" border="0" /></img></a></td>
+							</tr>
+							<tr>
+							<td height="6"></td>
+							</tr>
+							<tr>
+							<td class="jli12">
+							<div align="left"><a href="http://www.lijml.net/Japan_support_04072011.html" class="jli12" target="_blank">SUPPORT JAPAN - Opportunity Drawing Sponsored by LACAAEA Board Members. All proceeds will... </a> </div>
+							</td>
+							</tr>
+							</table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="34%" valign="top">
+                <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" >
+                  <tr>
+                    <td height="50" valign="top">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="8" height="24"></td>
+                          <td align="left"><span class="jli14"><a href="http://www.lijml.net/id4.html" class="jli12" target="_blank">LACAAEA Scholarship</a>&nbsp;&nbsp;</span><span class="jli10"><a href="#" target="_blank">&gt;&gt;</a></span></td>
+                        </tr>
+                      </table>
+                      <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td height="8"></td>
+                        </tr>
+                      </table>
+                      <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+							<tr>
+							<td align="center"><a href="http://www.lijml.net/Scholarship_group_04072011.html" class="jli12" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/scholarships_meav_jackie_200_115.jpg" width="200" height="115" border="0" /></img></a></td>
+							</tr>
+							<tr>
+							<td height="6"></td>
+							</tr>
+							<tr>
+							<td class="jli12">
+							<div align="left"><a href="http://www.lijml.net/Scholarship_group_04072011.html" class="jli12" target="_blank">LACAAEA Scholarship recipients thank for the Association and pose a photo with Meav and Jackie at...</a> </div>
+							</td>
+							</tr>
+							</table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              </tr>
+            </table>
+            <table width="550" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td height="9"></td>
+              </tr>
+            </table>
+          </div>
+          <div id="Tabs" style="display: none;" onmouseover=" skip(false)" onmouseout=" skip(true)">
+            <table width="550" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td height="10"></td>
+              </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <td width="33%" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="8" height="24"></td>
+                    <td align="left"><span class="jli14"><a href="http://www.lijml.net/India_Officers_04072011.html" class="jli12" target="_blank">LAC India Pro. Assn</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://www.xinhuanet.com/english2010/culture/" target="_blank">&gt;&gt;</a></span></td>
+                  </tr>
+                </table>
+                <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"></td>
+                  </tr>
+                </table>
+                <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+					<tr>
+					<td align="center"><a href="http://www.lijml.net/India_Officers_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/India_Group_200_115.jpg" width="200" height="115" border="0" /></img></a></td>
+					</tr>
+					<tr>
+					<td height="6"></td>
+					</tr>
+					<tr>
+					<td class="jli12">
+					<div align="left"><a href="http://www.lijml.net/India_Officers_04072011.html" class="jli12" target="_blank">Los Angeles County India Professional Association poses a group photo with Ronald L. Brown...</a> </div>
+					</td>
+					</tr>
+					</table>
+              </td>
+              <td width="33%" align="left" valign="top">
+                <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" >
+                  <tr>
+                    <td height="50" valign="top">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="8" height="24"></td>
+                          <td align="left"><span class="jli14"><a href="http://www.lijml.net/Performers_04072011.html" class="jli12" target="_blank">Singing National Anthem</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://www.xinhuanet.com/english2010/sports/" target="_blank">&gt;&gt;</a></span></td>
+                        </tr>
+                      </table>
+                      <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td height="8"></td>
+                        </tr>
+                      </table>
+                      <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+							<tr>
+							<td align="center"><a href="http://www.lijml.net/Performers_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/3_performers_200_115.jpg" width="200" height="115" border="0" /></img></a></td>
+							</tr>
+							<tr>
+							<td height="6"></td>
+							</tr>
+							<tr>
+							<td class="jli12">
+							<div align="left"><a href="http://www.lijml.net/Performers_04072011.html" class="jli12" target="_blank">Tracy Wu sings a National Anthem at the podium at the begining of the Meet & Greet Reception / 2011 -...</a> </div>
+							</td>
+							</tr>
+							</table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td width="34%" valign="top">
+                <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" >
+                  <tr>
+                    <td height="50" valign="top">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="8" height="24"></td>
+                          <td align="left"><span class="jli14"><a href="http://www.lijml.net/id3_2011_new.html" class="jli12" target="_blank">LACAAEA Incoming Officers</a>&nbsp;&nbsp;</span><span class="jli10"><a href="http://www.xinhuanet.com/english2010/entertainment/" target="_blank">&gt;&gt;</a></span></td>
+                        </tr>
+                      </table>
+                      <table width="92%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td height="8"></td>
+                        </tr>
+                      </table>
+                      <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+							<tr>
+							<td align="center"><a href="http://www.lijml.net/Honorees_group_04072011.html" target="_blank"><img src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/group_p1_200_115.jpg" width="200" height="115" border="0" /></img></a></td>
+							</tr>
+							<tr>
+							<td height="6"></td>
+							</tr>
+							<tr>
+							<td class="jli12">
+							<div align="left"><a href="http://www.lijml.net/Honorees_group_04072011.html" class="jli12" target="_blank">The Meet & Greet Reception / 2011 - 2012 Installation Dinner, April 7, 2011...</a> </div>
+							</td>
+							</tr>
+							</table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              </tr>
+            </table>
+            <table width="550" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td height="9"></td>
+              </tr>
+            </table>
+          </div>
+          
+          <div id="Tabs" style="display: none;" onmouseover=" skip(false)" onmouseout=" skip(true)">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

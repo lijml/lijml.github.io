@@ -1,0 +1,566 @@
+<html>
+   <HEAD>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+      <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <META http-equiv="Expires" content="0">
+      <META name="TRELLIX_BUILDER_VER" content="1.0"><META name="TRELLIX_OPEN_SITE_COMMAND" content="http://www.sitedelux.com:80/servlet/SiteBuilderServlet?fUrl=/trellix/sitebuilder/f_error.html&sUrl=/trellix/sitebuilder/f_edit_page.html&Command=OpenSite&FileName=339421959363791806/site.xml"></META><META
+      name="categories" content="">
+      <!--base href="http://lacaaea.domainhost.com//"-->
+      <!--/base--><script language="Javascript"><!--
+		document.isTrellix = 1;
+//						--></script>
+
+<SCRIPT language="javascript">
+      var Speed_1 = 10; 
+      var Space_1 = 20; 
+      var PageWidth_1 = 562; 
+      var interval_1 = 5000; 
+      var fill_1 = 0; 
+      var MoveLock_1 = false;
+      var MoveTimeObj_1;
+      var MoveWay_1="right";
+      var Comp_1 = 0;
+      var AutoPlayObj_1=null;
+      function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+      function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+      function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+      function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+      GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+      function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+      function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+      GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+      function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+      var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+      if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+      function picrun_ini(){
+      GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+      GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+      GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+      GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+      AutoPlay_1();
+      }
+    </SCRIPT>
+
+      <style type="text/css">
+<!--
+div.Section1
+	{page:Section1;}
+	
+.qm {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: normal; color: #006699; text-decoration: underline; line-height: 16px}
+
+.lori {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 13px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.lori15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.jli {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 11px; font-weight: bold; color: #F5801F; text-decoration: none}
+
+.jli12LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14LTB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli14DB {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #000080; text-decoration: none}
+
+.jli14BLUE {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #0000FF; text-decoration: none}
+	
+.jli14DBGreen {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: bold; color: #009900; text-decoration: none}
+
+.jli12 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli25 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 25px; font-weight: bold; color: #006699; text-decoration: none}
+
+	
+-->
+
+A  {text-decoration: none;
+       color: BLUE}
+   A:hover {TEXT-DECORATION: underline;
+	        }
+   A.showlink {text-decoration: underline}
+   input {border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   select {	border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   textarea { border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+	<!--
+	.row0 {background-color: white;} 
+	.row1 {background-color: E7EAF3;} 
+	--> 
+
+</style>
+<style>
+
+.myDIV {
+
+	FILTER: revealTrans(transition=18,duration=2);
+
+	WIDTH:600px;
+
+	POSITION: absolute;
+
+}
+
+
+
+      .jli14 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 14px; font-weight: normal; color: #000000; text-decoration: none}	
+</style>
+
+<title>Los Angeles County Asian American Employees Association</title>
+   </HEAD>
+   <body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="White" link="0000FF" vlink="black" alink="000099" >
+      <!--<body  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="White" background="/imagelib/sitebuilder/layout/t_pho_back.gif" link="0000FF" vlink="black" alink="000099" > -->
+
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="1010">
+         <tr>
+            <td width="1010" align="left"><br>
+              <div align="center"><img alt="Logo(Color).JPG" border="" src="sitebuildercontent/sitebuilderpictures/Logo_35_29.jpg" vspace="0" hspace="0"><font face="Arial,Helvetica,sans-serif" size="5" color="0000cc"><b><i>&nbsp;&nbsp;Los Angeles County Asian American Employees Association</i></b></font>
+              </div>
+            </td>  
+         </tr>
+      </table>
+      
+      <table border="0" cellspacing="0" cellpadding="0" height="3" width="1020">
+         <tr>
+             <td width="1020" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="3" alt=""></td>
+         </tr>
+      </table>
+      
+      <!-- Begin Top horizonal blue bar or spacer, right below moving image table -->
+<!--<DIV id=space2 bgcolor="#CCCCFF" align="left"><STRONG>-->
+<table width="1010">
+<tr>
+<td align="center">
+<A href="http://www.lijml.net" class="jli15">Home</A>
+<A href="http://www.lijml.net/id3.html" class="jli15">| About Us</A>
+<A href="http://www.lijml.net/CommunityEvent.html" class="jli15">| Community Events</A>
+<A href="http://www.lijml.net/id6.html" class="jli15">| Newsletter</A>
+<A href="http://www.lijml.net/id20.html" class="jli15">| Photo Album</A>
+<A href="http://www.lijml.net/id2.html" class="jli15">| Becoming a Member</A>
+<A href="http://www.lijml.net/id17.html" class="jli15">| Contact Us</A>
+<A href="http://www.lijml.net/id7.html" class="jli15">| Links</A>
+</td>
+</tr>
+</table>
+<!--</DIV>-->
+  
+     
+      <!-- End of Top horizonal blue bar or spacer, right below moving image table -->
+      
+      <table border="0" cellspacing="0" cellpadding="0" width="1038">
+         <tr>
+            
+            
+            <td width="733" valign="top">
+               <table border="0" cellpadding="0" cellspacing="0" width="714">
+                  <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="730" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>
+                  <!-- End of spacer -->	
+                  					  					  
+<SCRIPT LANGUAGE="JavaScript" SRC="../js/sliding.js">
+</SCRIPT>	  
+                    </td>
+                  </tr>
+               </table>
+               
+               	               
+
+               <table borderColor="blue" border="0" cellpadding="0" cellspacing="0" >
+                  <tr>
+                     <td valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" width="732" >
+                           <tr>
+                              <td colspan=2>
+                                   <!--Begin: add another talbe to include heading-->			
+									<table borderColor="red" bgColor=#a6caf0 border="1" cellspacing="1" cellpadding="1" width="731">
+									  <tr>
+                     					<td bgcolor="#FF0000" height="10" >
+						
+						<div align="center">
+							<FONT face="Arial,Helvetica,sans-serif" size="4" color=#ffffff><b>LACAAEA's Meet & Greet / Installation Dinner, April 7, 2011</b></FONT>
+						</div>
+					 </td>
+                  </tr>
+				</table>
+        
+          </td>
+       </tr>
+                          <!-- Begin of spacer.gif under title --> 
+                         	<tr>
+                              <td height="2" width="732"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                           </tr>
+                          <!-- End of spacer.gif under title --> 
+<tr>
+  <td width="732">
+	<TABLE height=100% cellSpacing=0 cellPadding=0 width=720 bgColor=#ffffff Bordercolor=#66CCFF border=0>
+		<tr>
+<td align=center class="jli16">
+                                                                 			
+<FIELDSET 
+style="border:1px solid #cc0000; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 1px; PADDING-BOTTOM: 5px; WIDTH: 725px; COLOR: #cc0000; LINE-HEIGHT: 1.5; PADDING-TOP: 5px; HEIGHT: ">
+<LEGEND style="WIDTH: 640px; ">
+<p><FONT face=Arial size=2 color=#cc0000><STRONG>Honoring Recently Appointed Dept. Heads and LACAAEA Officers Installation</STRONG></p>
+</FONT>
+</LEGEND>
+
+<DIV align=left>
+	 <font face="Arial, Helvetica" size="2" color="black">  
+	<Font face="Arial, Helvetica" size="2"  bgcolor="#F8F5B0"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/1.jpg border=0></FONT>&nbsp;<a href="http://www.lijml.net/RONALD_BROWN_Bio.html" class="JLI15" target=_blank>Ronald L. Brown</a>, <a href="http://pd.co.la.ca.us/" class="JLI15" target=_blank>Public Defender</a>,
+	    Click <a href="http://www.lijml.net/AAEAPDF/Janice_INTRO.pdf" class="JLI15" target=_blank>here</a> for <a href="http://www.lijml.net/JaniceYFukaiBio_2011.html" class="JLI15" target=_blank>Janice Fukai</a>'s introduction.
+	<br><Font face="Arial, Helvetica" size="2"  bgcolor="#F8F5B0"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/2.jpg border=0></FONT>&nbsp;Dr. <a href="http://www.lijml.net/MITCHELL_KATZ_Bio.html" class="JLI15" target=_blank>Mitchell H. Katz</a>, Director of <a href="http://www.ladhs.org/wps/portal/" class="JLI15" target=_blank>Department of Health Services</a>. Click <a href="http://www.lijml.net/AAEAPDF/Dr_Katz_Introduction.pdf" class="JLI15" target=_blank>here</a> 
+		for <a href="http://www.lijml.net/CAROLYN_RHEE_bio.html" class="JLI15" target=_blank>Carolyn F. Rhee</a>'s introduction.
+ 	 
+	<br><Font face="Arial, Helvetica" size="2"  bgcolor="#F8F5B0"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/3.jpg border=0></FONT>&nbsp;<a href="http://www.lijml.net/DARYL_OSBY_Bio.html" class="JLI15" target=_blank>Daryl L. Osby</a>, Chief, <a href="http://fire.lacounty.gov/" class="JLI15" target=_blank>L.A. County Fire Department</a>, Click <a href="http://www.lijml.net/AAEAPDF/HelenJo_Speech04072011.pdf" class="JLI15" target=_blank>here</a> 
+		for <a href="http://www.lijml.net/HELEN_JO_bio.html" class="JLI15" target=_blank>Helen Ho</a>'s introduction.
+	<br><Font face="Arial, Helvetica" size="2"  bgcolor="#F8F5B0"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/4.jpg border=0></FONT>&nbsp;<a href="http://www.lijml.net/id3.html" class="JLI15" target=_blank>Installation of 2010 - 2011 LACAAEA Officers</a> by LA Superior Courts Judge <a href="http://www.lijml.net/Akemi_Arakaki_bio.html" class="JLI15" target=_blank>Akemi Arakaki</a>.
+	
+	
+	<br><FONT face=Arial size=2 color= #FF0000 ><b>Mistress of Ceremonies</b></FONT> -
+	<FONT face=Arial size=2 color=black><a href="http://www.lijml.net/GENIE_CHOUGH_bio.html" class="JLI15" target=_blank>Genie Chough</a>, Budget Deputy, for Los Angeles County Supervisor <a href="http://zev.lacounty.gov/" class="JLI15" target=_blank>Zev Yaroslavksy</a>. Click <a href="http://www.lijml.net/Genie_Chough_04072011.html" class="JLI15" target=_blank> here </a> for photos.
+	</FONT>
+
+	<br><FONT face=Arial size=2 color= #FF0000 ><b>A Scroll Presentation</b></FONT> <br>
+	<img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/bullet_red.jpg border=0><FONT face=Arial size=2 color=black>&nbsp;<a href="http://www.lijml.net/PhillipChenBio_2011.html" class="JLI15" target=_blank>Phillip Chen</a>, on behalf of Los Angeles County Board of Supervisors, presents a <a href="http://www.lijml.net/Outgoing_Officers_With_Phillip_04072011.html" class="JLI15" target=_blank> scroll</a> to each LACAAEA Outgoing Officer.
+	</FONT><br>
+	
+	<img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/bullet_red.jpg border=0><FONT face=Arial size=2 color=black>&nbsp;Thomas Wong, on behalf of Calif. Assemblymember <a href="http://democrats.assembly.ca.gov/members/a49/" class="JLI15" target=_blank>Mike Eng</a>, presents a <a href="http://www.lijml.net/3_deptheads_MikeEng_04072011.html" class="JLI15" target=_blank> scroll</a> to three Dept. Heads.
+	</FONT><br>
+	
+	<img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/bullet_red.jpg border=0><FONT face=Arial size=2 color=black>&nbsp;Thomas Wong, on behalf of Calif. Assemblymember <a href="http://democrats.assembly.ca.gov/members/a49/" class="JLI15" target=_blank>Mike Eng</a>, presents a <a href="http://www.lijml.net/Outgoing_Officers_04072011.html" class="JLI15" target=_blank> scroll</a> to each LACAAEA Outgoing Officer.
+	</FONT><br>
+
+	
+</DIV>
+</font>
+</font>
+</b>
+</strong>
+</font></font>
+</FIELDSET>                    
+
+<!-- End of Fieldseet -->								
+							
+<!-- <P>Insert Paragraph </P> -->
+			<table bgColor=#a6caf0 width="730" border="0" cellspacing="0" cellpadding="0">
+				<tr bgColor= #FFFFFF>
+				 	<td colspan=2 height=100 valign=top> <!--paragraph heigth adjustment-->
+					<P align=center>
+						<STRONG><FONT face="Arial" size=4 color=#ff6633>&nbsp;&nbsp;&nbsp;&nbsp;Honoring Newly Appointed Department Heads </FONT></STRONG></A>
+				<p><FONT face=Arial color=#000000 size=2>
+				April 7, 2011 -- The Los Angeles County Asian American Employees Association (LACAAEA) hosted a Meet and Greet reception for Los Angeles County's three newly appointed Department Heads and the 2011-2012 Installation Dinner for incoming new officers. The event was held at Ocean Star Seafood Restaurant at Monterey Park on April 7, 2011. Approximately 335 people attended to "welcome" and congratulate these three new leaders. 
+						Genie Chough, Budget Deputy, for Los Angeles County Supervisor <a href="http://zev.lacounty.gov/" class="JLI15" target=_blank>Zev Yaroslavksy</a>, served as Mistress of Ceremonies for the evening. We are thankful for her participation at the reception. Janice Y. Fukai, Alternate Public Defender, Carolyn F. Rhee, CEO of Valleycare Network and Helen E. Jo, Deputy Chief introduced Ronald L. Brown, Dr. Mitchell H. Katz and Daryl L. Osby, respectively.
+						William T Fujioka, Los Angeles County Chief Executive Officer, nearly twenty other department heads and many other special guests from the County and the community attended the Meet and Greet reception. We thank them for taking time from their busy schedules to help LACAAEA honor and welcome three newly appointed department heads and congratulate the incoming LACAAEA officers!
+
+				</td>
+				</tr>
+			</table>
+	<table>
+		 <tr>
+	         <td height="10" align="center" colspan=2><FONT face="Arial" color= #ff6633><p><b> Click each photo or name below for a Bio!</font></b>			  
+	      		<FONT face=Arial color=#000000 size=2> <a href="http://www.lijml.net/meetgreet11082007.html" target=_blank><font face="Arial, Helvetica, sans-serif" size="4" color="#ff6600"><EM></EM></FONT></a></FONT></p>
+	         </td>
+	     </tr>
+    <TD>
+       	<TABLE style="WIDTH: 500px; HEIGHT: 320px" cellSpacing=0 cellPadding=2 align=left bgColor=#00CCFF border=1>
+	        <TBODY>
+	        <TR>
+	          <TD vAlign=center borderColor=#000000 bgColor=#a6caf0><A href="http://www.lijml.net/RONALD_BROWN_Bio.html" target=_blank><IMG src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Brown_HS_230_290.jpg" width=230 height=290 border=0></A></TD>
+	          <TD vAlign=center borderColor=#000000 bgColor=#a6caf0><A href="http://www.lijml.net/MITCHELL_KATZ_Bio.html" target=_blank><IMG src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/MitchellKatz_HS_230_290.jpg" width=230 height=290 border=0></A></TD>
+	          <TD vAlign=center borderColor=#000000 bgColor=#a6caf0><A href="http://www.lijml.net/DARYL_OSBY_Bio.html" target=_blank><IMG src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Fire_Chief_HS1_230_290.jpg" width=230 height=290 border=0></A></TD>
+	        </TR>
+	        
+	        <TR>
+	          <TD vAlign=top borderColor="#66CCFF" align=left bgColor=#FFFFFF><P align=center><a href="http://www.lijml.net/RONALD_BROWN_Bio.html" class="jli15" target=_blank>Ronald L. Brown</a></P></TD>
+	          <TD vAlign=top borderColor="#66CCFF" align=left bgColor=#FFFFFF><P align=center><a href="http://www.lijml.net/MITCHELL_KATZ_Bio.html" class="jli15" target=_blank>Dr. Mitchell H. Katz</a></P></TD>
+	          <TD vAlign=top borderColor="#66CCFF" align=left bgColor=#FFFFFF><P align=center><a href="http://www.lijml.net/DARYL_OSBY_Bio.html" class="jli15" target=_blank>Daryl L. Osby</a></P></TD>
+	  		</TR>
+	  		
+	  		<div>
+			  	<TR>
+					<TD style="FONT-SIZE: 12px" borderColor=#00CCFF bgcolor=#ffffff colspan="3">
+					<P align=left><font face="Verdana" size="2">Three newly appointed department heads receive a <a href="http://www.lijml.net/3_deptheads_MikeEng_04072011.html" class="jli15" target=_blank>certificate</a> from Thomas Wong...</P></font>
+					</TD>
+			  	</TR>
+			</div>
+
+	  		
+	        </TBODY>
+	     </TABLE>
+     </TD>
+	
+  </table>
+
+	<P align=center><STRONG><FONT face="Arial" size=4 color=#ff6633>&nbsp;&nbsp;2011 - 2012 LACAAEA Board Officers Installation </FONT></STRONG></A></p>
+		<p align=left><FONT face=Arial color=#000000 size=2>The Los Angeles County Asian American Employees Association (LACAAEA) Incoming Board Officers are sworn in by Los Angeles Superior Courts Judge Akemi Arakaki.
+		</p>
+				
+<!-- Insert more -->
+<TABLE style="WIDTH: 700px; HEIGHT: 11px" height=11 cellSpacing=3 cellPadding=3 width=700 align=center borderColor="#ff8080"  border=1 borderColor=#FFFFFF>
+<TR>
+<TD style="FONT-SIZE: 12px" vAlign=center borderColor=#ff8080 align=left bgColor=#a6caf0><IMG src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Swearing_600.jpg" border=0></TD>
+<TD style="FONT-SIZE: 12px" vAlign=center borderColor=#ff8080 align=left bgColor=#a6caf0><IMG src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/Judge_90_295.jpg" border=0></TD>
+</TR>
+<TR>
+<TD style="FONT-SIZE: 12px" borderColor=#ff8080 >
+<P align=left><font face="Verdana" size="2">LACAAEA Incoming Board Officers are sworn in by Los Angeles Superior Courts Judge Akemi Arakaki at the Meet and Greet Reception / Installation Dinner April 7, 2011.</P>
+<P align=left><font face="Verdana" size="2">Front left to right: Mason Fong, Jeremy B. Li, Edward Jewik, Paul Wong, Armando Garcia, Isaura Capell, Dulce Maycumber, George Yan, Michelle Cheng Kim, Tevy Sithan and Jackie Tabigne Guevarra.</P>
+</TD>
+
+<TD style="FONT-SIZE: 12px" borderColor=#ff8080 >
+<P align=left><font face="Verdana" size="2">A moment prior to a sworn in ceremony by Judge Akemi Arakaki.</P>
+</TD>
+
+</TR>
+</TABLE>
+
+				<!-- Begin of spacer -->	
+                  <tr>
+                     <td width="730" height="4"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>
+              	<!-- Begin of spacer -->
+
+     
+<!-- iframe Table begin -->      
+<table width="90%" border="0" cellspacing="0" cellpadding="0" align="center" class="lt14">
+    <tr>
+      <td  class="lt14">                   
+<P align=center>
+<TABLE style="WIDTH: 620px;" cellSpacing=0 cellPadding=0 align=center border=1 borderColor="#00CCFF" bgcolor="white">
+     <tr>
+      <td width="620" valign="top"><iframe src="http://www.lijml.net/gallery175x200_mg04072011.html" frameborder="0" width="620" height="300" scrolling="No"></iframe>
+      </td>
+    </tr>
+ 
+</TABLE>
+</P>
+</td></tr>
+</table>
+
+<!-- End of iFrame Table  -->
+			
+		<table width="96%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <!-- Begin of spacer -->	
+                  <tr>
+                     <td width="638" height="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="1" height="2" alt=""></td>
+                  </tr>
+              	  <!-- End of spacer -->
+	   </table>
+
+	   <table width="100%"  border="0" cellspacing="20" cellpadding="0">
+            <tr align=center>
+            	<td ><p align=left><FONT face=Arial color=#000000 size=2>Jackie Guevarra, incoming LACAAEA President, welcomed everyone in attendance to the 2011 "Meet and Greet" / LACAAEA Officers Installation Dinner. She also recognized all those in attendance for their continued support and assistance. 
+				</p>
+				<P align=left>Tracy Wu from the Probation Department sang the National Anthem at the beginning of the program.
+				<P align=left>Opportunity Drawing Sponsored by LACAAEA Board Members was held during the evening entertainment period in order to support Japan and raise money for the scholarship fund. All proceeds raised for Japan relief will benefit the American Red Cross to aid relief efforts for the victims of the Japan disasters.
+									
+				<P align=left>Eight<a href="http://www.lijml.net/Interns_04072011.html" class=jli15 target=_blank> LA County Administrative interns</A> enjoyed the learning experience at the 
+				Meet and Greet reception. The interns (past and present) have found 
+				the event a good opportunity to meet and network with so many high level 
+				County personnel including the many department heads in attendance. The interns have also expressed how much they have enjoyed the event and how well-organized the event was coordinated.  <A href="http://www.lijml.net/intern_560_04012010.html" target=_blank><FONT color= #0000FF class="JLI15">More Info About the Administrative Intern Program >></FONT></A></P>				
+				<P align=left>Liren Zhang works for DPSS, West Valley District (#82). She played a four-stringed lute called the "Pipa".  It is one of the oldest Chinese musical instruments with over 2000 years of history. The word Pipa is a combination of pi &#8220;to play forward&#8221; and pa &#8220;to play backward.&#8221; This refers to the playing technique of plucking the strings forward and backward. Contemporary musicians hold the Pipa vertically in the lap, plucking the strings with both hands using plectra (picks) on the fingernails. The song she played is called "Yi Dance." It is about a group of young men and young women dancing around campfire.
+				<P align=left>The grand prize (two Disneyland tickets) was raffled off at the end of the evening. Also, the LACAAEA upcoming events such as the Asian Pacific American Heritage Celebration on May 19th and the "Summer Fun" Turnaround Scholarship Fundraiser on June 18, 2011 were announced. Lastly, George Yan, LACAAEA Vice President of Events/Programs acknowledged and thanked everyone for their participation and support; and a special thanks to all the committee members for their dedication and hard work in making this event a huge success.
+				
+	  		</tr></td>
+		</table>
+ <TR>
+   <TD vAlign=top borderColor=#3399FF align=left bgColor=#ffffff colSpan=4>
+	<table width="92%" border="0" cellspacing="0" cellpadding="0" align="center" class="lt14">
+    	<tr>
+      		<td  class="lt14">
+<div>                   
+<P align=left>
+<TABLE style="WIDTH: 690px;" cellSpacing=3 cellPadding=3 width=690 align=center border=1 borderColor="#ff8080" bgcolor="white">
+ <TBODY>
+  <TR>
+    <TD align="center" valign=top>
+      <TABLE bgColor=#000000 cellSpacing=0 cellPadding=0 width=690 border=0>
+        	<TR>
+          		<TD style="FONT-SIZE: 12px" vAlign=center borderColor=#ff8080 align=left bgColor=#a6caf0><IMG style="WIDTH: 690px; "  alt="" src="http://www.lijml.net/sitebuildercontent/sitebuilderpictures/meetgreet04072011/audience_690.jpg" width=690></TD>
+          		
+          	</TR>
+      </TABLE>
+    </TD>
+  </TR> <!-- End Special Image 1x2 format -->
+  
+  <!-- Begin of Photo Caption -->
+  <div>
+  	<TR>
+		<TD style="FONT-SIZE: 12px" borderColor=#ff8080 colspan="2">
+		<P align=left><font face="Verdana" size="2">Approximately 335 people attend the Meet and Greet reception / Installation Dinner on April 7, 2011.</P></font>
+		</TD>
+  	</TR>
+  </div>
+  <!-- End of Photo Caption -->
+ </TBODY>
+</TABLE>
+</P>
+</div></td></tr>
+</table>
+
+<!-- End of Big Table  -->				
+ 
+ </TBODY>
+</TABLE>
+</P>
+</div></td></tr>
+</table>
+
+<TABLE cellSpacing=0 cellPadding=0 bgColor= #FFFFFF borderColor="#00CCFF" border=0 width="625" >
+	<tr><td class="jli14">	
+		<TABLE style="WIDTH: 625px; " cellSpacing=0 cellPadding=0 align=left border=0 >
+<TR><TD>    
+     <!-- Begin of Acknowledgments -->     
+<table align="center" border="1" width="710">						
+	<tr>                  	 
+       <td bgColor=#F8F5B0 width="724" height="20" colspan="3">
+       <table width="95%"  border="0" align="center" cellpadding="0" cellspacing="0" class="lori">
+         <tr>
+          <td width="131" class="jli"><a href="http://www.lijml.net/id20.html" class="jli" target="_blank">
+			<font color="#FF0000"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/camera.jpg border=0>Photo Gallery</td>
+          <td width="110"></td>
+          
+         <td width="224"><a href="http://www.lijml.net/jobs.html" target="_blank"><font color="#FF0000"><b><u>Career Opportunities</u></b></font></a></td>
+		 </td>
+		
+          <td width="200" align=right class="jli"><a href="http://www.lijml.net/Installation2008.html" class="jli" target="_blank">
+			<font color="#FF0000"><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/camera.jpg border=0>LACAAEA 2008 Installation Dinner</font></a>
+		  </td>
+         </tr>
+       </table>       
+       </td>
+     </tr>
+</table>	
+											
+<TABLE style="WIDTH: 625px; HEIGHT: 50px" cellSpacing=0 cellPadding=0 align=left border=0 >
+<TR><TD>    
+     <!-- Begin of Acknowledgments -->     
+        
+<table width="720" border="0" cellpadding="0" cellspacing="0" height="30" >
+<td align=center class="jli16">
+<FIELDSET 
+style="border:1px solid #cc0000; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 1px; PADDING-BOTTOM: 5px; WIDTH: 700px; COLOR: #cc0000; LINE-HEIGHT: 1.5; PADDING-TOP: 5px; ">
+<LEGEND style="WIDTH: 225px; HEIGHT: 15px">
+<FONT face=Arial size=4 color=#cc0000><STRONG>&nbsp;&nbsp;Acknowledgments &nbsp;&nbsp;</STRONG>
+</FONT>
+</LEGEND>
+<div align=left>
+<FONT face=Arial size=2 color= #FF0000 ><b>Acknowledgments:</b></FONT><FONT face=Arial size=2 color=black><img src=http://www.lijml.net/sitebuildercontent/sitebuilderpictures/ThankYou.gif border=0>Click<a href="http://www.lijml.net/AAEAPDF/ACKNOWLEDGMENTS_04072011.pdf" class="JLI15" target=_blank><b> here</b></a> for names.</FONT>
+<br>
+<FONT face=Arial size=2 color= #FF0000 ><b>Board Officers:</b></FONT><FONT face=Arial size=2 color=black> (Click <a href="http://www.lijml.net/id3.html" class="JLI15" target=_blank><b>here</b> </a> for Bios)</FONT>
+</div>
+<DIV align=left>
+<!--<FONT face=Arial size=2 color= #FF0000 ><b>Newsletter Editor</b></FONT><FONT face=Arial size=2 color=black> - <a href="http://www.lijml.net/Masonfong.html" class="JLI15" target=_blank>Mason Fong</a></li></font><br> -->
+<FONT face=Arial size=2 color= #FF0000 ><b>Photographer:</b></FONT> <FONT face=Arial size=2 color=black>Tom Eng and Jeremy Li<br>
+<FONT face=Arial size=2 color= #FF0000 ><b>Newsletter Editor:</b></FONT> <FONT face=Arial size=2 color=black><a href="http://www.lijml.net/Jackie.html" class="JLI15" target=_blank>Jackie Guevarra</a> and <a href="http://www.lijml.net/GeorgeYan.html" class="JLI15" target=_blank>George Yan</a> <br>
+<FONT face=Arial size=2 color= #FF0000 ><b>Webmaster & Newsletter Contributor:</b></FONT> <FONT face=Arial size=2 color=black><a href="http://www.lijml.net/jeremyli.html" class="JLI15" target=_blank>Jeremy Li</a></li></font><br>
+</DIV>
+</font>
+</font>
+</FIELDSET> 
+</td>
+</table>  
+<!-- End of Acknowledgments --> 
+ 
+    
+    
+                           <tr>
+                              <td width="625" height="30">
+                              <!--<a href="http://www.lijml.net/davidJanssen2.html" class="nextpage"><img src="sitebuildercontent/sitebuilderpictures/nextbutton.gif" vspace="0" hspace="5" width="80" height="22" alt="Next"  border="0"></a> -->
+                              <a href="#Top"><img src="sitebuildercontent/sitebuilderpictures/topofpg.gif" vspace="0" hspace="5" width="74" height="19" alt="top"  border="0"></a>
+                              </td>
+                           </tr>
+                        </table>
+                        
+                     </td>
+                    <!-- <td width="8" bgcolor="#6666CC"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="6" height="1" alt=""></td> -->
+                  </tr>
+               </table>
+               
+           </td>
+          </tr>
+
+                <table width="623" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                     <!-- <td width="2"><img src="/imagelib/sitebuilder/layout/spacer.gif" width="2" height="1" alt=""></td> -->
+                     <td width="623" valign="top">
+                        <table border="0" cellpadding="0" cellspacing="0" height="30">
+                           <tr>
+                              <td height="30">
+								<table width="710" border="0" cellpadding="0" cellspacing="0" height="30" >
+		  		                   <tr>
+                              			<td height="10">
+                                           <div><font face="Verdana" size="2"><DIV align=center>Please get in touch to offer 
+									<a href="http://www.lijml.net/id17.html" class="JLI15" target=_blank>comments</a> and join our mailing list.
+                                  </DIV></font>
+                                 </div>
+                              </td>
+                             </tr>
+                         </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <table width=710 border="0" cellspacing="0" cellpadding="0" width="645">
+         <tr>
+            <td align=center width="710">                       
+               <font face="Verdana" size="2">Please join us for next </font>
+				<a target="_blank" href="http://www.lijml.net/id4.html"><FONT face="Arial, Helvetica" size="2" class="JLI15" color=#3333ff>Board Meetings</FONT></a><font face="Arial, Helvetica" size="2" color="#000000">&nbsp;and meet&nbsp; <a href="http://www.lijml.net/id3.html" target="_blank">
+				<FONT face="Arial, Helvetica" size="2" class="JLI15" color=#3333ff>President and our Board Members</FONT></a></i></b></font>      
+            </td>
+         </tr>
+      </table>
+      <hr>
+		      <table width=709 border="0" cellspacing="0" cellpadding="0" >
+		          <tr><td align="center">
+		               <font face="Verdana" size="1">Copyright ©2006 Los Angeles County Asia American Employees Association. All rights reserved. 
+					   </font></td>
+		          </tr>
+		          
+		          <tr><td align="center">
+		               <font face="Verdana" size="1">Website design by: Jeremy B. Li.
+					   </font></td>
+		          </tr>
+
+		      </table>
+
+                                       <!-- Right Vertical Bar -->                      
+           <td valign = "top" width="295" bgcolor="#F8F5B0">
+                     
+ 			<!-- Add vertial marquee-->
+				<marquee scrollamount="1" scrolldelay="10" direction="up" width="305" style="font-family: Verdana; font-size: 10pt" height="375">
+						
+					<div align="center"><FONT face="Arial,Helvetica,sans-serif" size="4" color=#ff6633>Past Meet & Greet Reception</FONT><br>
+								Click each image below to view a webpage	
+					&nbsp;<a href="http://www.lijml.net/http://www.lijml.net/mg11182010.html" target="_blank">&nbsp;<img src="../sitebuildercontent/sitebuilderpictures/MG11182010/Group_Photos_11182010_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+
+					<a href="http://www.lijml.net/Heritage05202010.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/Heritage2010/Dragon_Dance1_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					
+					<a href="http://www.lijml.net/MG04012010.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/mg04012010/Mike_Eng_Group_285_120.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+	
+					<a href="http://www.lijml.net/mg03052009.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/mg030509/bill_gp_285_120.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					
+					<a href="http://www.lijml.net/HonoringBill02072008.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/Lunar2008/BigGroup_285_145.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					<a href="http://www.lijml.net/meetgreet11082007.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/MG11082007/4-dept-head_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					<a href="http://www.lijml.net/MeetGreet06282007.html" target="_blank"><img src="../sitebuildercontent/sitebuilderpictures/MG06282007/team4_062007_285.jpg" border=0 width="285" hspace="1" vspace="1"></a><br>
+					&nbsp;Click each image above to view a webpage
+					</div></marquee> 
+ 
+       </td>
+
+	                   
+</body>
+</html>

@@ -1,0 +1,7 @@
+                        <p><font face="Arial, Helvetica" size="3" color="#ff6633"><b><DIV>
+                          <marquee scrolldelay="200">Here is the list of our future events and activities</marquee>
+                          </font><font face="Arial, Helvetica" size="3" color="#000000">
+                          We update this page frequently, so check back often to 
+                          stay informed.</FONT>
+                           <!--"''"--></DIV></b>
+                        </p>

@@ -1,0 +1,323 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+  <HEAD>
+    <TITLE>LACAAEA</TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="publishid" content="112935.0.2">
+    <META content="111799.0.2" name="publishid" />
+    <META content="111799,0,3" name="publishid" />
+    <SCRIPT language="javascript">
+      var Speed_1 = 10; 
+      var Space_1 = 20; 
+      var PageWidth_1 = 562; 
+      var interval_1 = 5000; 
+      var fill_1 = 0; 
+      var MoveLock_1 = false;
+      var MoveTimeObj_1;
+      var MoveWay_1="right";
+      var Comp_1 = 0;
+      var AutoPlayObj_1=null;
+      function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+      function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+      function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+      function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+      GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+      function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+      function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+      GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+      function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+      var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+      if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+      function picrun_ini(){
+      GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+      GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+      GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+      GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+      AutoPlay_1();
+      }
+    </SCRIPT>
+    
+    
+    <LINK href="js/sitephoto.css" type="text/css" rel="stylesheet" />
+    <META content="MSHTML 6.00.6000.16890" name="GENERATOR" />
+    
+    <style type="text/css">
+
+<!--
+
+a:hover {  text-decoration: underline}
+
+
+
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+}
+
+.qm {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: normal; color: #006699; text-decoration: underline; line-height: 16px}
+
+.lori {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 13px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.jli {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 11px; font-weight: bold; color: #F5801F; text-decoration: none}
+
+.jli12 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: bold; color: #006699; text-decoration: none}
+
+.jli15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; color: #006699; text-decoration: none}
+
+-->
+
+-->
+
+A  {text-decoration: none;
+       color: BLUE}
+   A:hover {TEXT-DECORATION: underline;
+	        }
+   A.showlink {text-decoration: underline}
+   input {border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   select {	border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   textarea { border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+	<!--
+	.row0 {background-color: white;} 
+	.row1 {background-color: E7EAF3;} 
+	--> 
+
+
+      </style>
+    
+    
+  </HEAD>
+  <BODY>
+    <TABLE class="" cellSpacing="0" cellPadding="0" width="562" border="0">
+      <TBODY>
+        <TR>
+          <TD vAlign="top" align="left" width="562">
+            <DIV class="moveh_18">
+              <TABLE height="15" width="562">
+                <TBODY>
+                  <TR>
+                    <TD width="510"><SPAN class="jli15"><A href="http://www.lacaaea.com/id20.html" class="jli15" target="_blank">Photos Album</A>&nbsp;&nbsp;</SPAN><SPAN class="jli15"><A href="http://www.lacaaea.com/id20.html" target="_blank">&gt;&gt; </A> &nbsp;&nbsp;&nbsp;<FONT face="Arial" size=2 color= #009900>Click each image or a caption below for a larger view!</FONT></SPAN></TD>
+                    <TD><A onmouseup="ISL_StopUp_1()" class="LeftBotton" onmousedown="ISL_GoUp_1()" onmouseout="ISL_StopUp_1()" href="javascript:void(0);" target="_self"></A></TD>
+                    <TD><A onmouseup="ISL_StopDown_1()" class="RightBotton" onmousedown="ISL_GoDown_1()" onmouseout="ISL_StopDown_1()" href="javascript:void(0);" target="_self"></A></FONT></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+              <DIV class="pcont" id="ISL_Cont_1">
+                <DIV class="ScrCont">
+                  <DIV id="List1_1">
+                    <!-- piclist begin -->
+                    <TABLE style="WIDTH: 1125px; " border="0">
+                      <TBODY>
+                        <TR>
+                          <TD vAlign="top" align="left">
+                            <TABLE class="" cellSpacing="0" cellPadding="0" width="98%" align="center" border="0">
+                              <TBODY>
+                                <TR>
+                                  <TD height="1"></TD>
+                                </TR>
+                              </TBODY>
+                            </TABLE>
+                            <TABLE cellSpacing="0" cellPadding="0" width="90%" align="center" border="0">
+                              <TBODY>
+                                <TR>
+                                  <TD height="8"></TD>
+                                </TR>
+                              </TBODY>
+                            </TABLE>
+                            <!--1-->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+	                             <td width="33%" valign="top">
+	                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                      <td height="8"></td>
+	                                    </tr>
+	                                  </table>
+                                  
+	                                 <div id="h1">
+	                                    <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="Judy_Chu_05202010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/Heritage2010/Irene_Fred_Ortega_175.jpg" width="175" height="200" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli12" width="245">
+											      <div align="left"><a href="Judy_Chu_05202010.html" class="jli12" target="_blank"> Fred Ortega (R), 32nd District Director, on 
+													behalf of Congresswoman Judy Chu, presents a scroll to Irene Hamada at the ...</a></div>
+											    </td>
+											  </tr>
+										</table>
+	                                  </div>
+                                  </td>
+                                
+                                <td width="33%" valign="top">
+	                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                      <td height="8"></td>
+	                                    </tr>
+	                                  </table>
+                                  
+	                                  <div id="h2">
+	                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="CAGov_05202010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/Heritage2010/CA_Gov_Irene_Jackie_175.jpg" width="175" height="200" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="CAGov_05202010.html" class="jli12" target="_blank">Alex Kim, Deputy Director, Los Angeles Regional Office,Office of Governor Arnold Schwarzenegger gave a scroll to Irene Hamada, President of...</a></div>
+											    </td>
+											  </tr>
+										  </table>
+	                                  </div>
+                                </td>
+                                
+                                <td width="33%" valign="top">
+	                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                      <td height="8"></td>
+	                                    </tr>
+	                                  </table>
+	                                  <div id="h3">
+	                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="Audrey_Noda_05202010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/Heritage2010/Controller_Irene_Jackie_175.jpg" width="175" height="200" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="Audrey_Noda_05202010.html" class="jli12" target="_blank">Audrey Noda (C), Deputy Chief of Staff for State Controller John Chiang's Office presents a scroll to Irene Hamada, President of LACAAEA...</div>
+											    </td>
+											  </tr>
+											</table>
+	                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--1-->                 
+                          </TD>
+                          
+                    <!-- 2nd col. photos  --> 
+                         
+                          <TD vAlign="top" align="left">                          
+	                            <TABLE class="" cellSpacing="0" cellPadding="0" width="98%" align="center" border="0">
+	                              <TBODY>
+	                                <TR>
+	                                  <TD height="1"></TD>
+	                                </TR>
+	                              </TBODY>
+	                            </TABLE>
+                            <!--2-->
+	                            <TABLE cellSpacing="0" cellPadding="0" width="90%" align="center" border="0">
+	                              <TBODY>
+	                                <TR>
+	                                  <TD height="8"></TD>
+	                                </TR>
+	                              </TBODY>
+	                            </TABLE>
+	                            
+                            <DIV id="home37">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="33%" valign="top">
+                                    <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="8"></td>
+                                      </tr>
+                                    </table>
+                                    
+                                    <div id="h4">
+                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="Melissa_Ramoso_05202010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/Heritage2010/Ted_Lew_Irene_Jackie_175.jpg" width="175" height="200" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="Melissa_Ramoso_05202010.html" class="jli12" target="_blank">Melissa Ramoso (C), Field Representative for the Office of Assemblymember Ted W. Lieu, 53rd District presents a scroll to Irene Hamada, President...</a></div>
+											    </td>
+											  </tr>
+									  </table>
+                                    </div>
+                                  </td>
+                                  
+                                  <td width="33%" valign="top">
+	                                    <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                      <tr>
+	                                        <td height="8"></td>
+	                                      </tr>
+	                                    </table>
+                                    
+                                    <div id="h5">
+                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="Mike_Davis_05202010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/Heritage2010/Irene_Mike_David_175.jpg" width="175" height="200" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="Mike_Davis_05202010.html" class="jli12" target="_blank">Steven Miller (R), Deputy District Director, 48th District for the Assemblymember Mike Davis' Office, presents a scroll to Irene Hamada, President...</div>
+											    </td>
+											  </tr>
+									  </table>
+                                    </div>
+                                  </td>
+                                  
+                                  <td width="33%" valign="top">
+                                    <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="8"></td>
+                                      </tr>
+                                    </table>
+                                    
+                                    <div id="h6">
+                                         <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/Yoo_NBC4_052010.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/Heritage2010/Dr_David_Yoo_175.jpg" width="175" height="200" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="Yoo_NBC4_052010.html" class="jli12" target="_blank">Dr. Richard Sun (L), San Marino Councilmember presents an Outstanding Community Service Award to Dr. David K. Yoo, director of UCLA Asian...</a></div>
+											    </td>
+											  </tr>
+									     </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </table>
+                            </DIV>
+                          </TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE>
+                  </DIV>
+                  <DIV id="List2_1"></DIV>
+                </DIV>
+              </DIV>
+              <SCRIPT type="text/javascript">
+                picrun_ini()
+              </SCRIPT>
+            </DIV>
+        </TR>
+      </TBODY>
+    </TABLE>
+  </BODY>
+</HTML>

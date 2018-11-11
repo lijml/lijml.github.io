@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+  <HEAD>
+    <TITLE>LACAAEA</TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="publishid" content="112935.0.2">
+    <META content="111799.0.2" name="publishid" />
+    <META content="111799,0,3" name="publishid" />
+    <SCRIPT language="javascript">
+      var Speed_1 = 10; 
+      var Space_1 = 20; 
+      var PageWidth_1 = 562; 
+      var interval_1 = 5000; 
+      var fill_1 = 0; 
+      var MoveLock_1 = false;
+      var MoveTimeObj_1;
+      var MoveWay_1="right";
+      var Comp_1 = 0;
+      var AutoPlayObj_1=null;
+      function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+      function AutoPlay_1(){clearInterval(AutoPlayObj_1);AutoPlayObj_1=setInterval('ISL_GoDown_1();ISL_StopDown_1();',interval_1)}
+      function ISL_GoUp_1(){if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="left";MoveTimeObj_1=setInterval('ISL_ScrUp_1();',Speed_1);}
+      function ISL_StopUp_1(){if(MoveWay_1 == "right"){return};clearInterval(MoveTimeObj_1);if((GetObj('ISL_Cont_1').scrollLeft-fill_1)%PageWidth_1!=0){Comp_1=fill_1-(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1);CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrUp_1(){if(GetObj('ISL_Cont_1').scrollLeft<=0){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft+GetObj('List1_1').offsetWidth}
+      GetObj('ISL_Cont_1').scrollLeft-=Space_1}
+      function ISL_GoDown_1(){clearInterval(MoveTimeObj_1);if(MoveLock_1)return;clearInterval(AutoPlayObj_1);MoveLock_1=true;MoveWay_1="right";ISL_ScrDown_1();MoveTimeObj_1=setInterval('ISL_ScrDown_1()',Speed_1)}
+      function ISL_StopDown_1(){if(MoveWay_1 == "left"){return};clearInterval(MoveTimeObj_1);if(GetObj('ISL_Cont_1').scrollLeft%PageWidth_1-(fill_1>=0?fill_1:fill_1+1)!=0){Comp_1=PageWidth_1-GetObj('ISL_Cont_1').scrollLeft%PageWidth_1+fill_1;CompScr_1()}else{MoveLock_1=false}
+      AutoPlay_1()}
+      function ISL_ScrDown_1(){if(GetObj('ISL_Cont_1').scrollLeft>=GetObj('List1_1').scrollWidth){GetObj('ISL_Cont_1').scrollLeft=GetObj('ISL_Cont_1').scrollLeft-GetObj('List1_1').scrollWidth}
+      GetObj('ISL_Cont_1').scrollLeft+=Space_1}
+      function CompScr_1(){if(Comp_1==0){MoveLock_1=false;return}
+      var num,TempSpeed=Speed_1,TempSpace=Space_1;if(Math.abs(Comp_1)<PageWidth_1/2){TempSpace=Math.round(Math.abs(Comp_1/Space_1));if(TempSpace<1){TempSpace=1}}
+      if(Comp_1<0){if(Comp_1<-TempSpace){Comp_1+=TempSpace;num=TempSpace}else{num=-Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft-=num;setTimeout('CompScr_1()',TempSpeed)}else{if(Comp_1>TempSpace){Comp_1-=TempSpace;num=TempSpace}else{num=Comp_1;Comp_1=0}
+      GetObj('ISL_Cont_1').scrollLeft+=num;setTimeout('CompScr_1()',TempSpeed)}}
+      function picrun_ini(){
+      GetObj("List2_1").innerHTML=GetObj("List1_1").innerHTML;
+      GetObj('ISL_Cont_1').scrollLeft=fill_1>=0?fill_1:GetObj('List1_1').scrollWidth-Math.abs(fill_1);
+      GetObj("ISL_Cont_1").onmouseover=function(){clearInterval(AutoPlayObj_1)}
+      GetObj("ISL_Cont_1").onmouseout=function(){AutoPlay_1()}
+      AutoPlay_1();
+      }
+    </SCRIPT>
+    
+    
+    
+    
+    <LINK href="js/sitephoto.css" type="text/css" rel="stylesheet" />
+    <META content="MSHTML 6.00.6000.16890" name="GENERATOR" />
+    
+    <style type="text/css">
+
+<!--
+
+a:hover {  text-decoration: underline}
+
+
+
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+}
+
+.qm {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 12px; font-weight: normal; color: #006699; text-decoration: underline; line-height: 16px}
+
+.lori {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 13px; font-weight: bold; text-decoration: none; color: #FFFFFF}
+
+.jli {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 11px; font-weight: bold; color: #F5801F; text-decoration: none}
+
+.jli15 {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 15px; font-weight: bold; color: #006699; text-decoration: none}
+
+-->
+
+-->
+
+A  {text-decoration: none;
+       color: BLUE}
+   A:hover {TEXT-DECORATION: underline;
+	        }
+   A.showlink {text-decoration: underline}
+   input {border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   select {	border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+   textarea { border: 1px solid #000000; font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px}
+	<!--
+	.row0 {background-color: white;} 
+	.row1 {background-color: E7EAF3;} 
+	--> 
+
+
+      </style>
+    
+    
+  </HEAD>
+  <BODY>
+    <TABLE class="" cellSpacing="0" cellPadding="0" width="562" border="0">
+      <TBODY>
+        <TR>
+          <TD vAlign="top" align="left" width="562">
+            <DIV class="moveh_18">
+              <TABLE height="15" width="562">
+                <TBODY>
+                  <TR>
+                    <TD width="510"><SPAN class="jli15"><A href="http://www.lacaaea.com/id20.html" class="jli15" target="_blank">Photos Album</A>&nbsp;&nbsp;</SPAN><SPAN class="jli15"><A href="http://www.lacaaea.com/id20.html" target="_blank">&gt;&gt; </A> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <FONT face="Arial" size=3 color= #009900>Click each image below for a larger view!</FONT></SPAN></TD>
+                    <TD><A onmouseup="ISL_StopUp_1()" class="LeftBotton" onmousedown="ISL_GoUp_1()" onmouseout="ISL_StopUp_1()" href="javascript:void(0);" target="_self"></A></TD>
+                    <TD><A onmouseup="ISL_StopDown_1()" class="RightBotton" onmousedown="ISL_GoDown_1()" onmouseout="ISL_StopDown_1()" href="javascript:void(0);" target="_self"></A></FONT></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+              <DIV class="pcont" id="ISL_Cont_1">
+                <DIV class="ScrCont">
+                  <DIV id="List1_1">
+                    <!-- piclist begin -->
+                    <TABLE style="WIDTH: 1125px; HEIGHT: 55px" border="0">
+                      <TBODY>
+                        <TR>
+                          <TD vAlign="top" align="left">
+                            <TABLE class="" cellSpacing="0" cellPadding="0" width="98%" align="center" border="0">
+                              <TBODY>
+                                <TR>
+                                  <TD height="1"></TD>
+                                </TR>
+                              </TBODY>
+                            </TABLE>
+                            <TABLE cellSpacing="0" cellPadding="0" width="90%" align="center" border="0">
+                              <TBODY>
+                                <TR>
+                                  <TD height="8"></TD>
+                                </TR>
+                              </TBODY>
+                            </TABLE>
+                            <!--1-->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+	                             <td width="33%" valign="top">
+	                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                      <td height="8"></td>
+	                                    </tr>
+	                                  </table>
+                                  
+	                                 <div id="h1">
+	                                    <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/DeanLogan480b.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG030509/DeanGP_180.jpg" width="180" height="110" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/DeanLogan480b.html" class="jli15" target="_blank">Dean Logan (4th from left, back row), Registrar-Recorder/County Clerk for Los Angeles County, poses with his staff at the Meet & Greet reception...</a></div>
+											    </td>
+											  </tr>
+										</table>
+	                                  </div>
+                                  </td>
+                                
+                                <td width="33%" valign="top">
+	                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                      <td height="8"></td>
+	                                    </tr>
+	                                  </table>
+                                  
+	                                  <div id="h2">
+	                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/TomTindall560b.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG030509/TomGP_180.jpg" width="180" height="110" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/TomTindall560b.html" class="jli15" target="_blank">Tom Tindall (2nd L), Director of Internal Services Department for LA County, poses with his current and former ISD staff at the Meet & Greet reception ...</a></div>
+											    </td>
+											  </tr>
+										  </table>
+	                                  </div>
+                                </td>
+                                
+                                <td width="33%" valign="top">
+	                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                    <tr>
+	                                      <td height="8"></td>
+	                                    </tr>
+	                                  </table>
+	                                  <div id="h3">
+	                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/Gail560p.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG030509/GailGP_180.jpg" width="180" height="110" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/Gail560p.html" class="jli15" target="_blank">Gail Farber (3rd L), Director of Department of Public Works for LA County, poses with her executive management team at the Meet & Greet reception...</div>
+											    </td>
+											  </tr>
+											</table>
+	                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <!--1-->                 
+                          </TD>
+                          
+                    <!-- 2nd col. photos  --> 
+                         
+                          <TD vAlign="top" align="left">                          
+	                            <TABLE class="" cellSpacing="0" cellPadding="0" width="98%" align="center" border="0">
+	                              <TBODY>
+	                                <TR>
+	                                  <TD height="1"></TD>
+	                                </TR>
+	                              </TBODY>
+	                            </TABLE>
+                            <!--2-->
+	                            <TABLE cellSpacing="0" cellPadding="0" width="90%" align="center" border="0">
+	                              <TBODY>
+	                                <TR>
+	                                  <TD height="8"></TD>
+	                                </TR>
+	                              </TBODY>
+	                            </TABLE>
+	                            
+                            <DIV id="home37">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="33%" valign="top">
+                                    <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="8"></td>
+                                      </tr>
+                                    </table>
+                                    
+                                    <div id="h4">
+                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/Santos560b.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG030509/SantosGP_180.jpg" width="180" height="110" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/Santos560b.html" class="jli15" target="_blank">Santos Kreimann (C), Director of Beaches and Harbors for Los Angeles County, poses with his staff at the Meet & Greet reception...</a></div>
+											    </td>
+											  </tr>
+									  </table>
+                                    </div>
+                                  </td>
+                                  
+                                  <td width="33%" valign="top">
+	                                    <table width="50%" border="0" cellspacing="0" cellpadding="0">
+	                                      <tr>
+	                                        <td height="8"></td>
+	                                      </tr>
+	                                    </table>
+                                    
+                                    <div id="h5">
+                                      <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/Wendy560p.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG030509/WendyJohnGP_180.jpg" width="180" height="110" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/Wendy560p.html" class="jli15" target="_blank">Wendy Watanabe, Los Angeles County Auditor-Controller, poses with her staff at the Meet and Greet reception...</a></div>
+											    </td>
+											  </tr>
+									  </table>
+                                    </div>
+                                  </td>
+                                  
+                                  <td width="33%" valign="top">
+                                    <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="8"></td>
+                                      </tr>
+                                    </table>
+                                    
+                                    <div id="h6">
+                                         <table width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+											  <tr>
+											    <td>
+											      <div align="left"><a href="http://www.lacaaea.com/Audience_560_0309.html" target="_blank"><img src="sitebuildercontent/sitebuilderpictures/MG030509/Group2_180.jpg" width="180" height="110" border="0" /></img></a></div>
+											    </td>
+											  </tr>
+											  <tr>
+											    <td class="jli15" width="245">
+											      <div align="left"><a href="http://www.lacaaea.com/Audience_560_0309.html" class="jli15" target="_blank">Approximately 250 people attend the Meet and Greet reception to honor five new department heads on March 5, 2009.</a></div>
+											    </td>
+											  </tr>
+									     </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </table>
+                            </DIV>
+                          </TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE>
+                  </DIV>
+                  <DIV id="List2_1"></DIV>
+                </DIV>
+              </DIV>
+              <SCRIPT type="text/javascript">
+                picrun_ini()
+              </SCRIPT>
+            </DIV>
+        </TR>
+      </TBODY>
+    </TABLE>
+  </BODY>
+</HTML>

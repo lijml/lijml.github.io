@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title></title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="http://www.lacaaea.com/js/global.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="http://www.lacaaea.com/js/home.css" media="all" />
+	
+	<script type="text/javascript" language="javascript" src="http://www.lacaaea.com/js/tii_browser_sniffing.js"></script>
+
+	<script type="text/javascript" language="javascript" src="http://www.lacaaea.com/js/tii_utils.js"></script>
+
+	<script type="text/javascript" language="javascript" src="http://www.lacaaea.com/js/home.js"></script>
+
+	<script type="text/javascript" language="javascript" src="http://www.lacaaea.com/js/time_init.js"></script>
+
+
+
+</head>
+
+<BODY>
+
+<div style="display:none"> 
+
+  <table id="photolist" width="100%" border="0" cellspacing="0" cellpadding="0">                  
+   <tr>
+   		<td width='450'>
+		<img src="http://www.LACAAEA.com/sitebuildercontent/sitebuilderpictures/JudyChu/JudyBoxerConvention_640.jpg" border=0></td>     
+   		<td width='360' align='left'><FONT COLOR=#FF0000 >Hello</FONT></td>      
+   		<td width='240'><a href=http://www.lacaaea.com></a></td>      
+		<td width='450' align='left'> 	Chinese ...    </td>
+  </tr>
+	
+   <tr>
+   		<td width='450'>
+		<img src="http://www.LACAAEA.com/sitebuildercontent/sitebuilderpictures/JudyChu/judyandarttorresconvention_640.jpg" border=0></td>     
+   		<td width='360' align='left'><FONT COLOR=#FF0000>	Judy</td>      
+   		<td width='240'><a href=http://www.lacaaea.com></a></td>      
+   		<td width='450' align='left'>	Dr. Chu...</td>
+  </tr>           
+	
+	<tr>
+		<td width='450'>
+		<img src="http://www.LACAAEA.com/sitebuildercontent/sitebuilderpictures/JudyChu/JudyMikeHondaConvention_640.jpg" border=0></td>     
+		<td width='360' align='left'><FONT COLOR=#FF0000>	Chinese explorers to build 3rd Antarctic base</td>
+		<td width='240'><a href=http://www.lacaaea.com></a></td>      
+		<td width='450' align='left'> LACAAEA zone.    </td></tr>           
+	
+	<tr>
+		<td width='450'>
+		<img src="http://www.LACAAEA.com/sitebuildercontent/sitebuilderpictures/JudyChu/JudyDurazoConvention_640.jpg" border=0></td>     
+		<td width='360' align='left'><FONT COLOR=#FF0000>	Congress..</td>      
+		<td width='240'><a href=http://www.lacaaea.com ></a></td>      
+		<td width='450' align='left'>	Senators...   </td></tr>           
+	
+	<tr><td width='450'><img src="http://www.LACAAEA.com/sitebuildercontent/sitebuilderpictures/JudyChu/JudyConvention2_560.jpg" border=0></td>     
+	<td width='360' align='left'><FONT COLOR=#FF0000>	Chrysler to shut factories for 1 month</td>      
+	<td width='240'><a href=http://www.lacaaea.com></a></td>      
+	<td width='450' align='left'>	No or Yes </td></tr></table>            
+
+</div>
+
+<!-- Begin Main story module -->
+
+<div id="mainStory"> 
+
+  <!--Begin Main story show -->
+
+  <div id="mainStoryWrap"> </div>
+
+  <!--End Main story show -->
+
+  <div id="topStories"> 
+
+    <div class="numStories"> 
+
+      <ul class="listInline">
+
+        <li class="subHdg">Supervisor Mike</li>
+
+        <li><a id="a1" class="on">Go to photo 1</a></li>
+
+        <li><a id="a2" class="on">Go to photo 2</a></li>
+
+        <li><a id="a3" class="on">Go to photo 3</a></li>
+
+        <li><a id="a4" class="on">Go to photo 4</a></li>
+
+        <li><a id="a5" class="on">Go to photo 5</a></li>
+
+      </ul>
+
+    </div>
+
+     <div class="btn">Click <a id="playLink">
+		<img src="../JudyChu/blank.gif" id="pausePlay" width="27" height="16" alt="Play or Pause button" border="0" /></a> to pause or play a moving photo </div> 
+
+  </div>
+
+</div>
+
+<!-- End Main story module -->
+
+<script type="text/javascript">
+
+<!--
+
+//·
+
+var pubURL = "http://www.lacaaea.com/sitebuildercontent/sitebuilderpictures/JudyChu/";
+
+var ob = document.getElementById("photolist");
+
+var len = ob.rows.length;
+
+for(var i=0;i<len;i++){
+
+	var link  = document.links[i];
+
+    var t= document.images[i].src.lastIndexOf('/');
+
+    var ta=document.images[i].src.length;
+
+	var photo=pubURL+document.images[i].src.substr(t+1,ta-1);
+
+	var title = ob.rows[i].cells[1].innerHTML;
+
+	var Abstract = ob.rows[i].cells[3].innerHTML;
+
+	var str="<div id='mainStory"+eval(i+1)+"'>\n";
+
+	str+="<div class='mainStoryImg'><a href='"+link+"' target='_blank'><img src='"+photo+"' width='360' height='235' alt='' border='0'/></a></div>\n";
+
+	str+="<div class='mainStoryCopy'>\n";
+
+	str+="<h2><a href='"+link+"' target='_blank'>"+title+"</a></h2>\n" ;
+
+	str+="<p>"+Abstract+"</p>\n";
+
+	str+="</div>\n";
+
+	str+="</div>\n";
+
+	document.getElementById("mainStoryWrap").innerHTML+=str;
+
+}
+
+-->
+
+</script>
+
+</BODY>
+
+</html>
+

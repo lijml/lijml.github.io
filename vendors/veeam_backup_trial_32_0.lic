@@ -1,0 +1,15 @@
+CPU sockets (Hyper-V)=0
+CPU sockets (vSphere)=32
+Company=County of Los Angeles
+Description=Copyright 2012 Veeam, Inc. All Rights Reserved. The Software Product is protected by copyright and other intellectual property laws and treaties. Veeam or its suppliers own the title, copyright, and other intellectual property rights in the Software Product. Veeam reserves all rights not expressly granted to you in EULA. The Software Product is licensed, not sold. Veeam grants to you a nonexclusive nontransferable license to use the Software Product, provided that you agree with EULA.
+E-mail=jli@auditor.lacounty.gov
+Edition=Enterprise
+Expiration date=29/08/2012
+First name=Jeremy
+Last name=Li
+License information=Licensed product:\tVeeam Backup & Replication\nLicense type:\tEvaluation License\nLicensed to:\tCounty of Los Angeles\nContact person:\tJeremy Li\nCPU sockets (vSphere):\t32\nCPU sockets (Hyper-V):\t0\nEdition:       \tEnterprise
+License type=Evaluation License
+Product=Veeam Backup and Replication
+Support expiration date=29/08/2012
+Version=6.x
+Signature=44D1E04F8F574C5361984C0705EF651737C1196F46E8789DA959935C806F1AE8038879CD0088ED37DB55E7C8163C2CE3DEDCF0CE14843264B9AB43FD7A927053A62EB34836F973A9AE2386C006CB46AF6FA9BB6E8059028406D301C75EA64BCE3A21A9E965B568981E0847857C7F366C918BA5ABD8E187057955534CC9D8B666

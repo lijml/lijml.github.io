@@ -1,0 +1,238 @@
+@charset "utf-8";
+BODY {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 0px
+}
+.t_hui {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM: #c7c7c7 1px solid; BORDER-RIGHT-WIDTH: 0px
+}
+.t_lan {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM: #376589 1px solid; BORDER-RIGHT-WIDTH: 0px
+}
+.lan12 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #0f4172; FONT-STYLE: normal; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.lan12_q {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #006498; FONT-STYLE: normal; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.lan12_q A {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #006498; FONT-STYLE: normal; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.lan10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #C40000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.lan10 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #C40000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.lan10 a:hover { text-decoration: underline; }	
+
+.d_lan_s {
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-width: 1px;
+	border-top-color: #AFCBD9;
+}
+.lan14_geo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #AF0000;
+	text-decoration: none;
+	text-align: left;
+}
+.lan14_geo a, .lan14_geo a:link {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #0B577B;
+	text-decoration: none;
+	text-align: left;
+}
+.lan14_geo a:hover { text-decoration: underline; }
+
+.lan12 A {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #0f4172; FONT-STYLE: normal; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.d_hui {
+	BORDER-TOP: #d3d4cf 1px dotted; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.lan12_c {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0f4172; LINE-HEIGHT: 20px; FONT-STYLE: normal; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.lan12_c A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0f4172; LINE-HEIGHT: 20px; FONT-STYLE: normal; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.hui13_c {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #868686; LINE-HEIGHT: 30px; FONT-STYLE: normal; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.hui13_c A {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #868686; LINE-HEIGHT: 30px; FONT-STYLE: normal; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.k_hui {
+	BORDER-RIGHT: #d3d4cf 1px solid; 
+	BORDER-TOP: #d3d4cf 1px solid; BORDER-LEFT: #d3d4cf 1px solid; BORDER-BOTTOM: #d3d4cf 1px solid
+}
+.hei12 {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 25px; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.hei14_geo {
+	FONT-SIZE: 14px; COLOR: #4c4c4c; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.lan14_geo {
+	FONT-SIZE: 14px; COLOR: #0b577b; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.lan14_geo A {
+	FONT-SIZE: 14px; COLOR: #0b577b; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.hei12_geo {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.hei12_geo A {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.hei14_geo A {
+	FONT-SIZE: 14px; COLOR: #4c4c4c; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.hei12 A {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 25px; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.lan24 {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #0d4171; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.lan14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0d4171; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.lan14 A {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0d4171; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.lan16 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #0d4171; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.lan16 A {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #0d4171; FONT-STYLE: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.lan24 A {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #0d4171; FONT-FAMILY: Georgia, "Times New Roman", Times, serif; TEXT-DECORATION: none
+}
+.geo {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: normal; FONT-FAMILY: Georgia, "Times New Roman", Times, serif
+}
+.d_lan {
+	BORDER-TOP: #afcbd9 1px dotted; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.lan16_arial {
+	FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #014d89; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.lan16_arial A {
+	FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #014d89; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.lan20 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.lan20 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #000000;
+	text-decoration: none;
+}
+.lan20 a:hover { text-decoration: underline; }
+
+.left {
+	TEXT-ALIGN: left
+}
+
+.k_hui {
+	
+}
+.bian_lan {
+	BORDER-LEFT: #cad7df 1px solid; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.bai12 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bai12 A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.myDIV {
+	FILTER: revealTrans(transition=18,duration=2); LEFT: 11px; WIDTH: 260px; POSITION: absolute
+}
+.tit {
+	FONT-SIZE: 12px; LINE-HEIGHT: 28px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.blk_18 .pcont {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 562px
+}
+.blk_18 .ScrCont {
+	WIDTH: 32766px; ZOOM: 1
+}
+.blk_18 #List1_1 {
+	FLOAT: left
+}
+.blk_18 #List2_1 {
+	FLOAT: left
+}
+.blk_18 .LeftBotton {
+	BACKGROUND: url(http://www.xinhuanet.com/english2010/static/imgs/xinsrc_5820206161041703250085.jpg) no-repeat; FLOAT: left; MARGIN: 0px 1px; WIDTH: 20px; HEIGHT: 15px; TEXT-ALIGN: center
+}
+.blk_18 .RightBotton {
+	BACKGROUND: url(http://www.xinhuanet.com/english2010/static/imgs/xinsrc_5920206161041046318286.jpg) no-repeat; FLOAT: left; MARGIN: 0px 1px; WIDTH: 20px; HEIGHT: 15px
+}
+.blk_18 .LeftBotton {
+	BACKGROUND-POSITION: 0px 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.blk_18 .RightBotton {
+	BACKGROUND-POSITION: 0px 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.blk_18 .LeftBotton:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.blk_18 .RightBotton:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.blk_18 .pl IMG {
+	DISPLAY: block; MARGIN: 6px auto 1px; CURSOR: pointer; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.blk_18 .pl {
+	BORDER-RIGHT: #f3f3f3 1px solid; BORDER-TOP: #f3f3f3 1px solid; FLOAT: left; BORDER-LEFT: #f3f3f3 1px solid; WIDTH: 207px; LINE-HEIGHT: 15px; BORDER-BOTTOM: #f3f3f3 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.blk_18 A.pl:hover {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; BACKGROUND: #fff; BORDER-LEFT: #ff9900 1px solid; COLOR: #ff9900; BORDER-BOTTOM: #ff9900 1px solid
+}
+.commu_cont3 {
+	MARGIN: 9px 7px 7px; LINE-HEIGHT: 150%
+}
+.commu_cont3 UL {
+	WIDTH: 207px
+}
+.zhaiyao {
+	FONT-SIZE: 14px; COLOR: #181818; LINE-HEIGHT: 18px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.zhaiyao A {
+	FONT-SIZE: 14px; COLOR: #181818; LINE-HEIGHT: 18px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.zhaiyao A:hover {
+	TEXT-DECORATION: underline
+}
+.lan16_ar {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #005b8a; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.lan16_ar A {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #005b8a; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.lan16_ar A:hover {
+	TEXT-DECORATION: underline
+}
